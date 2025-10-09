@@ -1,0 +1,60 @@
+[2025-10-07 10:17:47.703545] Log file at: /Users/tangmoxin/Research/MILP/learn2rec/models/facilities/GCNPolicy/log.txt
+[2025-10-07 10:17:53.289087] Problem: facilities
+[2025-10-07 10:18:16.974378] Device: cpu
+[2025-10-07 10:18:16.976472] Training parameters: {'problem': 'facilities', 'seed': 42, 'max_epochs': 1000, 'batch_size': 64, 'valid_batch_size': 64, 'lr': 0.0001, 'patience': 10, 'early_stopping': 20, 'num_classes': 50, 'temperature': 0.1, 'num_workers': 8}
+[2025-10-07 10:18:16.977629] Model parameters: {'emb_size': 128, 'cons_nfeats': 263, 'edge_nfeats': 1, 'var_nfeats': 262}
+[2025-10-07 17:12:03.896919] Log file at: /Users/tangmoxin/Research/MILP/learn2rec/models/facilities/GCNPolicy/log.txt
+[2025-10-07 17:12:03.897152] Problem: facilities
+[2025-10-07 17:12:03.897232] Device: cpu
+[2025-10-07 17:12:03.897306] Training parameters: {'problem': 'facilities', 'seed': 42, 'max_epochs': 1000, 'batch_size': 64, 'valid_batch_size': 64, 'lr': 0.0001, 'patience': 10, 'early_stopping': 20, 'num_classes': 50, 'temperature': 0.1, 'num_workers': 8}
+[2025-10-07 17:12:03.897369] Model parameters: {'emb_size': 128, 'cons_nfeats': 263, 'edge_nfeats': 1, 'var_nfeats': 262}
+[2025-10-07 17:12:15.140033] EPOCH 0...
+[2025-10-07 17:17:22.045865] Log file at: /Users/tangmoxin/Research/MILP/learn2rec/models/facilities/GCNPolicy/log.txt
+[2025-10-07 17:17:22.046607] Problem: facilities
+[2025-10-07 17:17:22.046712] Device: cpu
+[2025-10-07 17:17:22.046791] Training parameters: {'problem': 'facilities', 'seed': 42, 'max_epochs': 1000, 'batch_size': 64, 'valid_batch_size': 64, 'lr': 0.0001, 'patience': 10, 'early_stopping': 20, 'num_classes': 50, 'temperature': 0.1, 'num_workers': 8}
+[2025-10-07 17:17:22.046856] Model parameters: {'emb_size': 128, 'cons_nfeats': 263, 'edge_nfeats': 1, 'var_nfeats': 262}
+[2025-10-07 17:17:22.133364] EPOCH 0...
+[2025-10-07 17:19:34.230906] Log file at: /Users/tangmoxin/Research/MILP/learn2rec/models/facilities/GCNPolicy/log.txt
+[2025-10-07 17:19:34.231567] Problem: facilities
+[2025-10-07 17:19:34.231651] Device: cpu
+[2025-10-07 17:19:34.231728] Training parameters: {'problem': 'facilities', 'seed': 42, 'max_epochs': 1000, 'batch_size': 64, 'valid_batch_size': 64, 'lr': 0.0001, 'patience': 10, 'early_stopping': 20, 'num_classes': 50, 'temperature': 0.1, 'num_workers': 8}
+[2025-10-07 17:19:34.231794] Model parameters: {'emb_size': 128, 'cons_nfeats': 263, 'edge_nfeats': 1, 'var_nfeats': 262}
+[2025-10-07 17:19:34.311370] EPOCH 0...
+[2025-10-07 17:25:16.960925] Log file at: /Users/tangmoxin/Research/MILP/learn2rec/models/facilities/GCNPolicy/log.txt
+[2025-10-07 17:25:20.631998] Problem: facilities
+[2025-10-07 17:25:24.983093] Device: cpu
+[2025-10-07 17:25:24.984063] Training parameters: {'problem': 'facilities', 'seed': 42, 'max_epochs': 1000, 'batch_size': 64, 'valid_batch_size': 64, 'lr': 0.0001, 'patience': 10, 'early_stopping': 20, 'num_classes': 50, 'temperature': 0.1, 'num_workers': 8}
+[2025-10-07 17:25:24.984662] Model parameters: {'emb_size': 128, 'cons_nfeats': 263, 'edge_nfeats': 1, 'var_nfeats': 262}
+[2025-10-07 17:25:25.087590] EPOCH 0...
+[2025-10-07 23:45:22.808543] Log file at: /Users/tangmoxin/Research/MILP/learn2rec/models/facilities/GCNPolicy/log.txt
+[2025-10-07 23:45:22.809011] Problem: facilities
+[2025-10-07 23:45:22.809084] Device: cpu
+[2025-10-07 23:45:22.809144] Training parameters: {'problem': 'facilities', 'seed': 42, 'max_epochs': 1000, 'batch_size': 64, 'valid_batch_size': 64, 'lr': 0.0001, 'patience': 10, 'early_stopping': 20, 'num_classes': 50, 'temperature': 0.1, 'num_workers': 8}
+[2025-10-07 23:45:22.809194] Model parameters: {'emb_size': 128, 'cons_nfeats': 263, 'edge_nfeats': 1, 'var_nfeats': 262}
+[2025-10-07 23:45:22.948946] EPOCH 0...
+[2025-10-09 08:37:21.233623] Log file at: /Users/tangmoxin/Research/MILP/learn2rec/models/facilities/GCNPolicy/log.txt
+[2025-10-09 08:37:21.440795] Problem: facilities
+[2025-10-09 08:37:21.649903] Device: cpu
+[2025-10-09 08:37:22.018141] Training parameters: {'problem': 'facilities', 'seed': 42, 'max_epochs': 1000, 'batch_size': 64, 'valid_batch_size': 64, 'lr': 0.0001, 'patience': 10, 'early_stopping': 20, 'num_classes': 50, 'temperature': 0.1, 'num_workers': 8}
+[2025-10-09 08:37:22.917805] Model parameters: {'emb_size': 128, 'cons_nfeats': 263, 'edge_nfeats': 1, 'var_nfeats': 262}
+[2025-10-09 08:37:31.493791] EPOCH 0...
+[2025-10-09 08:39:03.076644] Log file at: /Users/tangmoxin/Research/MILP/learn2rec/models/facilities/GCNPolicy/log.txt
+[2025-10-09 08:39:03.079210] Problem: facilities
+[2025-10-09 08:39:03.079960] Device: cpu
+[2025-10-09 08:39:03.080791] Training parameters: {'problem': 'facilities', 'seed': 42, 'max_epochs': 1000, 'batch_size': 64, 'valid_batch_size': 64, 'lr': 0.0001, 'patience': 10, 'early_stopping': 20, 'num_classes': 50, 'temperature': 0.1, 'num_workers': 8}
+[2025-10-09 08:39:03.081526] Model parameters: {'emb_size': 128, 'cons_nfeats': 263, 'edge_nfeats': 1, 'var_nfeats': 262}
+[2025-10-09 08:39:03.170707] EPOCH 0...
+[2025-10-09 08:39:54.491809] Log file at: /Users/tangmoxin/Research/MILP/learn2rec/models/facilities/GCNPolicy/log.txt
+[2025-10-09 08:39:54.492004] Problem: facilities
+[2025-10-09 08:39:54.492083] Device: cpu
+[2025-10-09 08:39:54.492158] Training parameters: {'problem': 'facilities', 'seed': 42, 'max_epochs': 1000, 'batch_size': 64, 'valid_batch_size': 64, 'lr': 0.0001, 'patience': 10, 'early_stopping': 20, 'num_classes': 50, 'temperature': 0.1, 'num_workers': 8}
+[2025-10-09 08:39:54.492225] Model parameters: {'emb_size': 128, 'cons_nfeats': 263, 'edge_nfeats': 1, 'var_nfeats': 262}
+[2025-10-09 08:39:54.563015] EPOCH 0...
+[2025-10-09 08:40:15.153512] Log file at: /Users/tangmoxin/Research/MILP/learn2rec/models/facilities/GCNPolicy/log.txt
+[2025-10-09 08:40:15.153719] Problem: facilities
+[2025-10-09 08:40:15.153798] Device: cpu
+[2025-10-09 08:40:15.153872] Training parameters: {'problem': 'facilities', 'seed': 42, 'max_epochs': 1000, 'batch_size': 64, 'valid_batch_size': 64, 'lr': 0.0001, 'patience': 10, 'early_stopping': 20, 'num_classes': 50, 'temperature': 0.1, 'num_workers': 8}
+[2025-10-09 08:40:15.153937] Model parameters: {'emb_size': 128, 'cons_nfeats': 263, 'edge_nfeats': 1, 'var_nfeats': 262}
+[2025-10-09 08:40:15.224382] EPOCH 0...
+[2025-10-09 08:44:04.282916] TRAIN LOSS: 4.965

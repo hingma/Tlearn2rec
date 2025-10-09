@@ -1,0 +1,9 @@
+[2025-09-27 21:22:20.357776] Problem: facilities
+[2025-09-27 21:22:20.357872] Loading model from: /home/bhz/Code/learn2rec/models/facilities/GCNPolicy/best_params.pkl
+[2025-09-27 21:22:20.357889] Testing on data from: ['/home/bhz/Code/learn2rec/data/processed/facilities/artificial']
+[2025-09-27 21:22:20.357937] Using device: cuda:0
+[2025-09-27 21:22:20.548391] Model loaded successfully.
+[2025-09-27 21:22:20.548822] Starting evaluation on 20 test samples...
+[2025-09-27 21:22:20.548959] Saving cluster outputs to: /home/bhz/Code/learn2rec/results/facilities/GCNPolicy/cluster_outputs
+[2025-09-27 21:22:21.140434] 
+Evaluation complete. Cluster files saved.

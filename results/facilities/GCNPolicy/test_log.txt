@@ -1,0 +1,97 @@
+--- Evaluating folder: test ---
+[2025-09-28 23:13:34.807520] Starting evaluation on 500 test samples from 'test' (true #clusters: 40)
+[2025-09-28 23:13:34.807829] Saving cluster outputs to: /home/bhz/Code/learn2rec/results/facilities/GCNPolicy
+[2025-09-28 23:14:31.293956] Problem: facilities
+[2025-09-28 23:14:31.294014] Loading model from: /home/bhz/Code/learn2rec/models/facilities/GCNPolicy/best_params.pkl
+[2025-09-28 23:14:31.294044] Testing on data from: ['test', 'transfer_30_30', 'transfer_50_50', 'transfer_80_80', 'artificial']
+[2025-09-28 23:14:31.294119] Using device: cuda:0
+[2025-09-28 23:14:31.481773] Model loaded successfully.
+[2025-09-28 23:14:31.481857] 
+--- Evaluating folder: test ---
+[2025-09-28 23:14:31.482751] Starting evaluation on 500 test samples from 'test' (true #clusters: 40)
+[2025-09-28 23:14:31.483059] Saving cluster outputs to: /home/bhz/Code/learn2rec/results/facilities/GCNPolicy
+[2025-09-28 23:14:39.424677] 
+Calculating evaluation metrics...
+[2025-09-28 23:14:39.425259] 
+--- Clustering Evaluation Report for 'test' ---
+[2025-09-28 23:14:39.425313]   Total foreground variables evaluated: 40000
+[2025-09-28 23:14:39.425327] 
+--- DBSCAN Per-Instance Metrics (averaged over valid instances) ---
+[2025-09-28 23:14:39.425340]   Number of instances evaluated for DBSCAN: 500
+[2025-09-28 23:14:39.425353]   Average Perfect Cluster Recovery Rate: 0.8657
+[2025-09-28 23:14:39.425364]   Average V-Measure (DBSCAN): 0.9802
+[2025-09-28 23:14:39.425374]   Average Adjusted Rand Index (ARI) (DBSCAN): 0.8539
+[2025-09-28 23:14:39.425384]   Average Normalized Mutual Information (NMI) (DBSCAN): 0.9802
+[2025-09-28 23:14:39.425393] --- End of Report ---
+[2025-09-28 23:14:39.425416] 
+--- Evaluating folder: transfer_30_30 ---
+[2025-09-28 23:14:39.425521] Starting evaluation on 10 test samples from 'transfer_30_30' (true #clusters: 30)
+[2025-09-28 23:14:39.425693] Saving cluster outputs to: /home/bhz/Code/learn2rec/results/facilities/GCNPolicy
+[2025-09-28 23:14:39.576909] 
+Calculating evaluation metrics...
+[2025-09-28 23:14:39.577020] 
+--- Clustering Evaluation Report for 'transfer_30_30' ---
+[2025-09-28 23:14:39.577048]   Total foreground variables evaluated: 600
+[2025-09-28 23:14:39.577060] 
+--- DBSCAN Per-Instance Metrics (averaged over valid instances) ---
+[2025-09-28 23:14:39.577072]   Number of instances evaluated for DBSCAN: 10
+[2025-09-28 23:14:39.577084]   Average Perfect Cluster Recovery Rate: 0.8600
+[2025-09-28 23:14:39.577093]   Average V-Measure (DBSCAN): 0.9766
+[2025-09-28 23:14:39.577104]   Average Adjusted Rand Index (ARI) (DBSCAN): 0.7983
+[2025-09-28 23:14:39.577114]   Average Normalized Mutual Information (NMI) (DBSCAN): 0.9766
+[2025-09-28 23:14:39.577123] --- End of Report ---
+[2025-09-28 23:14:39.577143] 
+--- Evaluating folder: transfer_50_50 ---
+[2025-09-28 23:14:39.577355] Starting evaluation on 100 test samples from 'transfer_50_50' (true #clusters: 50)
+[2025-09-28 23:14:39.577485] Saving cluster outputs to: /home/bhz/Code/learn2rec/results/facilities/GCNPolicy
+[2025-09-28 23:14:41.220709] 
+Calculating evaluation metrics...
+[2025-09-28 23:14:41.220921] 
+--- Clustering Evaluation Report for 'transfer_50_50' ---
+[2025-09-28 23:14:41.220959]   Total foreground variables evaluated: 10000
+[2025-09-28 23:14:41.220971] 
+--- DBSCAN Per-Instance Metrics (averaged over valid instances) ---
+[2025-09-28 23:14:41.220984]   Number of instances evaluated for DBSCAN: 100
+[2025-09-28 23:14:41.220996]   Average Perfect Cluster Recovery Rate: 0.9024
+[2025-09-28 23:14:41.221007]   Average V-Measure (DBSCAN): 0.9882
+[2025-09-28 23:14:41.221017]   Average Adjusted Rand Index (ARI) (DBSCAN): 0.8998
+[2025-09-28 23:14:41.221027]   Average Normalized Mutual Information (NMI) (DBSCAN): 0.9882
+[2025-09-28 23:14:41.221047] --- End of Report ---
+[2025-09-28 23:14:41.221067] 
+--- Evaluating folder: transfer_80_80 ---
+[2025-09-28 23:14:41.221277] Starting evaluation on 100 test samples from 'transfer_80_80' (true #clusters: 80)
+[2025-09-28 23:14:41.221415] Saving cluster outputs to: /home/bhz/Code/learn2rec/results/facilities/GCNPolicy
+[2025-09-28 23:14:43.298855] 
+Calculating evaluation metrics...
+[2025-09-28 23:14:43.299122] 
+--- Clustering Evaluation Report for 'transfer_80_80' ---
+[2025-09-28 23:14:43.299165]   Total foreground variables evaluated: 16000
+[2025-09-28 23:14:43.299177] 
+--- DBSCAN Per-Instance Metrics (averaged over valid instances) ---
+[2025-09-28 23:14:43.299189]   Number of instances evaluated for DBSCAN: 100
+[2025-09-28 23:14:43.299201]   Average Perfect Cluster Recovery Rate: 0.8526
+[2025-09-28 23:14:43.299212]   Average V-Measure (DBSCAN): 0.9778
+[2025-09-28 23:14:43.299222]   Average Adjusted Rand Index (ARI) (DBSCAN): 0.7645
+[2025-09-28 23:14:43.299231]   Average Normalized Mutual Information (NMI) (DBSCAN): 0.9778
+[2025-09-28 23:14:43.299240] --- End of Report ---
+[2025-09-28 23:14:43.299262] 
+--- Evaluating folder: artificial ---
+[2025-09-28 23:14:43.299372] Starting evaluation on 20 test samples from 'artificial' (true #clusters: 100)
+[2025-09-28 23:14:43.299523] Saving cluster outputs to: /home/bhz/Code/learn2rec/results/facilities/GCNPolicy
+[2025-09-28 23:14:43.706011] 
+Calculating evaluation metrics...
+[2025-09-28 23:14:43.706203] 
+--- Clustering Evaluation Report for 'artificial' ---
+[2025-09-28 23:14:43.706238]   Total foreground variables evaluated: 4000
+[2025-09-28 23:14:43.706253] 
+--- DBSCAN Per-Instance Metrics (averaged over valid instances) ---
+[2025-09-28 23:14:43.706267]   Number of instances evaluated for DBSCAN: 20
+[2025-09-28 23:14:43.706279]   Average Perfect Cluster Recovery Rate: 1.0000
+[2025-09-28 23:14:43.706289]   Average V-Measure (DBSCAN): 1.0000
+[2025-09-28 23:14:43.706300]   Average Adjusted Rand Index (ARI) (DBSCAN): 1.0000
+[2025-09-28 23:14:43.706310]   Average Normalized Mutual Information (NMI) (DBSCAN): 1.0000
+[2025-09-28 23:14:43.706318] --- End of Report ---
+[2025-10-04 21:17:13.734998] Problem: facilities
+[2025-10-04 21:17:13.735071] Loading model from: /home/bhz/Code/learn2rec/models/facilities/GCNPolicy/best_params.pkl
+[2025-10-04 21:17:13.735113] Testing on data from: ['test', 'transfer_30_30', 'transfer_50_50', 'transfer_80_80', 'artificial']
+[2025-10-04 21:17:13.735160] Using device: cuda:0
