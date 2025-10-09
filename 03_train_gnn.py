@@ -8,10 +8,11 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.amp import GradScaler, autocast
-from torch.utils.data import Dataset, DataLoader
+from torch.utils.data import Dataset, DataLoader, Subset
 from gnn_model import GCNPolicy
 from utilities import log
 import config
+from visualization import TrainingVisualizer
 
 class MILPDataset(Dataset):
     """
@@ -187,6 +188,53 @@ def process(model, dataloader, criterion, optimizer=None, scaler=None, device='c
     return mean_loss
 
 
+def train_model(model, train_loader, valid_loader, criterion, optimizer, scaler, device, 
+                running_dir, max_epochs, early_stopping, patience, visualizer):
+    best_loss = np.inf
+    plateau_count = 0
+    current_lr = optimizer.param_groups[0]['lr']
+
+    for epoch in range(max_epochs + 1):
+        log(f"EPOCH {epoch}...", running_dir / 'log.txt')
+
+        # TRAIN
+        train_loss = process(model, train_loader, criterion, optimizer, scaler, device, epoch, 'train')
+        log(f"TRAIN LOSS: {train_loss:0.3f}", running_dir / 'log.txt')
+
+        # VALIDATE
+        valid_loss = process(model, valid_loader, criterion, None, scaler, device, epoch, 'valid')
+        log(f"VALID LOSS: {valid_loss:0.3f}", running_dir / 'log.txt')
+
+        # Update visualization
+        visualizer.update(epoch, train_loss, valid_loss, current_lr)
+        
+        if valid_loss < best_loss:
+            plateau_count = 0
+            best_loss = valid_loss
+            model.save_state(running_dir / 'best_params.pkl')
+            log(f"  best model so far", running_dir / 'log.txt')
+        else:
+            plateau_count += 1
+            if plateau_count >= early_stopping:
+                log(f"  {plateau_count} epochs without improvement, early stopping", running_dir / 'log.txt')
+                break
+            # Reduce learning rate on plateau
+            if plateau_count % patience == 0:
+                current_lr *= 0.2
+                for param_group in optimizer.param_groups:
+                    param_group['lr'] = current_lr
+                log(f"  {plateau_count} epochs without improvement, decreasing learning rate to {current_lr:.1e}", 
+                    running_dir / 'log.txt')
+
+        # Save training progress plots
+        if epoch % 10 == 0:  # Save plots every 10 epochs
+            visualizer.plot_training_curves()
+            visualizer.plot_learning_rate()
+            visualizer.save_history()
+
+    return best_loss
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -194,15 +242,34 @@ if __name__ == '__main__':
         help='MILP instance type to process.',
         choices=['facilities', 'osif'],
     )
- 
+    parser.add_argument(
+        '--max_epochs',
+        type=int,
+        default=config.TRAIN_PARAMS['max_epochs'],
+        help='Maximum number of training epochs'
+    )
+    parser.add_argument(
+        '--train_size',
+        type=float,
+        default=1.0,
+        help='Fraction of training data to use (between 0 and 1)'
+    )
+    parser.add_argument(
+        '--experiment_name',
+        type=str,
+        default='default',
+        help='Name for the experiment (used for saving results)'
+    )
+
     args = parser.parse_args()
 
     ### HYPER PARAMETERS ###
     # 从配置文件加载训练参数
-    train_params = config.TRAIN_PARAMS
+    train_params = config.TRAIN_PARAMS.copy()
     model_params = config.MODEL_PARAMS
+    train_params['max_epochs'] = args.max_epochs  # Override max_epochs from args
+    
     seed = train_params['seed']
-    max_epochs = train_params['max_epochs']
     batch_size = train_params['batch_size']
     valid_batch_size = train_params['valid_batch_size']
     lr = train_params['lr']
@@ -211,9 +278,12 @@ if __name__ == '__main__':
     emb_size = model_params['emb_size']
     num_classes = train_params['num_classes']
 
-    running_dir = config.MODELS_DIR / args.problem / "GCNPolicy"
-
+    # Create experiment directory
+    running_dir = config.MODELS_DIR / args.problem / "GCNPolicy" / args.experiment_name
     os.makedirs(running_dir, exist_ok=True)
+
+    # Initialize visualizer
+    visualizer = TrainingVisualizer(running_dir)
 
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     
@@ -223,7 +293,6 @@ if __name__ == '__main__':
         scaler = GradScaler(device='cuda')
         print("Using mixed precision training with GradScaler.")
 
-
     ### LOG ###
     logfile = running_dir / 'log.txt'
     log(f"Log file at: {logfile}", logfile)
@@ -231,6 +300,7 @@ if __name__ == '__main__':
     log(f"Device: {device}", logfile)
     log(f"Training parameters: {train_params}", logfile)
     log(f"Model parameters: {model_params}", logfile)
+    log(f"Training data fraction: {args.train_size}", logfile)
 
     rng = np.random.RandomState(seed)
     torch.manual_seed(rng.randint(np.iinfo(int).max))
@@ -242,11 +312,15 @@ if __name__ == '__main__':
     train_files = [str(x) for x in train_files]
     valid_files = [str(x) for x in valid_files]
 
+    # Subsample training data if specified
+    if args.train_size < 1.0:
+        n_train = int(len(train_files) * args.train_size)
+        train_files = train_files[:n_train]  # Take first n_train files
+        log(f"Using {n_train} training files", logfile)
+
     train_dataset = MILPDataset(train_files)
     valid_dataset = MILPDataset(valid_files)
 
-    # Create DataLoaders once, outside the loop, for efficiency.
-    # Create DataLoader with a fixed num_classes for collate_fn
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, 
                             collate_fn=collate_fn, num_workers=train_params['num_workers'], 
                             pin_memory=True)
@@ -261,37 +335,17 @@ if __name__ == '__main__':
     ### TRAINING LOOP ###
     criterion = SupervisedContrastiveLoss(temperature=train_params['temperature']).to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
-    best_loss = np.inf
-    plateau_count = 0
 
-    for epoch in range(max_epochs + 1):
-        log(f"EPOCH {epoch}...", logfile)
+    # Train the model
+    best_loss = train_model(model, train_loader, valid_loader, criterion, optimizer, scaler, 
+                           device, running_dir, args.max_epochs, early_stopping, patience, visualizer)
 
-        # TRAIN
-        train_loss = process(model, train_loader, criterion, optimizer, scaler, device, epoch, 'train')
-        log(f"TRAIN LOSS: {train_loss:0.3f}", logfile)
-
-        # VALIDATE
-        valid_loss = process(model, valid_loader, criterion, None, scaler, device, epoch, 'valid')
-        log(f"VALID LOSS: {valid_loss:0.3f}", logfile)
-
-        if valid_loss < best_loss:
-            plateau_count = 0
-            best_loss = valid_loss
-            model.save_state(running_dir / 'best_params.pkl')
-            log(f"  best model so far", logfile)
-        else:
-            plateau_count += 1
-            if plateau_count >= early_stopping:
-                log(f"  {plateau_count} epochs without improvement, early stopping", logfile)
-                break
-            # Reduce learning rate on plateau
-            if plateau_count % patience == 0:
-                lr *= 0.2
-                for param_group in optimizer.param_groups:
-                    param_group['lr'] = lr
-                log(f"  {plateau_count} epochs without improvement, decreasing learning rate to {lr:.1e}", logfile)
-
+    # Load best model and compute final validation loss
     model.restore_state(running_dir / 'best_params.pkl')
     valid_loss = process(model, valid_loader, criterion, None, scaler, device)
     log(f"BEST VALID LOSS: {valid_loss:0.3f}", logfile)
+
+    # Save final visualization
+    visualizer.plot_training_curves(f"Final Training Curves - {args.experiment_name}")
+    visualizer.plot_learning_rate()
+    visualizer.save_history()
