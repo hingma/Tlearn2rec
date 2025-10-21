@@ -15,6 +15,7 @@ import seaborn as sns
 from tqdm import tqdm
 import warnings
 warnings.filterwarnings('ignore')
+from torch_geometric.datasets import KarateClub
 
 # Import your model
 import sys
