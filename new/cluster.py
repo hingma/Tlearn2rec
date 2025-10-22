@@ -59,5 +59,3 @@ class ClusteringEvaluator:
         print(f"\n=== {method_name} Results ===")
         for metric, value in results.items():
             print(f"{metric}: {value:.4f}")
-
-print("✓ Clustering algorithms and evaluation metrics defined")

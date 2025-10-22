@@ -15,14 +15,8 @@ import config
 from datasets import build_loaders, load_karate
 from model import SimpleGCN, SimpleGAT, SimpleSAGE
 from visualize import plot_embeddings_and_clusters, plot_network_clusters, plot_training_loss, plot_validation_loss, plot_karate_score  
+from cluster import GraphClustering, ClusteringEvaluator
 
-# Try to import Muon optimizer from torch-optimizer; fallback handled in main
-try:
-    from torch_optimizer import Muon  # pip package: torch-optimizer
-    _HAS_MUON = True
-except Exception:
-    Muon = None  # type: ignore
-    _HAS_MUON = False
 
 
 class ContrastiveLoss(nn.Module):
@@ -114,6 +108,127 @@ def eval_on_karate(model: nn.Module, device: torch.device) -> float:
     return sim.mean().item()
 
 
+@torch.no_grad()
+def run_clustering_pipeline(embedding: torch.Tensor,
+                            n_clusters: int | None = None,
+                            true_labels: torch.Tensor | None = None):
+    """Mirror the notebook pipeline: compute embeddings, run 3 clustering methods, evaluate.
+
+    Returns dict with embeddings, predicted labels per method, and evaluation metrics per method.
+    """
+    if n_clusters is None and true_labels is not None:
+        unique = torch.unique(true_labels)
+        n_clusters = int(unique.numel())
+    if n_clusters is None:
+        n_clusters = 2
+
+    clusterer = GraphClustering(n_clusters=n_clusters)
+    evaluator = ClusteringEvaluator()
+
+    results_summary = {}
+    clustering_results = {}
+
+    # K-Means
+    try:
+        kmeans_labels, _ = clusterer.kmeans_clustering(embedding)
+        kmeans_results = evaluator.evaluate_clustering(true_labels, kmeans_labels, embedding)
+        evaluator.print_results(kmeans_results, "K-Means")
+        results_summary['K-Means'] = kmeans_results
+        clustering_results['kmeans'] = kmeans_labels
+    except Exception as e:
+        print(f"[clustering] K-Means failed: {e}")
+
+    # Spectral
+    try:
+        spectral_labels, _ = clusterer.spectral_clustering(embedding)
+        spectral_results = evaluator.evaluate_clustering(true_labels, spectral_labels, embedding)
+        evaluator.print_results(spectral_results, "Spectral")
+        results_summary['Spectral'] = spectral_results
+        clustering_results['spectral'] = spectral_labels
+    except Exception as e:
+        print(f"[clustering] Spectral failed: {e}")
+
+    # Hierarchical
+    try:
+        hierarchical_labels, _ = clusterer.hierarchical_clustering(embedding)
+        hierarchical_results = evaluator.evaluate_clustering(true_labels, hierarchical_labels, embedding)
+        evaluator.print_results(hierarchical_results, "Hierarchical")
+        results_summary['Hierarchical'] = hierarchical_results
+        clustering_results['hierarchical'] = hierarchical_labels
+    except Exception as e:
+        print(f"[clustering] Hierarchical failed: {e}")
+
+    return {
+        'embeddings': embedding,
+        'clustering_results': clustering_results,
+        'evaluation_results': results_summary,
+    }
+
+
+@torch.no_grad()
+def evaluate_clustering_on_loader(model: nn.Module,
+                                  loader: DataLoader,
+                                  device: torch.device) -> None:
+    """Evaluate clustering quality per-graph in a (possibly batched) loader and print averages.
+
+    - Uses true labels `y` when available to compute ARI/NMI; always computes internal metrics.
+    - Number of clusters is inferred from true labels when available; otherwise defaults to 2.
+    """
+    model.eval()
+
+    # Aggregators per method -> metric -> list of values
+    agg: dict[str, dict[str, list[float]]] = {}
+
+    for batch in loader:
+        batch = batch.to(device)
+        embeddings = model(batch)
+
+        # Determine graph ids in this batch (PyG provides `batch` vector when multiple graphs)
+        if hasattr(batch, 'batch') and batch.batch is not None:
+            graph_ids = torch.unique(batch.batch).tolist()
+        else:
+            graph_ids = [None]
+
+        for gid in graph_ids:
+            if gid is None:
+                node_mask = torch.ones(embeddings.size(0), dtype=torch.bool, device=device)
+            else:
+                node_mask = (batch.batch == gid)
+
+            emb_g = embeddings[node_mask]
+            y_g = batch.y[node_mask] if (hasattr(batch, 'y') and batch.y is not None) else None
+
+            if emb_g.size(0) < 2:
+                continue
+
+            n_clusters = int(torch.unique(y_g).numel()) if y_g is not None else 2
+
+            out = run_clustering_pipeline(embedding=emb_g,  # bypass model; we already have emb_g
+                                          n_clusters=n_clusters,
+                                          true_labels=y_g)
+
+            # Collect metrics
+            for method_name, metrics in out['evaluation_results'].items():
+                if method_name not in agg:
+                    agg[method_name] = {k: [] for k in metrics.keys()}
+                for metric, value in metrics.items():
+                    if isinstance(value, float):
+                        agg[method_name][metric].append(value)
+
+    # Print averages
+    if not agg:
+        print("[clustering] No metrics collected.")
+        return
+
+    print("\n=== Clustering evaluation (averaged over validation graphs) ===")
+    for method_name, metrics in agg.items():
+        print(f"\n-- {method_name} --")
+        for metric, values in metrics.items():
+            if len(values) == 0:
+                continue
+            mean_val = sum(values) / len(values)
+            print(f"{metric}: {mean_val:.4f}")
+
 def main():
     torch.manual_seed(config.SEED)
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -130,10 +245,7 @@ def main():
 
     for model in [SimpleGAT, SimpleSAGE, SimpleGCN]:
         model = model(in_channels=in_channels, hidden_channels=config.HIDDEN_DIM, embedding_dim=config.EMBED_DIM).to(device)
-        if _HAS_MUON and Muon is not None:
-            optimizer = Muon(model.parameters(), lr=config.LR)
-        else:
-            optimizer = Adam(model.parameters(), lr=config.LR)
+        optimizer = Adam(model.parameters(), lr=config.LR)
         criterion = ContrastiveLoss(temperature=config.TEMPERATURE)
 
         best_val = float('inf')
@@ -146,11 +258,13 @@ def main():
             train_loss = train_one_epoch(model, train_loader, criterion, optimizer, device)
             val_loss = eval_loss(model, valid_loader, criterion, device)
             karate_score = eval_on_karate(model, device)
+            #
             train_losses.append(train_loss)
             val_losses.append(val_loss)
             karate_scores.append(karate_score)
+            #
             print(f"Epoch {epoch:03d} | train {train_loss:.4f} | val {val_loss:.4f} | karate {karate_score:.4f}")
-
+            #
             if val_loss < best_val - 1e-6:
                 best_val = val_loss
                 epochs_no_improve = 0
@@ -161,6 +275,9 @@ def main():
         plot_training_loss(train_losses)
         plot_validation_loss(val_losses)
         plot_karate_score(karate_scores)
+
+        # Clustering-based evaluation on validation set using ground-truth labels when available
+        evaluate_clustering_on_loader(model, valid_loader, device)
 
 if __name__ == '__main__':
     main()
