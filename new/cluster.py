@@ -13,7 +13,12 @@ class GraphClustering:
     def kmeans_clustering(self, embeddings):
         """K-means clustering on embeddings."""
         kmeans = KMeans(n_clusters=self.n_clusters, random_state=42, n_init=10)
-        cluster_labels = kmeans.fit_predict(embeddings.detach().cpu().numpy())
+        # Ensure embeddings are on CPU and converted to numpy
+        if torch.is_tensor(embeddings):
+            embeddings_np = embeddings.detach().cpu().numpy()
+        else:
+            embeddings_np = embeddings
+        cluster_labels = kmeans.fit_predict(embeddings_np)
         return cluster_labels, kmeans
     
     def spectral_clustering(self, embeddings):
@@ -23,13 +28,23 @@ class GraphClustering:
             random_state=42,
             affinity='nearest_neighbors'
         )
-        cluster_labels = spectral.fit_predict(embeddings.detach().cpu().numpy())
+        # Ensure embeddings are on CPU and converted to numpy
+        if torch.is_tensor(embeddings):
+            embeddings_np = embeddings.detach().cpu().numpy()
+        else:
+            embeddings_np = embeddings
+        cluster_labels = spectral.fit_predict(embeddings_np)
         return cluster_labels, spectral
     
     def hierarchical_clustering(self, embeddings):
         """Agglomerative hierarchical clustering."""
         hierarchical = AgglomerativeClustering(n_clusters=self.n_clusters)
-        cluster_labels = hierarchical.fit_predict(embeddings.detach().cpu().numpy())
+        # Ensure embeddings are on CPU and converted to numpy
+        if torch.is_tensor(embeddings):
+            embeddings_np = embeddings.detach().cpu().numpy()
+        else:
+            embeddings_np = embeddings
+        cluster_labels = hierarchical.fit_predict(embeddings_np)
         return cluster_labels, hierarchical
 
 class ClusteringEvaluator:
@@ -40,30 +55,16 @@ class ClusteringEvaluator:
         """Comprehensive clustering evaluation."""
         results = {}
         
-        # Ensure numpy arrays on CPU for sklearn
-        if torch.is_tensor(embeddings):
-            embeddings_np = embeddings.detach().cpu().numpy()
-        else:
-            embeddings_np = embeddings
-
-        if torch.is_tensor(pred_labels):
-            pred_np = pred_labels.detach().cpu().numpy()
-        else:
-            pred_np = pred_labels
-
         # External metrics (need ground truth)
         if true_labels is not None:
-            if torch.is_tensor(true_labels):
-                true_np = true_labels.detach().cpu().numpy()
-            else:
-                true_np = true_labels
-            results['ARI'] = adjusted_rand_score(true_np, pred_np)
-            results['NMI'] = normalized_mutual_info_score(true_np, pred_np)
+            results['ARI'] = adjusted_rand_score(true_labels, pred_labels)
+            results['NMI'] = normalized_mutual_info_score(true_labels, pred_labels)
         
         # Internal metrics (unsupervised)
-        results['Silhouette'] = silhouette_score(embeddings_np, pred_np)
-        results['Calinski_Harabasz'] = calinski_harabasz_score(embeddings_np, pred_np)
-        results['Davies_Bouldin'] = davies_bouldin_score(embeddings_np, pred_np)
+        embeddings_np = embeddings.detach().cpu().numpy() if torch.is_tensor(embeddings) else embeddings
+        results['Silhouette'] = silhouette_score(embeddings_np, pred_labels)
+        results['Calinski_Harabasz'] = calinski_harabasz_score(embeddings_np, pred_labels)
+        results['Davies_Bouldin'] = davies_bouldin_score(embeddings_np, pred_labels)
         
         return results
     
