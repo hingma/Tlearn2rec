@@ -6,6 +6,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch.optim import Adam
+from torch.optim.optimizer import Optimizer
 from torch.utils.data import DataLoader
 
 from torch_geometric.utils import to_undirected
@@ -14,6 +15,14 @@ import config
 from datasets import build_loaders, load_karate
 from model import SimpleGCN, SimpleGAT, SimpleSAGE
 from visualize import plot_embeddings_and_clusters, plot_network_clusters, plot_training_loss, plot_validation_loss, plot_karate_score  
+
+# Try to import Muon optimizer from torch-optimizer; fallback handled in main
+try:
+    from torch_optimizer import Muon  # pip package: torch-optimizer
+    _HAS_MUON = True
+except Exception:
+    Muon = None  # type: ignore
+    _HAS_MUON = False
 
 
 class ContrastiveLoss(nn.Module):
@@ -35,7 +44,7 @@ class ContrastiveLoss(nn.Module):
         return loss
 
 
-def train_one_epoch(model: nn.Module, loader: DataLoader, criterion: nn.Module, optimizer: Adam, device: torch.device) -> float:
+def train_one_epoch(model: nn.Module, loader: DataLoader, criterion: nn.Module, optimizer: Optimizer, device: torch.device) -> float:
     model.train()
     total_loss = 0.0
     total_graphs = 0
@@ -121,18 +130,25 @@ def main():
 
     for model in [SimpleGAT, SimpleSAGE, SimpleGCN]:
         model = model(in_channels=in_channels, hidden_channels=config.HIDDEN_DIM, embedding_dim=config.EMBED_DIM).to(device)
-        optimizer = Adam(model.parameters(), lr=config.LR)
+        if _HAS_MUON and Muon is not None:
+            optimizer = Muon(model.parameters(), lr=config.LR)
+        else:
+            optimizer = Adam(model.parameters(), lr=config.LR)
         criterion = ContrastiveLoss(temperature=config.TEMPERATURE)
 
         best_val = float('inf')
         epochs_no_improve = 0
         best_path = config.EXPERIMENT_DIR / f'best_{model.__class__.__name__}.pt'
-
+        train_losses = []
+        val_losses = []
+        karate_scores = []
         for epoch in range(1, config.MAX_EPOCHS + 1):
             train_loss = train_one_epoch(model, train_loader, criterion, optimizer, device)
             val_loss = eval_loss(model, valid_loader, criterion, device)
             karate_score = eval_on_karate(model, device)
-
+            train_losses.append(train_loss)
+            val_losses.append(val_loss)
+            karate_scores.append(karate_score)
             print(f"Epoch {epoch:03d} | train {train_loss:.4f} | val {val_loss:.4f} | karate {karate_score:.4f}")
 
             if val_loss < best_val - 1e-6:
@@ -142,9 +158,9 @@ def main():
 
         print(f"Best {model.__class__.__name__} model saved to: {best_path}")
 
-        plot_training_loss(train_loss)
-        plot_validation_loss(val_loss)
-        plot_karate_score(karate_score)
+        plot_training_loss(train_losses)
+        plot_validation_loss(val_losses)
+        plot_karate_score(karate_scores)
 
 if __name__ == '__main__':
     main()
