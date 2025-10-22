@@ -279,7 +279,7 @@ def main():
         plot_karate_score(karate_scores)
 
         # Clustering-based evaluation on validation set using ground-truth labels when available
-        evaluate_clustering_on_loader(model, valid_loader, device)
+        # evaluate_clustering_on_loader(model, valid_loader, device)
 
 if __name__ == '__main__':
     main()
