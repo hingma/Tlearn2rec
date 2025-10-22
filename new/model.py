@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from torch_geometric.nn import GCNConv, GATConv, SAGEConv
+import config
 
 class SimpleGCN(nn.Module):
     """Graph Convolutional Network - Unsupervised version."""
@@ -12,20 +13,33 @@ class SimpleGCN(nn.Module):
         self.conv2 = GCNConv(hidden_channels, hidden_channels)
         self.conv3 = GCNConv(hidden_channels, embedding_dim)
         self.p = 0.3
+        self._printed_shapes = False
 
     def forward(self, data):
         x, edge_index = data.x, data.edge_index
 
+        if config.DEBUG_SHAPES and not self._printed_shapes:
+            print(f"[SimpleGCN] conv1: in={self.conv1.in_channels}, out={self.conv1.out_channels}")
+            print(f"[SimpleGCN] input x: {tuple(x.shape)}, edge_index: {tuple(edge_index.shape)}")
         x = self.conv1(x, edge_index)
         x = F.relu(x)
         x = F.dropout(x, self.p, training=self.training)
 
+        if config.DEBUG_SHAPES and not self._printed_shapes:
+            print(f"[SimpleGCN] conv2: in={self.conv2.in_channels}, out={self.conv2.out_channels}")
+            print(f"[SimpleGCN] after conv1: {tuple(x.shape)}")
         x = self.conv2(x, edge_index)
         x = F.relu(x)
         x = F.dropout(x, self.p, training=self.training)
 
+        if config.DEBUG_SHAPES and not self._printed_shapes:
+            print(f"[SimpleGCN] conv3: in={self.conv3.in_channels}, out={self.conv3.out_channels}")
+            print(f"[SimpleGCN] after conv2: {tuple(x.shape)}")
         x = self.conv3(x, edge_index)
         embeddings = F.normalize(x, p=2, dim=1)  # L2 normalization for better clustering
+        if config.DEBUG_SHAPES and not self._printed_shapes:
+            print(f"[SimpleGCN] embeddings: {tuple(embeddings.shape)}")
+            self._printed_shapes = True
 
         return embeddings
 
@@ -75,6 +89,3 @@ class SimpleSAGE(nn.Module):
         embeddings = F.normalize(x, p=2, dim=1)  # L2 normalization
 
         return embeddings
-
-
-print("✓ GNN architectures defined (Unsupervised): GCN, GAT, SAGE")

@@ -101,5 +101,3 @@ def plot_training_loss(losses, title="Training Loss"):
     plt.ylabel('Loss')
     plt.grid(True, alpha=0.3)
     plt.show()
-
-print("✓ Visualization functions defined")

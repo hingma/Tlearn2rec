@@ -115,6 +115,23 @@
            3. 为每个算例生成一个 .txt 文件，清晰地列出每个簇（Cluster）及其包含的变量名。
    * 输出: 在 results/{problem}/GCNPolicy/cluster_outputs/ 目录下为每个测试算例生成一个聚类结果文件。
 
+  新的无监督训练管线（new/）
+
+  - 训练现已支持从 `data/processed/<problem>/train` 加载更多数据，并在 `data/processed/<problem>/valid` 上验证。
+  - 按你的要求，测试阶段暂时使用 `KarateClub()` 数据集作为快速 sanity check。
+
+  组件说明：
+  - `new/config.py`: 新管线的超参数与路径配置。
+  - `new/datasets.py`: 从处理好的 `.pt` 文件构建 train/val 的 DataLoader，并提供 `load_karate()`。
+  - `new/train_unsupervised.py`: 使用 SimpleGCN 与对比损失进行训练，每个 epoch 在验证集评估并报告 KarateClub 的相似性指标；最佳权重保存到 `models/facilities/UnsupervisedGNN/best_unsupervised.pt`。
+
+  运行方式：
+  ```bash
+  python -m new.train_unsupervised
+  ```
+
+  可在 `new/config.py` 调整批量大小、学习率与轮数等参数。数据目录需通过现有的 `02_generate_dataset.py` 预处理生成。
+
   三、 核心模块文件详解
 
   1. gnn_model.py - GNN模型定义

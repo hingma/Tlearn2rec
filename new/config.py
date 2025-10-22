@@ -1,88 +1,42 @@
-# 所有GNN相关的文件路径和参数
 import os
 from pathlib import Path
 
-# --- Project Root ---
-# 此配置文件位于项目根目录
-PROJECT_ROOT = Path(__file__).resolve().parent
+# Base paths (scoped to project root)
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+DATA_DIR = PROJECT_ROOT / 'data'
+PROCESSED_DIR = DATA_DIR / 'processed'
+MODELS_DIR = PROJECT_ROOT / 'models'
+RESULTS_DIR = PROJECT_ROOT / 'results'
 
-# --- Base Directories ---
-DATA_DIR = PROJECT_ROOT / "data"
-MODELS_DIR = PROJECT_ROOT / "models"
-RESULTS_DIR = PROJECT_ROOT / "results"
+# Default dataset/problem
+PROBLEM = 'facilities'
 
-# --- Data Subdirectories ---
-RAW_DATA_DIR = DATA_DIR / "raw"
-MPS_DATA_DIR = DATA_DIR / "mps"
-PROCESSED_DATA_DIR = DATA_DIR / "processed"
+# Data splits: directories already exist under data/processed/<problem>/{train,valid,test}
+TRAIN_DIR = PROCESSED_DIR / PROBLEM / 'train'
+VALID_DIR = PROCESSED_DIR / PROBLEM / 'valid'
+TEST_DIR = PROCESSED_DIR / PROBLEM / 'test'
 
-# --- Instance Generation Parameters ---
-INSTANCE_GEN = {
-    'facilities': {
-        'train': {'n_instances': 2500, 'dimension': 40, 'ratio': 6, 'overwrite': False}, 
-        'valid': {'n_instances': 500, 'dimension': 40, 'ratio': 6, 'overwrite': False}, 
-        'test': {'n_instances': 500, 'dimension': 40, 'ratio': 6, 'overwrite': False},  
-        'transfer_40': {'n_instances': 100, 'dimension': 40, 'ratio': 6, 'overwrite': False},
-        'transfer_30': {'n_instances': 100, 'dimension': 30, 'ratio': 6, 'overwrite': False},
-        'transfer_35': {'n_instances': 100, 'dimension': 35, 'ratio': 6, 'overwrite': False},
-        'transfer_50': {'n_instances': 100, 'dimension': 50, 'ratio': 6, 'overwrite': True},
-        'transfer_80': {'n_instances': 100, 'dimension': 80, 'ratio': 6, 'overwrite': True},
-        'transfer_100': {'n_instances': 100, 'dimension': 100, 'ratio': 6, 'overwrite': True},
-    },
-    'osif': {
-        # 'train': {'n_instances': 1200, 'overwrite': True, 'input_dim': 392, 'hidden_dims': [25, 25], 'output_dim': 10},
-        # 'valid': {'n_instances': 250, 'overwrite': True, 'input_dim': 392, 'hidden_dims': [25, 25], 'output_dim': 10},
-        'test': {'n_instances': 250, 'overwrite': True, 'input_dim': 784, 'hidden_dims': [50, 50], 'output_dim': 10},
-    }
-}
+# Training hyperparameters
+SEED = 42
+BATCH_SIZE = 16
+VALID_BATCH_SIZE = 16
+LR = 1e-3
+MAX_EPOCHS = 200
+PATIENCE = 10
+EARLY_STOPPING = 20
+TEMPERATURE = 0.1
+NUM_WORKERS = min(8, os.cpu_count() or 2)
 
-# --- Feature Extraction Parameters ---
-FEATURE_EXTRACTION = {
-    'n_anchors': 256,
-}
-OSIF_EPSILON = 50
+# Model hyperparameters (encoder dims)
+EMBED_DIM = 64
+HIDDEN_DIM = 64
 
-# --- GNN Model Parameters ---
-MODEL_PARAMS = {
-    'emb_size': 128,
-    'cons_nfeats': 7 + 256,  # 6 structural + 16 anchor + 1 betweenness
-    'edge_nfeats': 1,
-    'var_nfeats': 6 + 256,   # 5 structural + 16 anchor + 1 betweenness
-}
+# Output experiment directory
+EXPERIMENT_DIR = MODELS_DIR / PROBLEM / 'UnsupervisedGNN'
+EXPERIMENT_DIR.mkdir(parents=True, exist_ok=True)
 
-# --- Training Hyperparameters ---
-TRAIN_PARAMS = {
-    'problem': 'facilities',
-    'seed': 42,
-    'max_epochs': 1000,
-    'batch_size': 64,
-    'valid_batch_size': 64,
-    'lr': 0.0001,
-    'patience': 10,
-    'early_stopping': 20,
-    'num_classes': 50, # the number of disjunctions.
-    'temperature': 0.1, # for SupervisedContrastiveLoss
-    'num_workers': 8,
-}
 
-# --- Test Parameters ---
-# TEST_FOLDERS 定义了 `04_test.py` 将要运行评估的文件夹名称列表。
-# TEST_CONFIG 存储了每个测试文件夹的特定配置，例如真实的簇数。
-# 这里的 'true_n_clusters' 对于CFLP问题来说就是析取的数量，等于'dimension'。
-TEST_FOLDERS = ["test", 'artificial']
+# Debug/printing controls
+DEBUG_SHAPES = True  # print tensor and layer shapes during the first steps
 
-TEST_CONFIG = {
-    'test': {'true_n_clusters': 50},
-    'transfer_30_30': {'true_n_clusters': 30},
-    'transfer_50_50': {'true_n_clusters': 50},
-    'transfer_80_80': {'true_n_clusters': 80},
-    'artificial': {'true_n_clusters': 100}
-}
 
-# --- Evaluation Parameters ---
-EVAL_FOLDERS = ["artificial"]
-
-EVAL_PARAMS = {
-    'test_batch_size': 1,
-    'dbscan_min_samples': 2,
-}

@@ -35,6 +35,7 @@ def generate_capacited_facility_location(rng, filename, dimension, ratio):
     ratio : float
         A factor influencing facility capacity, related to the total demand.
     """
+    dimension = rng.randint(max(1, dimension - 30), dimension + 31)
     # 1. Generate client and facility coordinates
     c_x = rng.rand(dimension)
     c_y = rng.rand(dimension)

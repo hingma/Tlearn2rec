@@ -19,15 +19,15 @@ PROCESSED_DATA_DIR = DATA_DIR / "processed"
 # --- Instance Generation Parameters ---
 INSTANCE_GEN = {
     'facilities': {
-        'train': {'n_instances': 2500, 'dimension': 40, 'ratio': 6, 'overwrite': False}, 
-        'valid': {'n_instances': 500, 'dimension': 40, 'ratio': 6, 'overwrite': False}, 
-        'test': {'n_instances': 500, 'dimension': 40, 'ratio': 6, 'overwrite': False},  
-        'transfer_40': {'n_instances': 100, 'dimension': 40, 'ratio': 6, 'overwrite': False},
-        'transfer_30': {'n_instances': 100, 'dimension': 30, 'ratio': 6, 'overwrite': False},
-        'transfer_35': {'n_instances': 100, 'dimension': 35, 'ratio': 6, 'overwrite': False},
-        'transfer_50': {'n_instances': 100, 'dimension': 50, 'ratio': 6, 'overwrite': True},
-        'transfer_80': {'n_instances': 100, 'dimension': 80, 'ratio': 6, 'overwrite': True},
-        'transfer_100': {'n_instances': 100, 'dimension': 100, 'ratio': 6, 'overwrite': True},
+        'train': {'n_instances': 250, 'dimension': 50, 'ratio': 6, 'overwrite': True}, 
+        'valid': {'n_instances': 50, 'dimension': 50, 'ratio': 6, 'overwrite': True}, 
+        'test': {'n_instances': 50, 'dimension': 50, 'ratio': 6, 'overwrite': True},  
+        # 'transfer_40': {'n_instances': 100, 'dimension': 40, 'ratio': 6, 'overwrite': False},
+        # 'transfer_30': {'n_instances': 100, 'dimension': 30, 'ratio': 6, 'overwrite': False},
+        # 'transfer_35': {'n_instances': 100, 'dimension': 35, 'ratio': 6, 'overwrite': False},
+        # 'transfer_50': {'n_instances': 100, 'dimension': 50, 'ratio': 6, 'overwrite': True},
+        # 'transfer_80': {'n_instances': 100, 'dimension': 80, 'ratio': 6, 'overwrite': True},
+        # 'transfer_100': {'n_instances': 100, 'dimension': 100, 'ratio': 6, 'overwrite': True},
     },
     'osif': {
         # 'train': {'n_instances': 1200, 'overwrite': True, 'input_dim': 392, 'hidden_dims': [25, 25], 'output_dim': 10},
@@ -42,12 +42,33 @@ FEATURE_EXTRACTION = {
 }
 OSIF_EPSILON = 50
 
+# --- Feature Mode ---
+# 'full': structural + betweenness + anchor features
+# 'simple': only basic structural features
+FEATURES_MODE = 'simple'  # choices: 'full', 'simple'
+
 # --- GNN Model Parameters ---
+def _compute_feature_dims():
+    n_anchors = FEATURE_EXTRACTION['n_anchors']
+    if FEATURES_MODE == 'full':
+        # constraints: 6 structural + 1 betweenness + n_anchors
+        cons_nfeats = 6 + 1 + n_anchors
+        # variables: 5 structural + 1 betweenness + n_anchors
+        var_nfeats = 5 + 1 + n_anchors
+    else:
+        # constraints: [is_le, is_ge, is_eq, degree]
+        cons_nfeats = 4
+        # variables: [is_binary, is_integer, is_continuous, degree]
+        var_nfeats = 4
+    return cons_nfeats, var_nfeats
+
+_CONS_NFEATS, _VAR_NFEATS = _compute_feature_dims()
+
 MODEL_PARAMS = {
     'emb_size': 128,
-    'cons_nfeats': 7 + 256,  # 6 structural + 16 anchor + 1 betweenness
+    'cons_nfeats': _CONS_NFEATS,
     'edge_nfeats': 1,
-    'var_nfeats': 6 + 256,   # 5 structural + 16 anchor + 1 betweenness
+    'var_nfeats': _VAR_NFEATS,
 }
 
 # --- Training Hyperparameters ---

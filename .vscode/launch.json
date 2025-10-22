@@ -9,7 +9,10 @@
             "type": "debugpy",
             "request": "launch",
             "program": "${file}",
-            "console": "integratedTerminal"
+            "console": "integratedTerminal",
+            "args": [
+                "facilities"
+            ]
         },
         {
             "name": "Python Debugger: Jupyter",

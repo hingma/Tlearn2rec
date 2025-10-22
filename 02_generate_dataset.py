@@ -17,6 +17,64 @@ import shutil
 import networkx as nx
 import config
 
+def calculate_features_simple(model):
+    """
+    Lightweight structural features only (no betweenness, no anchors).
+
+    constraint features (per constraint):
+      - is_le: [0/1]
+      - is_ge: [0/1]
+      - is_eq: [0/1]
+      - degree: number of incident variables
+
+    variable features (per variable):
+      - is_binary: [0/1]
+      - is_integer: [0/1]
+      - is_continuous: [0/1]
+      - degree: number of incident constraints
+
+    edge features:
+      - single constant 1.0 per edge
+    """
+    model.update()
+    constrs = model.getConstrs()
+    variables = model.getVars()
+
+    n_constraints = len(constrs)
+    n_variables = len(variables)
+
+    # Build simple features
+    constr_features_np = np.zeros((n_constraints, 4), dtype=np.float32)
+    var_features_np = np.zeros((n_variables, 4), dtype=np.float32)
+
+    # Constraint features
+    for i, constr in enumerate(constrs):
+        constr_features_np[i, 0] = 1 if constr.sense == GRB.LESS_EQUAL else 0
+        constr_features_np[i, 1] = 1 if constr.sense == GRB.GREATER_EQUAL else 0
+        constr_features_np[i, 2] = 1 if constr.sense == GRB.EQUAL else 0
+        expr = model.getRow(constr)
+        constr_features_np[i, 3] = expr.size()
+
+    # Variable features
+    for i, var in enumerate(variables):
+        var_features_np[i, 0] = 1 if var.vtype == GRB.BINARY else 0
+        var_features_np[i, 1] = 1 if var.vtype == GRB.INTEGER else 0
+        var_features_np[i, 2] = 1 if var.vtype == GRB.CONTINUOUS else 0
+        var_features_np[i, 3] = model.getCol(var).size()
+
+    # Edge features
+    edge_features_list = {}
+    var_map_by_name = {v.VarName: i for i, v in enumerate(variables)}
+    for i, constr in enumerate(constrs):
+        expr = model.getRow(constr)
+        for j in range(expr.size()):
+            var = expr.getVar(j)
+            var_idx = var_map_by_name.get(var.VarName)
+            if var_idx is not None:
+                edge_features_list[(i, var_idx)] = [1.0]
+
+    return constr_features_np, var_features_np, edge_features_list
+
 # Assuming CFLP.py is in the same directory or in python path
 from CFLP import DataLoader, build_gurobi_model
 from OSIF_gurobi_callback import build_model
@@ -54,15 +112,14 @@ def OSIF_from_raw_to_mps(raw_file, mps_dir, target_class, epsilon):
 
 def calculate_features(model, n_anchors):
     """
-    Calculates node and edge features for a Gurobi model.
-    Features are primarily based on graph structure to be robust to coefficient changes.
-    This includes anchor-based features to give nodes a sense of "position" in the graph.
+    Full feature builder: structural + betweenness + anchor-based distances.
+    Robust to coefficient changes; anchors provide coarse positional encoding.
 
     Returns:
-        tuple: A tuple containing:
-            - final_constr_features (np.ndarray): Features for each constraint.
-            - final_var_features (np.ndarray): Features for each variable.
-            - edge_features_list (dict): Features for each edge.
+        tuple:
+            - final_constr_features (np.ndarray) shape [n_constraints, 6 + 1 + n_anchors]
+            - final_var_features (np.ndarray) shape [n_variables, 5 + 1 + n_anchors]
+            - edge_features_list (dict[(int,int)] -> List[float]) single 1.0 per edge
     """
     model.update()
     constrs = model.getConstrs()
@@ -267,12 +324,15 @@ def _process_single_file(raw_file, mps_dir, processed_dir, problem):
         var_names = [v.VarName for v in variables]
 
         # Calculate features matrix
-        constraint_features, variable_features, edge_attr = calculate_features(model, n_anchors=config.FEATURE_EXTRACTION['n_anchors'])
+        if getattr(config, 'FEATURES_MODE', 'full') == 'simple':
+            constraint_features, variable_features, edge_attr = calculate_features_simple(model)
+        else:
+            constraint_features, variable_features, edge_attr = calculate_features(model, n_anchors=config.FEATURE_EXTRACTION['n_anchors'])
         # c. Generate labels (placeholder)
         labels, mask = generate_labels(model)
 
-        # 确保标签和特征的维度匹配
-        assert variable_features.shape[0] == labels.shape[0], "特征和标签的数量不匹配！"
+        # make sure the number of variables and labels match
+        assert variable_features.shape[0] == labels.shape[0], "number of variables and labels do not match！"
 
         # d. Create HeteroData object
         data = HeteroData()
@@ -343,8 +403,8 @@ if __name__ == '__main__':
     for subdir in instance_subdirs:
         if not os.path.isdir(subdir):
             continue
-        if 'test' in subdir:
-            continue
+        # if 'test' not in subdir:
+        #     continue # only process test set(10.21)
 
         subdir_name = os.path.basename(subdir)
         print(f"\nProcessing instance set: {subdir_name}")

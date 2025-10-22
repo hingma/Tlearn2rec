@@ -41,928 +41,2488 @@ ROWS
  E  demand_38
  E  demand_39
  E  demand_40
+ E  demand_41
+ E  demand_42
+ E  demand_43
+ E  demand_44
+ E  demand_45
+ E  demand_46
+ E  demand_47
+ E  demand_48
+ E  demand_49
+ E  demand_50
+ E  demand_51
+ E  demand_52
+ E  demand_53
+ E  demand_54
+ E  demand_55
+ E  demand_56
+ E  demand_57
+ E  demand_58
+ E  demand_59
+ E  demand_60
+ E  demand_61
+ E  demand_62
+ E  demand_63
+ E  demand_64
+ E  demand_65
+ E  demand_66
+ E  demand_67
+ E  demand_68
+ E  demand_69
+ E  demand_70
  L  c_disjunction_1_diajunct_1
  L  c_disjunction_1_disjunct_2
- E  R42     
+ E  R72     
  L  c_disjunction_2_diajunct_1
  L  c_disjunction_2_disjunct_2
- E  R45     
+ E  R75     
  L  c_disjunction_3_diajunct_1
  L  c_disjunction_3_disjunct_2
- E  R48     
+ E  R78     
  L  c_disjunction_4_diajunct_1
  L  c_disjunction_4_disjunct_2
- E  R51     
+ E  R81     
  L  c_disjunction_5_diajunct_1
  L  c_disjunction_5_disjunct_2
- E  R54     
+ E  R84     
  L  c_disjunction_6_diajunct_1
  L  c_disjunction_6_disjunct_2
- E  R57     
+ E  R87     
  L  c_disjunction_7_diajunct_1
  L  c_disjunction_7_disjunct_2
- E  R60     
+ E  R90     
  L  c_disjunction_8_diajunct_1
  L  c_disjunction_8_disjunct_2
- E  R63     
+ E  R93     
  L  c_disjunction_9_diajunct_1
  L  c_disjunction_9_disjunct_2
- E  R66     
+ E  R96     
  L  c_disjunction_10_diajunct_1
  L  c_disjunction_10_disjunct_2
- E  R69     
+ E  R99     
  L  c_disjunction_11_diajunct_1
  L  c_disjunction_11_disjunct_2
- E  R72     
+ E  R102    
  L  c_disjunction_12_diajunct_1
  L  c_disjunction_12_disjunct_2
- E  R75     
+ E  R105    
  L  c_disjunction_13_diajunct_1
  L  c_disjunction_13_disjunct_2
- E  R78     
+ E  R108    
  L  c_disjunction_14_diajunct_1
  L  c_disjunction_14_disjunct_2
- E  R81     
+ E  R111    
  L  c_disjunction_15_diajunct_1
  L  c_disjunction_15_disjunct_2
- E  R84     
+ E  R114    
  L  c_disjunction_16_diajunct_1
  L  c_disjunction_16_disjunct_2
- E  R87     
+ E  R117    
  L  c_disjunction_17_diajunct_1
  L  c_disjunction_17_disjunct_2
- E  R90     
+ E  R120    
  L  c_disjunction_18_diajunct_1
  L  c_disjunction_18_disjunct_2
- E  R93     
+ E  R123    
  L  c_disjunction_19_diajunct_1
  L  c_disjunction_19_disjunct_2
- E  R96     
+ E  R126    
  L  c_disjunction_20_diajunct_1
  L  c_disjunction_20_disjunct_2
- E  R99     
+ E  R129    
  L  c_disjunction_21_diajunct_1
  L  c_disjunction_21_disjunct_2
- E  R102    
+ E  R132    
  L  c_disjunction_22_diajunct_1
  L  c_disjunction_22_disjunct_2
- E  R105    
+ E  R135    
  L  c_disjunction_23_diajunct_1
  L  c_disjunction_23_disjunct_2
- E  R108    
+ E  R138    
  L  c_disjunction_24_diajunct_1
  L  c_disjunction_24_disjunct_2
- E  R111    
+ E  R141    
  L  c_disjunction_25_diajunct_1
  L  c_disjunction_25_disjunct_2
- E  R114    
+ E  R144    
  L  c_disjunction_26_diajunct_1
  L  c_disjunction_26_disjunct_2
- E  R117    
+ E  R147    
  L  c_disjunction_27_diajunct_1
  L  c_disjunction_27_disjunct_2
- E  R120    
+ E  R150    
  L  c_disjunction_28_diajunct_1
  L  c_disjunction_28_disjunct_2
- E  R123    
+ E  R153    
  L  c_disjunction_29_diajunct_1
  L  c_disjunction_29_disjunct_2
- E  R126    
+ E  R156    
  L  c_disjunction_30_diajunct_1
  L  c_disjunction_30_disjunct_2
- E  R129    
+ E  R159    
  L  c_disjunction_31_diajunct_1
  L  c_disjunction_31_disjunct_2
- E  R132    
+ E  R162    
  L  c_disjunction_32_diajunct_1
  L  c_disjunction_32_disjunct_2
- E  R135    
+ E  R165    
  L  c_disjunction_33_diajunct_1
  L  c_disjunction_33_disjunct_2
- E  R138    
+ E  R168    
  L  c_disjunction_34_diajunct_1
  L  c_disjunction_34_disjunct_2
- E  R141    
+ E  R171    
  L  c_disjunction_35_diajunct_1
  L  c_disjunction_35_disjunct_2
- E  R144    
+ E  R174    
  L  c_disjunction_36_diajunct_1
  L  c_disjunction_36_disjunct_2
- E  R147    
+ E  R177    
  L  c_disjunction_37_diajunct_1
  L  c_disjunction_37_disjunct_2
- E  R150    
+ E  R180    
  L  c_disjunction_38_diajunct_1
  L  c_disjunction_38_disjunct_2
- E  R153    
+ E  R183    
  L  c_disjunction_39_diajunct_1
  L  c_disjunction_39_disjunct_2
- E  R156    
+ E  R186    
  L  c_disjunction_40_diajunct_1
  L  c_disjunction_40_disjunct_2
- E  R159    
+ E  R189    
+ L  c_disjunction_41_diajunct_1
+ L  c_disjunction_41_disjunct_2
+ E  R192    
+ L  c_disjunction_42_diajunct_1
+ L  c_disjunction_42_disjunct_2
+ E  R195    
+ L  c_disjunction_43_diajunct_1
+ L  c_disjunction_43_disjunct_2
+ E  R198    
+ L  c_disjunction_44_diajunct_1
+ L  c_disjunction_44_disjunct_2
+ E  R201    
+ L  c_disjunction_45_diajunct_1
+ L  c_disjunction_45_disjunct_2
+ E  R204    
+ L  c_disjunction_46_diajunct_1
+ L  c_disjunction_46_disjunct_2
+ E  R207    
+ L  c_disjunction_47_diajunct_1
+ L  c_disjunction_47_disjunct_2
+ E  R210    
+ L  c_disjunction_48_diajunct_1
+ L  c_disjunction_48_disjunct_2
+ E  R213    
+ L  c_disjunction_49_diajunct_1
+ L  c_disjunction_49_disjunct_2
+ E  R216    
+ L  c_disjunction_50_diajunct_1
+ L  c_disjunction_50_disjunct_2
+ E  R219    
+ L  c_disjunction_51_diajunct_1
+ L  c_disjunction_51_disjunct_2
+ E  R222    
+ L  c_disjunction_52_diajunct_1
+ L  c_disjunction_52_disjunct_2
+ E  R225    
+ L  c_disjunction_53_diajunct_1
+ L  c_disjunction_53_disjunct_2
+ E  R228    
+ L  c_disjunction_54_diajunct_1
+ L  c_disjunction_54_disjunct_2
+ E  R231    
+ L  c_disjunction_55_diajunct_1
+ L  c_disjunction_55_disjunct_2
+ E  R234    
+ L  c_disjunction_56_diajunct_1
+ L  c_disjunction_56_disjunct_2
+ E  R237    
+ L  c_disjunction_57_diajunct_1
+ L  c_disjunction_57_disjunct_2
+ E  R240    
+ L  c_disjunction_58_diajunct_1
+ L  c_disjunction_58_disjunct_2
+ E  R243    
+ L  c_disjunction_59_diajunct_1
+ L  c_disjunction_59_disjunct_2
+ E  R246    
+ L  c_disjunction_60_diajunct_1
+ L  c_disjunction_60_disjunct_2
+ E  R249    
+ L  c_disjunction_61_diajunct_1
+ L  c_disjunction_61_disjunct_2
+ E  R252    
+ L  c_disjunction_62_diajunct_1
+ L  c_disjunction_62_disjunct_2
+ E  R255    
+ L  c_disjunction_63_diajunct_1
+ L  c_disjunction_63_disjunct_2
+ E  R258    
+ L  c_disjunction_64_diajunct_1
+ L  c_disjunction_64_disjunct_2
+ E  R261    
+ L  c_disjunction_65_diajunct_1
+ L  c_disjunction_65_disjunct_2
+ E  R264    
+ L  c_disjunction_66_diajunct_1
+ L  c_disjunction_66_disjunct_2
+ E  R267    
+ L  c_disjunction_67_diajunct_1
+ L  c_disjunction_67_disjunct_2
+ E  R270    
+ L  c_disjunction_68_diajunct_1
+ L  c_disjunction_68_disjunct_2
+ E  R273    
+ L  c_disjunction_69_diajunct_1
+ L  c_disjunction_69_disjunct_2
+ E  R276    
+ L  c_disjunction_70_diajunct_1
+ L  c_disjunction_70_disjunct_2
+ E  R279    
 COLUMNS
     MARKER    'MARKER'                 'INTORG'
-    ind_disjunction_1_disjunct_1  OBJ       1136
-    ind_disjunction_1_disjunct_1  c_disjunction_1_diajunct_1  -107
-    ind_disjunction_1_disjunct_1  R42       1
-    ind_disjunction_2_disjunct_1  OBJ       1136
-    ind_disjunction_2_disjunct_1  c_disjunction_2_diajunct_1  -107
-    ind_disjunction_2_disjunct_1  R45       1
-    ind_disjunction_3_disjunct_1  OBJ       1136
-    ind_disjunction_3_disjunct_1  c_disjunction_3_diajunct_1  -107
-    ind_disjunction_3_disjunct_1  R48       1
-    ind_disjunction_4_disjunct_1  OBJ       1136
-    ind_disjunction_4_disjunct_1  c_disjunction_4_diajunct_1  -107
-    ind_disjunction_4_disjunct_1  R51       1
-    ind_disjunction_5_disjunct_1  OBJ       1136
-    ind_disjunction_5_disjunct_1  c_disjunction_5_diajunct_1  -107
-    ind_disjunction_5_disjunct_1  R54       1
-    ind_disjunction_6_disjunct_1  OBJ       1136
-    ind_disjunction_6_disjunct_1  c_disjunction_6_diajunct_1  -107
-    ind_disjunction_6_disjunct_1  R57       1
-    ind_disjunction_7_disjunct_1  OBJ       1136
-    ind_disjunction_7_disjunct_1  c_disjunction_7_diajunct_1  -107
-    ind_disjunction_7_disjunct_1  R60       1
-    ind_disjunction_8_disjunct_1  OBJ       1136
-    ind_disjunction_8_disjunct_1  c_disjunction_8_diajunct_1  -107
-    ind_disjunction_8_disjunct_1  R63       1
-    ind_disjunction_9_disjunct_1  OBJ       1136
-    ind_disjunction_9_disjunct_1  c_disjunction_9_diajunct_1  -107
-    ind_disjunction_9_disjunct_1  R66       1
-    ind_disjunction_10_disjunct_1  OBJ       1136
-    ind_disjunction_10_disjunct_1  c_disjunction_10_diajunct_1  -107
-    ind_disjunction_10_disjunct_1  R69       1
-    ind_disjunction_11_disjunct_1  OBJ       1136
-    ind_disjunction_11_disjunct_1  c_disjunction_11_diajunct_1  -107
-    ind_disjunction_11_disjunct_1  R72       1
-    ind_disjunction_12_disjunct_1  OBJ       1136
-    ind_disjunction_12_disjunct_1  c_disjunction_12_diajunct_1  -107
-    ind_disjunction_12_disjunct_1  R75       1
-    ind_disjunction_13_disjunct_1  OBJ       1136
-    ind_disjunction_13_disjunct_1  c_disjunction_13_diajunct_1  -107
-    ind_disjunction_13_disjunct_1  R78       1
-    ind_disjunction_14_disjunct_1  OBJ       1136
-    ind_disjunction_14_disjunct_1  c_disjunction_14_diajunct_1  -107
-    ind_disjunction_14_disjunct_1  R81       1
-    ind_disjunction_15_disjunct_1  OBJ       1136
-    ind_disjunction_15_disjunct_1  c_disjunction_15_diajunct_1  -107
-    ind_disjunction_15_disjunct_1  R84       1
-    ind_disjunction_16_disjunct_1  OBJ       1136
-    ind_disjunction_16_disjunct_1  c_disjunction_16_diajunct_1  -107
-    ind_disjunction_16_disjunct_1  R87       1
-    ind_disjunction_17_disjunct_1  OBJ       1136
-    ind_disjunction_17_disjunct_1  c_disjunction_17_diajunct_1  -107
-    ind_disjunction_17_disjunct_1  R90       1
-    ind_disjunction_18_disjunct_1  OBJ       1136
-    ind_disjunction_18_disjunct_1  c_disjunction_18_diajunct_1  -107
-    ind_disjunction_18_disjunct_1  R93       1
-    ind_disjunction_19_disjunct_1  OBJ       1136
-    ind_disjunction_19_disjunct_1  c_disjunction_19_diajunct_1  -107
-    ind_disjunction_19_disjunct_1  R96       1
-    ind_disjunction_20_disjunct_1  OBJ       1136
-    ind_disjunction_20_disjunct_1  c_disjunction_20_diajunct_1  -107
-    ind_disjunction_20_disjunct_1  R99       1
-    ind_disjunction_21_disjunct_1  OBJ       1136
-    ind_disjunction_21_disjunct_1  c_disjunction_21_diajunct_1  -107
-    ind_disjunction_21_disjunct_1  R102      1
-    ind_disjunction_22_disjunct_1  OBJ       1136
-    ind_disjunction_22_disjunct_1  c_disjunction_22_diajunct_1  -107
-    ind_disjunction_22_disjunct_1  R105      1
-    ind_disjunction_23_disjunct_1  OBJ       1136
-    ind_disjunction_23_disjunct_1  c_disjunction_23_diajunct_1  -107
-    ind_disjunction_23_disjunct_1  R108      1
-    ind_disjunction_24_disjunct_1  OBJ       1136
-    ind_disjunction_24_disjunct_1  c_disjunction_24_diajunct_1  -107
-    ind_disjunction_24_disjunct_1  R111      1
-    ind_disjunction_25_disjunct_1  OBJ       1136
-    ind_disjunction_25_disjunct_1  c_disjunction_25_diajunct_1  -107
-    ind_disjunction_25_disjunct_1  R114      1
-    ind_disjunction_26_disjunct_1  OBJ       1136
-    ind_disjunction_26_disjunct_1  c_disjunction_26_diajunct_1  -107
-    ind_disjunction_26_disjunct_1  R117      1
-    ind_disjunction_27_disjunct_1  OBJ       1136
-    ind_disjunction_27_disjunct_1  c_disjunction_27_diajunct_1  -107
-    ind_disjunction_27_disjunct_1  R120      1
-    ind_disjunction_28_disjunct_1  OBJ       1136
-    ind_disjunction_28_disjunct_1  c_disjunction_28_diajunct_1  -107
-    ind_disjunction_28_disjunct_1  R123      1
-    ind_disjunction_29_disjunct_1  OBJ       1136
-    ind_disjunction_29_disjunct_1  c_disjunction_29_diajunct_1  -107
-    ind_disjunction_29_disjunct_1  R126      1
-    ind_disjunction_30_disjunct_1  OBJ       1136
-    ind_disjunction_30_disjunct_1  c_disjunction_30_diajunct_1  -107
-    ind_disjunction_30_disjunct_1  R129      1
-    ind_disjunction_31_disjunct_1  OBJ       1136
-    ind_disjunction_31_disjunct_1  c_disjunction_31_diajunct_1  -107
-    ind_disjunction_31_disjunct_1  R132      1
-    ind_disjunction_32_disjunct_1  OBJ       1136
-    ind_disjunction_32_disjunct_1  c_disjunction_32_diajunct_1  -107
-    ind_disjunction_32_disjunct_1  R135      1
-    ind_disjunction_33_disjunct_1  OBJ       1136
-    ind_disjunction_33_disjunct_1  c_disjunction_33_diajunct_1  -107
-    ind_disjunction_33_disjunct_1  R138      1
-    ind_disjunction_34_disjunct_1  OBJ       1136
-    ind_disjunction_34_disjunct_1  c_disjunction_34_diajunct_1  -107
-    ind_disjunction_34_disjunct_1  R141      1
-    ind_disjunction_35_disjunct_1  OBJ       1136
-    ind_disjunction_35_disjunct_1  c_disjunction_35_diajunct_1  -107
-    ind_disjunction_35_disjunct_1  R144      1
-    ind_disjunction_36_disjunct_1  OBJ       1136
-    ind_disjunction_36_disjunct_1  c_disjunction_36_diajunct_1  -107
-    ind_disjunction_36_disjunct_1  R147      1
-    ind_disjunction_37_disjunct_1  OBJ       1136
-    ind_disjunction_37_disjunct_1  c_disjunction_37_diajunct_1  -107
-    ind_disjunction_37_disjunct_1  R150      1
-    ind_disjunction_38_disjunct_1  OBJ       1136
-    ind_disjunction_38_disjunct_1  c_disjunction_38_diajunct_1  -107
-    ind_disjunction_38_disjunct_1  R153      1
-    ind_disjunction_39_disjunct_1  OBJ       1136
-    ind_disjunction_39_disjunct_1  c_disjunction_39_diajunct_1  -107
-    ind_disjunction_39_disjunct_1  R156      1
-    ind_disjunction_40_disjunct_1  OBJ       1136
-    ind_disjunction_40_disjunct_1  c_disjunction_40_diajunct_1  -107
-    ind_disjunction_40_disjunct_1  R159      1
-    ind_disjunction_1_disjunct_2  c_disjunction_1_disjunct_2  4
-    ind_disjunction_1_disjunct_2  R42       1
-    ind_disjunction_2_disjunct_2  c_disjunction_2_disjunct_2  5
-    ind_disjunction_2_disjunct_2  R45       1
-    ind_disjunction_3_disjunct_2  c_disjunction_3_disjunct_2  6
-    ind_disjunction_3_disjunct_2  R48       1
-    ind_disjunction_4_disjunct_2  c_disjunction_4_disjunct_2  3
-    ind_disjunction_4_disjunct_2  R51       1
-    ind_disjunction_5_disjunct_2  c_disjunction_5_disjunct_2  6
-    ind_disjunction_5_disjunct_2  R54       1
-    ind_disjunction_6_disjunct_2  c_disjunction_6_disjunct_2  4
-    ind_disjunction_6_disjunct_2  R57       1
-    ind_disjunction_7_disjunct_2  c_disjunction_7_disjunct_2  4
-    ind_disjunction_7_disjunct_2  R60       1
-    ind_disjunction_8_disjunct_2  c_disjunction_8_disjunct_2  3
-    ind_disjunction_8_disjunct_2  R63       1
-    ind_disjunction_9_disjunct_2  c_disjunction_9_disjunct_2  4
-    ind_disjunction_9_disjunct_2  R66       1
-    ind_disjunction_10_disjunct_2  c_disjunction_10_disjunct_2  5
-    ind_disjunction_10_disjunct_2  R69       1
-    ind_disjunction_11_disjunct_2  c_disjunction_11_disjunct_2  7
-    ind_disjunction_11_disjunct_2  R72       1
-    ind_disjunction_12_disjunct_2  c_disjunction_12_disjunct_2  2
-    ind_disjunction_12_disjunct_2  R75       1
-    ind_disjunction_13_disjunct_2  c_disjunction_13_disjunct_2  4
-    ind_disjunction_13_disjunct_2  R78       1
-    ind_disjunction_14_disjunct_2  c_disjunction_14_disjunct_2  3
-    ind_disjunction_14_disjunct_2  R81       1
-    ind_disjunction_15_disjunct_2  c_disjunction_15_disjunct_2  4
-    ind_disjunction_15_disjunct_2  R84       1
-    ind_disjunction_16_disjunct_2  c_disjunction_16_disjunct_2  4
-    ind_disjunction_16_disjunct_2  R87       1
-    ind_disjunction_17_disjunct_2  c_disjunction_17_disjunct_2  5
-    ind_disjunction_17_disjunct_2  R90       1
-    ind_disjunction_18_disjunct_2  c_disjunction_18_disjunct_2  3
-    ind_disjunction_18_disjunct_2  R93       1
-    ind_disjunction_19_disjunct_2  c_disjunction_19_disjunct_2  5
-    ind_disjunction_19_disjunct_2  R96       1
-    ind_disjunction_20_disjunct_2  c_disjunction_20_disjunct_2  2
-    ind_disjunction_20_disjunct_2  R99       1
-    ind_disjunction_21_disjunct_2  c_disjunction_21_disjunct_2  6
-    ind_disjunction_21_disjunct_2  R102      1
-    ind_disjunction_22_disjunct_2  c_disjunction_22_disjunct_2  4
-    ind_disjunction_22_disjunct_2  R105      1
-    ind_disjunction_23_disjunct_2  c_disjunction_23_disjunct_2  2
-    ind_disjunction_23_disjunct_2  R108      1
-    ind_disjunction_24_disjunct_2  c_disjunction_24_disjunct_2  4
-    ind_disjunction_24_disjunct_2  R111      1
-    ind_disjunction_25_disjunct_2  c_disjunction_25_disjunct_2  5
-    ind_disjunction_25_disjunct_2  R114      1
-    ind_disjunction_26_disjunct_2  c_disjunction_26_disjunct_2  4
-    ind_disjunction_26_disjunct_2  R117      1
-    ind_disjunction_27_disjunct_2  c_disjunction_27_disjunct_2  2
-    ind_disjunction_27_disjunct_2  R120      1
-    ind_disjunction_28_disjunct_2  c_disjunction_28_disjunct_2  4
-    ind_disjunction_28_disjunct_2  R123      1
-    ind_disjunction_29_disjunct_2  c_disjunction_29_disjunct_2  1
-    ind_disjunction_29_disjunct_2  R126      1
+    ind_disjunction_1_disjunct_1  OBJ       1129
+    ind_disjunction_1_disjunct_1  c_disjunction_1_diajunct_1  -108
+    ind_disjunction_1_disjunct_1  R72       1
+    ind_disjunction_2_disjunct_1  OBJ       1129
+    ind_disjunction_2_disjunct_1  c_disjunction_2_diajunct_1  -108
+    ind_disjunction_2_disjunct_1  R75       1
+    ind_disjunction_3_disjunct_1  OBJ       1129
+    ind_disjunction_3_disjunct_1  c_disjunction_3_diajunct_1  -108
+    ind_disjunction_3_disjunct_1  R78       1
+    ind_disjunction_4_disjunct_1  OBJ       1129
+    ind_disjunction_4_disjunct_1  c_disjunction_4_diajunct_1  -108
+    ind_disjunction_4_disjunct_1  R81       1
+    ind_disjunction_5_disjunct_1  OBJ       1129
+    ind_disjunction_5_disjunct_1  c_disjunction_5_diajunct_1  -108
+    ind_disjunction_5_disjunct_1  R84       1
+    ind_disjunction_6_disjunct_1  OBJ       1129
+    ind_disjunction_6_disjunct_1  c_disjunction_6_diajunct_1  -108
+    ind_disjunction_6_disjunct_1  R87       1
+    ind_disjunction_7_disjunct_1  OBJ       1129
+    ind_disjunction_7_disjunct_1  c_disjunction_7_diajunct_1  -108
+    ind_disjunction_7_disjunct_1  R90       1
+    ind_disjunction_8_disjunct_1  OBJ       1129
+    ind_disjunction_8_disjunct_1  c_disjunction_8_diajunct_1  -108
+    ind_disjunction_8_disjunct_1  R93       1
+    ind_disjunction_9_disjunct_1  OBJ       1129
+    ind_disjunction_9_disjunct_1  c_disjunction_9_diajunct_1  -108
+    ind_disjunction_9_disjunct_1  R96       1
+    ind_disjunction_10_disjunct_1  OBJ       1129
+    ind_disjunction_10_disjunct_1  c_disjunction_10_diajunct_1  -108
+    ind_disjunction_10_disjunct_1  R99       1
+    ind_disjunction_11_disjunct_1  OBJ       1129
+    ind_disjunction_11_disjunct_1  c_disjunction_11_diajunct_1  -108
+    ind_disjunction_11_disjunct_1  R102      1
+    ind_disjunction_12_disjunct_1  OBJ       1129
+    ind_disjunction_12_disjunct_1  c_disjunction_12_diajunct_1  -108
+    ind_disjunction_12_disjunct_1  R105      1
+    ind_disjunction_13_disjunct_1  OBJ       1129
+    ind_disjunction_13_disjunct_1  c_disjunction_13_diajunct_1  -108
+    ind_disjunction_13_disjunct_1  R108      1
+    ind_disjunction_14_disjunct_1  OBJ       1129
+    ind_disjunction_14_disjunct_1  c_disjunction_14_diajunct_1  -108
+    ind_disjunction_14_disjunct_1  R111      1
+    ind_disjunction_15_disjunct_1  OBJ       1129
+    ind_disjunction_15_disjunct_1  c_disjunction_15_diajunct_1  -108
+    ind_disjunction_15_disjunct_1  R114      1
+    ind_disjunction_16_disjunct_1  OBJ       1129
+    ind_disjunction_16_disjunct_1  c_disjunction_16_diajunct_1  -108
+    ind_disjunction_16_disjunct_1  R117      1
+    ind_disjunction_17_disjunct_1  OBJ       1129
+    ind_disjunction_17_disjunct_1  c_disjunction_17_diajunct_1  -108
+    ind_disjunction_17_disjunct_1  R120      1
+    ind_disjunction_18_disjunct_1  OBJ       1129
+    ind_disjunction_18_disjunct_1  c_disjunction_18_diajunct_1  -108
+    ind_disjunction_18_disjunct_1  R123      1
+    ind_disjunction_19_disjunct_1  OBJ       1129
+    ind_disjunction_19_disjunct_1  c_disjunction_19_diajunct_1  -108
+    ind_disjunction_19_disjunct_1  R126      1
+    ind_disjunction_20_disjunct_1  OBJ       1129
+    ind_disjunction_20_disjunct_1  c_disjunction_20_diajunct_1  -108
+    ind_disjunction_20_disjunct_1  R129      1
+    ind_disjunction_21_disjunct_1  OBJ       1129
+    ind_disjunction_21_disjunct_1  c_disjunction_21_diajunct_1  -108
+    ind_disjunction_21_disjunct_1  R132      1
+    ind_disjunction_22_disjunct_1  OBJ       1129
+    ind_disjunction_22_disjunct_1  c_disjunction_22_diajunct_1  -108
+    ind_disjunction_22_disjunct_1  R135      1
+    ind_disjunction_23_disjunct_1  OBJ       1129
+    ind_disjunction_23_disjunct_1  c_disjunction_23_diajunct_1  -108
+    ind_disjunction_23_disjunct_1  R138      1
+    ind_disjunction_24_disjunct_1  OBJ       1129
+    ind_disjunction_24_disjunct_1  c_disjunction_24_diajunct_1  -108
+    ind_disjunction_24_disjunct_1  R141      1
+    ind_disjunction_25_disjunct_1  OBJ       1129
+    ind_disjunction_25_disjunct_1  c_disjunction_25_diajunct_1  -108
+    ind_disjunction_25_disjunct_1  R144      1
+    ind_disjunction_26_disjunct_1  OBJ       1129
+    ind_disjunction_26_disjunct_1  c_disjunction_26_diajunct_1  -108
+    ind_disjunction_26_disjunct_1  R147      1
+    ind_disjunction_27_disjunct_1  OBJ       1129
+    ind_disjunction_27_disjunct_1  c_disjunction_27_diajunct_1  -108
+    ind_disjunction_27_disjunct_1  R150      1
+    ind_disjunction_28_disjunct_1  OBJ       1129
+    ind_disjunction_28_disjunct_1  c_disjunction_28_diajunct_1  -108
+    ind_disjunction_28_disjunct_1  R153      1
+    ind_disjunction_29_disjunct_1  OBJ       1129
+    ind_disjunction_29_disjunct_1  c_disjunction_29_diajunct_1  -108
+    ind_disjunction_29_disjunct_1  R156      1
+    ind_disjunction_30_disjunct_1  OBJ       1129
+    ind_disjunction_30_disjunct_1  c_disjunction_30_diajunct_1  -108
+    ind_disjunction_30_disjunct_1  R159      1
+    ind_disjunction_31_disjunct_1  OBJ       1129
+    ind_disjunction_31_disjunct_1  c_disjunction_31_diajunct_1  -108
+    ind_disjunction_31_disjunct_1  R162      1
+    ind_disjunction_32_disjunct_1  OBJ       1129
+    ind_disjunction_32_disjunct_1  c_disjunction_32_diajunct_1  -108
+    ind_disjunction_32_disjunct_1  R165      1
+    ind_disjunction_33_disjunct_1  OBJ       1129
+    ind_disjunction_33_disjunct_1  c_disjunction_33_diajunct_1  -108
+    ind_disjunction_33_disjunct_1  R168      1
+    ind_disjunction_34_disjunct_1  OBJ       1129
+    ind_disjunction_34_disjunct_1  c_disjunction_34_diajunct_1  -108
+    ind_disjunction_34_disjunct_1  R171      1
+    ind_disjunction_35_disjunct_1  OBJ       1129
+    ind_disjunction_35_disjunct_1  c_disjunction_35_diajunct_1  -108
+    ind_disjunction_35_disjunct_1  R174      1
+    ind_disjunction_36_disjunct_1  OBJ       1129
+    ind_disjunction_36_disjunct_1  c_disjunction_36_diajunct_1  -108
+    ind_disjunction_36_disjunct_1  R177      1
+    ind_disjunction_37_disjunct_1  OBJ       1129
+    ind_disjunction_37_disjunct_1  c_disjunction_37_diajunct_1  -108
+    ind_disjunction_37_disjunct_1  R180      1
+    ind_disjunction_38_disjunct_1  OBJ       1129
+    ind_disjunction_38_disjunct_1  c_disjunction_38_diajunct_1  -108
+    ind_disjunction_38_disjunct_1  R183      1
+    ind_disjunction_39_disjunct_1  OBJ       1129
+    ind_disjunction_39_disjunct_1  c_disjunction_39_diajunct_1  -108
+    ind_disjunction_39_disjunct_1  R186      1
+    ind_disjunction_40_disjunct_1  OBJ       1129
+    ind_disjunction_40_disjunct_1  c_disjunction_40_diajunct_1  -108
+    ind_disjunction_40_disjunct_1  R189      1
+    ind_disjunction_41_disjunct_1  OBJ       1129
+    ind_disjunction_41_disjunct_1  c_disjunction_41_diajunct_1  -108
+    ind_disjunction_41_disjunct_1  R192      1
+    ind_disjunction_42_disjunct_1  OBJ       1129
+    ind_disjunction_42_disjunct_1  c_disjunction_42_diajunct_1  -108
+    ind_disjunction_42_disjunct_1  R195      1
+    ind_disjunction_43_disjunct_1  OBJ       1129
+    ind_disjunction_43_disjunct_1  c_disjunction_43_diajunct_1  -108
+    ind_disjunction_43_disjunct_1  R198      1
+    ind_disjunction_44_disjunct_1  OBJ       1129
+    ind_disjunction_44_disjunct_1  c_disjunction_44_diajunct_1  -108
+    ind_disjunction_44_disjunct_1  R201      1
+    ind_disjunction_45_disjunct_1  OBJ       1129
+    ind_disjunction_45_disjunct_1  c_disjunction_45_diajunct_1  -108
+    ind_disjunction_45_disjunct_1  R204      1
+    ind_disjunction_46_disjunct_1  OBJ       1129
+    ind_disjunction_46_disjunct_1  c_disjunction_46_diajunct_1  -108
+    ind_disjunction_46_disjunct_1  R207      1
+    ind_disjunction_47_disjunct_1  OBJ       1129
+    ind_disjunction_47_disjunct_1  c_disjunction_47_diajunct_1  -108
+    ind_disjunction_47_disjunct_1  R210      1
+    ind_disjunction_48_disjunct_1  OBJ       1129
+    ind_disjunction_48_disjunct_1  c_disjunction_48_diajunct_1  -108
+    ind_disjunction_48_disjunct_1  R213      1
+    ind_disjunction_49_disjunct_1  OBJ       1129
+    ind_disjunction_49_disjunct_1  c_disjunction_49_diajunct_1  -108
+    ind_disjunction_49_disjunct_1  R216      1
+    ind_disjunction_50_disjunct_1  OBJ       1129
+    ind_disjunction_50_disjunct_1  c_disjunction_50_diajunct_1  -108
+    ind_disjunction_50_disjunct_1  R219      1
+    ind_disjunction_51_disjunct_1  OBJ       1129
+    ind_disjunction_51_disjunct_1  c_disjunction_51_diajunct_1  -108
+    ind_disjunction_51_disjunct_1  R222      1
+    ind_disjunction_52_disjunct_1  OBJ       1129
+    ind_disjunction_52_disjunct_1  c_disjunction_52_diajunct_1  -108
+    ind_disjunction_52_disjunct_1  R225      1
+    ind_disjunction_53_disjunct_1  OBJ       1129
+    ind_disjunction_53_disjunct_1  c_disjunction_53_diajunct_1  -108
+    ind_disjunction_53_disjunct_1  R228      1
+    ind_disjunction_54_disjunct_1  OBJ       1129
+    ind_disjunction_54_disjunct_1  c_disjunction_54_diajunct_1  -108
+    ind_disjunction_54_disjunct_1  R231      1
+    ind_disjunction_55_disjunct_1  OBJ       1129
+    ind_disjunction_55_disjunct_1  c_disjunction_55_diajunct_1  -108
+    ind_disjunction_55_disjunct_1  R234      1
+    ind_disjunction_56_disjunct_1  OBJ       1129
+    ind_disjunction_56_disjunct_1  c_disjunction_56_diajunct_1  -108
+    ind_disjunction_56_disjunct_1  R237      1
+    ind_disjunction_57_disjunct_1  OBJ       1129
+    ind_disjunction_57_disjunct_1  c_disjunction_57_diajunct_1  -108
+    ind_disjunction_57_disjunct_1  R240      1
+    ind_disjunction_58_disjunct_1  OBJ       1129
+    ind_disjunction_58_disjunct_1  c_disjunction_58_diajunct_1  -108
+    ind_disjunction_58_disjunct_1  R243      1
+    ind_disjunction_59_disjunct_1  OBJ       1129
+    ind_disjunction_59_disjunct_1  c_disjunction_59_diajunct_1  -108
+    ind_disjunction_59_disjunct_1  R246      1
+    ind_disjunction_60_disjunct_1  OBJ       1129
+    ind_disjunction_60_disjunct_1  c_disjunction_60_diajunct_1  -108
+    ind_disjunction_60_disjunct_1  R249      1
+    ind_disjunction_61_disjunct_1  OBJ       1129
+    ind_disjunction_61_disjunct_1  c_disjunction_61_diajunct_1  -108
+    ind_disjunction_61_disjunct_1  R252      1
+    ind_disjunction_62_disjunct_1  OBJ       1129
+    ind_disjunction_62_disjunct_1  c_disjunction_62_diajunct_1  -108
+    ind_disjunction_62_disjunct_1  R255      1
+    ind_disjunction_63_disjunct_1  OBJ       1129
+    ind_disjunction_63_disjunct_1  c_disjunction_63_diajunct_1  -108
+    ind_disjunction_63_disjunct_1  R258      1
+    ind_disjunction_64_disjunct_1  OBJ       1129
+    ind_disjunction_64_disjunct_1  c_disjunction_64_diajunct_1  -108
+    ind_disjunction_64_disjunct_1  R261      1
+    ind_disjunction_65_disjunct_1  OBJ       1129
+    ind_disjunction_65_disjunct_1  c_disjunction_65_diajunct_1  -108
+    ind_disjunction_65_disjunct_1  R264      1
+    ind_disjunction_66_disjunct_1  OBJ       1129
+    ind_disjunction_66_disjunct_1  c_disjunction_66_diajunct_1  -108
+    ind_disjunction_66_disjunct_1  R267      1
+    ind_disjunction_67_disjunct_1  OBJ       1129
+    ind_disjunction_67_disjunct_1  c_disjunction_67_diajunct_1  -108
+    ind_disjunction_67_disjunct_1  R270      1
+    ind_disjunction_68_disjunct_1  OBJ       1129
+    ind_disjunction_68_disjunct_1  c_disjunction_68_diajunct_1  -108
+    ind_disjunction_68_disjunct_1  R273      1
+    ind_disjunction_69_disjunct_1  OBJ       1129
+    ind_disjunction_69_disjunct_1  c_disjunction_69_diajunct_1  -108
+    ind_disjunction_69_disjunct_1  R276      1
+    ind_disjunction_70_disjunct_1  OBJ       1129
+    ind_disjunction_70_disjunct_1  c_disjunction_70_diajunct_1  -108
+    ind_disjunction_70_disjunct_1  R279      1
+    ind_disjunction_1_disjunct_2  c_disjunction_1_disjunct_2  8
+    ind_disjunction_1_disjunct_2  R72       1
+    ind_disjunction_2_disjunct_2  c_disjunction_2_disjunct_2  6
+    ind_disjunction_2_disjunct_2  R75       1
+    ind_disjunction_3_disjunct_2  c_disjunction_3_disjunct_2  9
+    ind_disjunction_3_disjunct_2  R78       1
+    ind_disjunction_4_disjunct_2  c_disjunction_4_disjunct_2  6
+    ind_disjunction_4_disjunct_2  R81       1
+    ind_disjunction_5_disjunct_2  c_disjunction_5_disjunct_2  7
+    ind_disjunction_5_disjunct_2  R84       1
+    ind_disjunction_6_disjunct_2  c_disjunction_6_disjunct_2  6
+    ind_disjunction_6_disjunct_2  R87       1
+    ind_disjunction_7_disjunct_2  c_disjunction_7_disjunct_2  5
+    ind_disjunction_7_disjunct_2  R90       1
+    ind_disjunction_8_disjunct_2  c_disjunction_8_disjunct_2  2
+    ind_disjunction_8_disjunct_2  R93       1
+    ind_disjunction_9_disjunct_2  c_disjunction_9_disjunct_2  8
+    ind_disjunction_9_disjunct_2  R96       1
+    ind_disjunction_10_disjunct_2  c_disjunction_10_disjunct_2  10
+    ind_disjunction_10_disjunct_2  R99       1
+    ind_disjunction_11_disjunct_2  c_disjunction_11_disjunct_2  5
+    ind_disjunction_11_disjunct_2  R102      1
+    ind_disjunction_12_disjunct_2  c_disjunction_12_disjunct_2  6
+    ind_disjunction_12_disjunct_2  R105      1
+    ind_disjunction_13_disjunct_2  c_disjunction_13_disjunct_2  7
+    ind_disjunction_13_disjunct_2  R108      1
+    ind_disjunction_14_disjunct_2  c_disjunction_14_disjunct_2  7
+    ind_disjunction_14_disjunct_2  R111      1
+    ind_disjunction_15_disjunct_2  c_disjunction_15_disjunct_2  7
+    ind_disjunction_15_disjunct_2  R114      1
+    ind_disjunction_16_disjunct_2  c_disjunction_16_disjunct_2  7
+    ind_disjunction_16_disjunct_2  R117      1
+    ind_disjunction_17_disjunct_2  c_disjunction_17_disjunct_2  6
+    ind_disjunction_17_disjunct_2  R120      1
+    ind_disjunction_18_disjunct_2  c_disjunction_18_disjunct_2  9
+    ind_disjunction_18_disjunct_2  R123      1
+    ind_disjunction_19_disjunct_2  c_disjunction_19_disjunct_2  7
+    ind_disjunction_19_disjunct_2  R126      1
+    ind_disjunction_20_disjunct_2  c_disjunction_20_disjunct_2  5
+    ind_disjunction_20_disjunct_2  R129      1
+    ind_disjunction_21_disjunct_2  c_disjunction_21_disjunct_2  8
+    ind_disjunction_21_disjunct_2  R132      1
+    ind_disjunction_22_disjunct_2  c_disjunction_22_disjunct_2  8
+    ind_disjunction_22_disjunct_2  R135      1
+    ind_disjunction_23_disjunct_2  c_disjunction_23_disjunct_2  4
+    ind_disjunction_23_disjunct_2  R138      1
+    ind_disjunction_24_disjunct_2  c_disjunction_24_disjunct_2  6
+    ind_disjunction_24_disjunct_2  R141      1
+    ind_disjunction_25_disjunct_2  c_disjunction_25_disjunct_2  6
+    ind_disjunction_25_disjunct_2  R144      1
+    ind_disjunction_26_disjunct_2  c_disjunction_26_disjunct_2  5
+    ind_disjunction_26_disjunct_2  R147      1
+    ind_disjunction_27_disjunct_2  c_disjunction_27_disjunct_2  9
+    ind_disjunction_27_disjunct_2  R150      1
+    ind_disjunction_28_disjunct_2  c_disjunction_28_disjunct_2  8
+    ind_disjunction_28_disjunct_2  R153      1
+    ind_disjunction_29_disjunct_2  c_disjunction_29_disjunct_2  10
+    ind_disjunction_29_disjunct_2  R156      1
     ind_disjunction_30_disjunct_2  c_disjunction_30_disjunct_2  2
-    ind_disjunction_30_disjunct_2  R129      1
-    ind_disjunction_31_disjunct_2  c_disjunction_31_disjunct_2  5
-    ind_disjunction_31_disjunct_2  R132      1
-    ind_disjunction_32_disjunct_2  c_disjunction_32_disjunct_2  4
-    ind_disjunction_32_disjunct_2  R135      1
-    ind_disjunction_33_disjunct_2  c_disjunction_33_disjunct_2  5
-    ind_disjunction_33_disjunct_2  R138      1
-    ind_disjunction_34_disjunct_2  c_disjunction_34_disjunct_2  4
-    ind_disjunction_34_disjunct_2  R141      1
-    ind_disjunction_35_disjunct_2  c_disjunction_35_disjunct_2  4
-    ind_disjunction_35_disjunct_2  R144      1
-    ind_disjunction_36_disjunct_2  c_disjunction_36_disjunct_2  3
-    ind_disjunction_36_disjunct_2  R147      1
-    ind_disjunction_37_disjunct_2  c_disjunction_37_disjunct_2  5
-    ind_disjunction_37_disjunct_2  R150      1
-    ind_disjunction_38_disjunct_2  c_disjunction_38_disjunct_2  4
-    ind_disjunction_38_disjunct_2  R153      1
+    ind_disjunction_30_disjunct_2  R159      1
+    ind_disjunction_31_disjunct_2  c_disjunction_31_disjunct_2  9
+    ind_disjunction_31_disjunct_2  R162      1
+    ind_disjunction_32_disjunct_2  c_disjunction_32_disjunct_2  11
+    ind_disjunction_32_disjunct_2  R165      1
+    ind_disjunction_33_disjunct_2  c_disjunction_33_disjunct_2  11
+    ind_disjunction_33_disjunct_2  R168      1
+    ind_disjunction_34_disjunct_2  c_disjunction_34_disjunct_2  6
+    ind_disjunction_34_disjunct_2  R171      1
+    ind_disjunction_35_disjunct_2  c_disjunction_35_disjunct_2  10
+    ind_disjunction_35_disjunct_2  R174      1
+    ind_disjunction_36_disjunct_2  c_disjunction_36_disjunct_2  7
+    ind_disjunction_36_disjunct_2  R177      1
+    ind_disjunction_37_disjunct_2  c_disjunction_37_disjunct_2  4
+    ind_disjunction_37_disjunct_2  R180      1
+    ind_disjunction_38_disjunct_2  c_disjunction_38_disjunct_2  8
+    ind_disjunction_38_disjunct_2  R183      1
     ind_disjunction_39_disjunct_2  c_disjunction_39_disjunct_2  5
-    ind_disjunction_39_disjunct_2  R156      1
-    ind_disjunction_40_disjunct_2  c_disjunction_40_disjunct_2  4
-    ind_disjunction_40_disjunct_2  R159      1
+    ind_disjunction_39_disjunct_2  R186      1
+    ind_disjunction_40_disjunct_2  c_disjunction_40_disjunct_2  5
+    ind_disjunction_40_disjunct_2  R189      1
+    ind_disjunction_41_disjunct_2  c_disjunction_41_disjunct_2  10
+    ind_disjunction_41_disjunct_2  R192      1
+    ind_disjunction_42_disjunct_2  c_disjunction_42_disjunct_2  5
+    ind_disjunction_42_disjunct_2  R195      1
+    ind_disjunction_43_disjunct_2  c_disjunction_43_disjunct_2  9
+    ind_disjunction_43_disjunct_2  R198      1
+    ind_disjunction_44_disjunct_2  c_disjunction_44_disjunct_2  9
+    ind_disjunction_44_disjunct_2  R201      1
+    ind_disjunction_45_disjunct_2  c_disjunction_45_disjunct_2  5
+    ind_disjunction_45_disjunct_2  R204      1
+    ind_disjunction_46_disjunct_2  c_disjunction_46_disjunct_2  7
+    ind_disjunction_46_disjunct_2  R207      1
+    ind_disjunction_47_disjunct_2  c_disjunction_47_disjunct_2  5
+    ind_disjunction_47_disjunct_2  R210      1
+    ind_disjunction_48_disjunct_2  c_disjunction_48_disjunct_2  5
+    ind_disjunction_48_disjunct_2  R213      1
+    ind_disjunction_49_disjunct_2  c_disjunction_49_disjunct_2  4
+    ind_disjunction_49_disjunct_2  R216      1
+    ind_disjunction_50_disjunct_2  c_disjunction_50_disjunct_2  7
+    ind_disjunction_50_disjunct_2  R219      1
+    ind_disjunction_51_disjunct_2  c_disjunction_51_disjunct_2  9
+    ind_disjunction_51_disjunct_2  R222      1
+    ind_disjunction_52_disjunct_2  c_disjunction_52_disjunct_2  8
+    ind_disjunction_52_disjunct_2  R225      1
+    ind_disjunction_53_disjunct_2  c_disjunction_53_disjunct_2  8
+    ind_disjunction_53_disjunct_2  R228      1
+    ind_disjunction_54_disjunct_2  c_disjunction_54_disjunct_2  9
+    ind_disjunction_54_disjunct_2  R231      1
+    ind_disjunction_55_disjunct_2  c_disjunction_55_disjunct_2  8
+    ind_disjunction_55_disjunct_2  R234      1
+    ind_disjunction_56_disjunct_2  c_disjunction_56_disjunct_2  8
+    ind_disjunction_56_disjunct_2  R237      1
+    ind_disjunction_57_disjunct_2  c_disjunction_57_disjunct_2  8
+    ind_disjunction_57_disjunct_2  R240      1
+    ind_disjunction_58_disjunct_2  c_disjunction_58_disjunct_2  6
+    ind_disjunction_58_disjunct_2  R243      1
+    ind_disjunction_59_disjunct_2  c_disjunction_59_disjunct_2  7
+    ind_disjunction_59_disjunct_2  R246      1
+    ind_disjunction_60_disjunct_2  c_disjunction_60_disjunct_2  10
+    ind_disjunction_60_disjunct_2  R249      1
+    ind_disjunction_61_disjunct_2  c_disjunction_61_disjunct_2  9
+    ind_disjunction_61_disjunct_2  R252      1
+    ind_disjunction_62_disjunct_2  c_disjunction_62_disjunct_2  6
+    ind_disjunction_62_disjunct_2  R255      1
+    ind_disjunction_63_disjunct_2  c_disjunction_63_disjunct_2  7
+    ind_disjunction_63_disjunct_2  R258      1
+    ind_disjunction_64_disjunct_2  c_disjunction_64_disjunct_2  8
+    ind_disjunction_64_disjunct_2  R261      1
+    ind_disjunction_65_disjunct_2  c_disjunction_65_disjunct_2  8
+    ind_disjunction_65_disjunct_2  R264      1
+    ind_disjunction_66_disjunct_2  c_disjunction_66_disjunct_2  8
+    ind_disjunction_66_disjunct_2  R267      1
+    ind_disjunction_67_disjunct_2  c_disjunction_67_disjunct_2  6
+    ind_disjunction_67_disjunct_2  R270      1
+    ind_disjunction_68_disjunct_2  c_disjunction_68_disjunct_2  4
+    ind_disjunction_68_disjunct_2  R273      1
+    ind_disjunction_69_disjunct_2  c_disjunction_69_disjunct_2  5
+    ind_disjunction_69_disjunct_2  R276      1
+    ind_disjunction_70_disjunct_2  c_disjunction_70_disjunct_2  7
+    ind_disjunction_70_disjunct_2  R279      1
     x[1,1]    demand_1  1
-    x[1,1]    c_disjunction_1_diajunct_1  17
+    x[1,1]    c_disjunction_1_diajunct_1  14
     x[1,1]    c_disjunction_1_disjunct_2  1
-    x[19,1]   OBJ       16.6
-    x[19,1]   demand_1  1
-    x[19,1]   c_disjunction_19_diajunct_1  17
-    x[19,1]   c_disjunction_19_disjunct_2  1
-    x[26,1]   OBJ       20.3
-    x[26,1]   demand_1  1
-    x[26,1]   c_disjunction_26_diajunct_1  17
-    x[26,1]   c_disjunction_26_disjunct_2  1
-    x[16,1]   OBJ       20.6
-    x[16,1]   demand_1  1
-    x[16,1]   c_disjunction_16_diajunct_1  17
-    x[16,1]   c_disjunction_16_disjunct_2  1
+    x[34,1]   OBJ       15.2
+    x[34,1]   demand_1  1
+    x[34,1]   c_disjunction_34_diajunct_1  14
+    x[34,1]   c_disjunction_34_disjunct_2  1
+    x[18,1]   OBJ       18
+    x[18,1]   demand_1  1
+    x[18,1]   c_disjunction_18_diajunct_1  14
+    x[18,1]   c_disjunction_18_disjunct_2  1
+    x[40,1]   OBJ       26
+    x[40,1]   demand_1  1
+    x[40,1]   c_disjunction_40_diajunct_1  14
+    x[40,1]   c_disjunction_40_disjunct_2  1
+    x[55,1]   OBJ       27.9
+    x[55,1]   demand_1  1
+    x[55,1]   c_disjunction_55_diajunct_1  14
+    x[55,1]   c_disjunction_55_disjunct_2  1
+    x[63,1]   OBJ       28
+    x[63,1]   demand_1  1
+    x[63,1]   c_disjunction_63_diajunct_1  14
+    x[63,1]   c_disjunction_63_disjunct_2  1
+    x[28,1]   OBJ       28.9
+    x[28,1]   demand_1  1
+    x[28,1]   c_disjunction_28_diajunct_1  14
+    x[28,1]   c_disjunction_28_disjunct_2  1
     x[2,2]    demand_2  1
-    x[2,2]    c_disjunction_2_diajunct_1  9
+    x[2,2]    c_disjunction_2_diajunct_1  5
     x[2,2]    c_disjunction_2_disjunct_2  1
-    x[21,2]   OBJ       13.3
-    x[21,2]   demand_2  1
-    x[21,2]   c_disjunction_21_diajunct_1  9
-    x[21,2]   c_disjunction_21_disjunct_2  1
-    x[4,2]    OBJ       13.4
-    x[4,2]    demand_2  1
-    x[4,2]    c_disjunction_4_diajunct_1  9
-    x[4,2]    c_disjunction_4_disjunct_2  1
-    x[8,2]    OBJ       13.7
-    x[8,2]    demand_2  1
-    x[8,2]    c_disjunction_8_diajunct_1  9
-    x[8,2]    c_disjunction_8_disjunct_2  1
+    x[65,2]   OBJ       2
+    x[65,2]   demand_2  1
+    x[65,2]   c_disjunction_65_diajunct_1  5
+    x[65,2]   c_disjunction_65_disjunct_2  1
+    x[62,2]   OBJ       3
+    x[62,2]   demand_2  1
+    x[62,2]   c_disjunction_62_diajunct_1  5
+    x[62,2]   c_disjunction_62_disjunct_2  1
+    x[54,2]   OBJ       4.6
+    x[54,2]   demand_2  1
+    x[54,2]   c_disjunction_54_diajunct_1  5
+    x[54,2]   c_disjunction_54_disjunct_2  1
+    x[24,2]   OBJ       4.6
+    x[24,2]   demand_2  1
+    x[24,2]   c_disjunction_24_diajunct_1  5
+    x[24,2]   c_disjunction_24_disjunct_2  1
+    x[61,2]   OBJ       5.7
+    x[61,2]   demand_2  1
+    x[61,2]   c_disjunction_61_diajunct_1  5
+    x[61,2]   c_disjunction_61_disjunct_2  1
+    x[9,2]    OBJ       6.8
+    x[9,2]    demand_2  1
+    x[9,2]    c_disjunction_9_diajunct_1  5
+    x[9,2]    c_disjunction_9_disjunct_2  1
     x[3,3]    demand_3  1
-    x[3,3]    c_disjunction_3_diajunct_1  12
+    x[3,3]    c_disjunction_3_diajunct_1  20
     x[3,3]    c_disjunction_3_disjunct_2  1
-    x[36,3]   OBJ       12.7
-    x[36,3]   demand_3  1
-    x[36,3]   c_disjunction_36_diajunct_1  12
-    x[36,3]   c_disjunction_36_disjunct_2  1
-    x[5,3]    OBJ       13.2
-    x[5,3]    demand_3  1
-    x[5,3]    c_disjunction_5_diajunct_1  12
-    x[5,3]    c_disjunction_5_disjunct_2  1
-    x[25,3]   OBJ       15.9
-    x[25,3]   demand_3  1
-    x[25,3]   c_disjunction_25_diajunct_1  12
-    x[25,3]   c_disjunction_25_disjunct_2  1
+    x[28,3]   OBJ       9
+    x[28,3]   demand_3  1
+    x[28,3]   c_disjunction_28_diajunct_1  20
+    x[28,3]   c_disjunction_28_disjunct_2  1
+    x[44,3]   OBJ       18.7
+    x[44,3]   demand_3  1
+    x[44,3]   c_disjunction_44_diajunct_1  20
+    x[44,3]   c_disjunction_44_disjunct_2  1
+    x[32,3]   OBJ       19.1
+    x[32,3]   demand_3  1
+    x[32,3]   c_disjunction_32_diajunct_1  20
+    x[32,3]   c_disjunction_32_disjunct_2  1
+    x[17,3]   OBJ       24.5
+    x[17,3]   demand_3  1
+    x[17,3]   c_disjunction_17_diajunct_1  20
+    x[17,3]   c_disjunction_17_disjunct_2  1
+    x[55,3]   OBJ       30
+    x[55,3]   demand_3  1
+    x[55,3]   c_disjunction_55_diajunct_1  20
+    x[55,3]   c_disjunction_55_disjunct_2  1
+    x[34,3]   OBJ       30.7
+    x[34,3]   demand_3  1
+    x[34,3]   c_disjunction_34_diajunct_1  20
+    x[34,3]   c_disjunction_34_disjunct_2  1
     x[4,4]    demand_4  1
-    x[4,4]    c_disjunction_4_diajunct_1  10
+    x[4,4]    c_disjunction_4_diajunct_1  14
     x[4,4]    c_disjunction_4_disjunct_2  1
-    x[8,4]    OBJ       6.2
-    x[8,4]    demand_4  1
-    x[8,4]    c_disjunction_8_diajunct_1  10
-    x[8,4]    c_disjunction_8_disjunct_2  1
-    x[2,4]    OBJ       14.8
-    x[2,4]    demand_4  1
-    x[2,4]    c_disjunction_2_diajunct_1  10
-    x[2,4]    c_disjunction_2_disjunct_2  1
-    x[13,4]   OBJ       26.6
-    x[13,4]   demand_4  1
-    x[13,4]   c_disjunction_13_diajunct_1  10
-    x[13,4]   c_disjunction_13_disjunct_2  1
+    x[20,4]   OBJ       5.1
+    x[20,4]   demand_4  1
+    x[20,4]   c_disjunction_20_diajunct_1  14
+    x[20,4]   c_disjunction_20_disjunct_2  1
+    x[46,4]   OBJ       13.1
+    x[46,4]   demand_4  1
+    x[46,4]   c_disjunction_46_diajunct_1  14
+    x[46,4]   c_disjunction_46_disjunct_2  1
+    x[16,4]   OBJ       14.1
+    x[16,4]   demand_4  1
+    x[16,4]   c_disjunction_16_diajunct_1  14
+    x[16,4]   c_disjunction_16_disjunct_2  1
+    x[51,4]   OBJ       20.1
+    x[51,4]   demand_4  1
+    x[51,4]   c_disjunction_51_diajunct_1  14
+    x[51,4]   c_disjunction_51_disjunct_2  1
+    x[53,4]   OBJ       21.4
+    x[53,4]   demand_4  1
+    x[53,4]   c_disjunction_53_diajunct_1  14
+    x[53,4]   c_disjunction_53_disjunct_2  1
+    x[67,4]   OBJ       21.5
+    x[67,4]   demand_4  1
+    x[67,4]   c_disjunction_67_diajunct_1  14
+    x[67,4]   c_disjunction_67_disjunct_2  1
     x[5,5]    demand_5  1
-    x[5,5]    c_disjunction_5_diajunct_1  22
+    x[5,5]    c_disjunction_5_diajunct_1  27
     x[5,5]    c_disjunction_5_disjunct_2  1
-    x[25,5]   OBJ       14.4
-    x[25,5]   demand_5  1
-    x[25,5]   c_disjunction_25_diajunct_1  22
-    x[25,5]   c_disjunction_25_disjunct_2  1
-    x[17,5]   OBJ       21.4
-    x[17,5]   demand_5  1
-    x[17,5]   c_disjunction_17_diajunct_1  22
-    x[17,5]   c_disjunction_17_disjunct_2  1
-    x[3,5]    OBJ       24.1
-    x[3,5]    demand_5  1
-    x[3,5]    c_disjunction_3_diajunct_1  22
-    x[3,5]    c_disjunction_3_disjunct_2  1
+    x[61,5]   OBJ       15
+    x[61,5]   demand_5  1
+    x[61,5]   c_disjunction_61_diajunct_1  27
+    x[61,5]   c_disjunction_61_disjunct_2  1
+    x[57,5]   OBJ       19.6
+    x[57,5]   demand_5  1
+    x[57,5]   c_disjunction_57_diajunct_1  27
+    x[57,5]   c_disjunction_57_disjunct_2  1
+    x[31,5]   OBJ       24.6
+    x[31,5]   demand_5  1
+    x[31,5]   c_disjunction_31_diajunct_1  27
+    x[31,5]   c_disjunction_31_disjunct_2  1
+    x[24,5]   OBJ       25.3
+    x[24,5]   demand_5  1
+    x[24,5]   c_disjunction_24_diajunct_1  27
+    x[24,5]   c_disjunction_24_disjunct_2  1
+    x[10,5]   OBJ       26.5
+    x[10,5]   demand_5  1
+    x[10,5]   c_disjunction_10_diajunct_1  27
+    x[10,5]   c_disjunction_10_disjunct_2  1
+    x[65,5]   OBJ       27.3
+    x[65,5]   demand_5  1
+    x[65,5]   c_disjunction_65_diajunct_1  27
+    x[65,5]   c_disjunction_65_disjunct_2  1
     x[6,6]    demand_6  1
     x[6,6]    c_disjunction_6_diajunct_1  19
     x[6,6]    c_disjunction_6_disjunct_2  1
-    x[9,6]    OBJ       0.9
-    x[9,6]    demand_6  1
-    x[9,6]    c_disjunction_9_diajunct_1  19
-    x[9,6]    c_disjunction_9_disjunct_2  1
-    x[11,6]   OBJ       11
-    x[11,6]   demand_6  1
-    x[11,6]   c_disjunction_11_diajunct_1  19
-    x[11,6]   c_disjunction_11_disjunct_2  1
-    x[37,6]   OBJ       18.2
-    x[37,6]   demand_6  1
-    x[37,6]   c_disjunction_37_diajunct_1  19
-    x[37,6]   c_disjunction_37_disjunct_2  1
+    x[36,6]   OBJ       14.5
+    x[36,6]   demand_6  1
+    x[36,6]   c_disjunction_36_diajunct_1  19
+    x[36,6]   c_disjunction_36_disjunct_2  1
+    x[27,6]   OBJ       21.4
+    x[27,6]   demand_6  1
+    x[27,6]   c_disjunction_27_diajunct_1  19
+    x[27,6]   c_disjunction_27_disjunct_2  1
+    x[18,6]   OBJ       22.9
+    x[18,6]   demand_6  1
+    x[18,6]   c_disjunction_18_diajunct_1  19
+    x[18,6]   c_disjunction_18_disjunct_2  1
+    x[40,6]   OBJ       26.6
+    x[40,6]   demand_6  1
+    x[40,6]   c_disjunction_40_diajunct_1  19
+    x[40,6]   c_disjunction_40_disjunct_2  1
+    x[25,6]   OBJ       37
+    x[25,6]   demand_6  1
+    x[25,6]   c_disjunction_25_diajunct_1  19
+    x[25,6]   c_disjunction_25_disjunct_2  1
+    x[1,6]    OBJ       43.3
+    x[1,6]    demand_6  1
+    x[1,6]    c_disjunction_1_diajunct_1  19
+    x[1,6]    c_disjunction_1_disjunct_2  1
     x[7,7]    demand_7  1
-    x[7,7]    c_disjunction_7_diajunct_1  16
+    x[7,7]    c_disjunction_7_diajunct_1  6
     x[7,7]    c_disjunction_7_disjunct_2  1
-    x[12,7]   OBJ       14.7
+    x[12,7]   OBJ       4
     x[12,7]   demand_7  1
-    x[12,7]   c_disjunction_12_diajunct_1  16
+    x[12,7]   c_disjunction_12_diajunct_1  6
     x[12,7]   c_disjunction_12_disjunct_2  1
-    x[32,7]   OBJ       16
-    x[32,7]   demand_7  1
-    x[32,7]   c_disjunction_32_diajunct_1  16
-    x[32,7]   c_disjunction_32_disjunct_2  1
-    x[11,7]   OBJ       22.5
-    x[11,7]   demand_7  1
-    x[11,7]   c_disjunction_11_diajunct_1  16
-    x[11,7]   c_disjunction_11_disjunct_2  1
+    x[45,7]   OBJ       5.4
+    x[45,7]   demand_7  1
+    x[45,7]   c_disjunction_45_diajunct_1  6
+    x[45,7]   c_disjunction_45_disjunct_2  1
+    x[21,7]   OBJ       7.9
+    x[21,7]   demand_7  1
+    x[21,7]   c_disjunction_21_diajunct_1  6
+    x[21,7]   c_disjunction_21_disjunct_2  1
+    x[15,7]   OBJ       9.7
+    x[15,7]   demand_7  1
+    x[15,7]   c_disjunction_15_diajunct_1  6
+    x[15,7]   c_disjunction_15_disjunct_2  1
+    x[13,7]   OBJ       13.9
+    x[13,7]   demand_7  1
+    x[13,7]   c_disjunction_13_diajunct_1  6
+    x[13,7]   c_disjunction_13_disjunct_2  1
+    x[55,7]   OBJ       14.5
+    x[55,7]   demand_7  1
+    x[55,7]   c_disjunction_55_diajunct_1  6
+    x[55,7]   c_disjunction_55_disjunct_2  1
     x[8,8]    demand_8  1
-    x[8,8]    c_disjunction_8_diajunct_1  14
+    x[8,8]    c_disjunction_8_diajunct_1  8
     x[8,8]    c_disjunction_8_disjunct_2  1
-    x[4,8]    OBJ       8.7
-    x[4,8]    demand_8  1
-    x[4,8]    c_disjunction_4_diajunct_1  14
-    x[4,8]    c_disjunction_4_disjunct_2  1
-    x[2,8]    OBJ       21.3
-    x[2,8]    demand_8  1
-    x[2,8]    c_disjunction_2_diajunct_1  14
-    x[2,8]    c_disjunction_2_disjunct_2  1
-    x[21,8]   OBJ       39
-    x[21,8]   demand_8  1
-    x[21,8]   c_disjunction_21_diajunct_1  14
-    x[21,8]   c_disjunction_21_disjunct_2  1
+    x[66,8]   OBJ       11.1
+    x[66,8]   demand_8  1
+    x[66,8]   c_disjunction_66_diajunct_1  8
+    x[66,8]   c_disjunction_66_disjunct_2  1
+    x[35,8]   OBJ       12
+    x[35,8]   demand_8  1
+    x[35,8]   c_disjunction_35_diajunct_1  8
+    x[35,8]   c_disjunction_35_disjunct_2  1
+    x[29,8]   OBJ       14.2
+    x[29,8]   demand_8  1
+    x[29,8]   c_disjunction_29_diajunct_1  8
+    x[29,8]   c_disjunction_29_disjunct_2  1
+    x[33,8]   OBJ       15.3
+    x[33,8]   demand_8  1
+    x[33,8]   c_disjunction_33_diajunct_1  8
+    x[33,8]   c_disjunction_33_disjunct_2  1
+    x[16,8]   OBJ       15.6
+    x[16,8]   demand_8  1
+    x[16,8]   c_disjunction_16_diajunct_1  8
+    x[16,8]   c_disjunction_16_disjunct_2  1
+    x[43,8]   OBJ       16.5
+    x[43,8]   demand_8  1
+    x[43,8]   c_disjunction_43_diajunct_1  8
+    x[43,8]   c_disjunction_43_disjunct_2  1
     x[9,9]    demand_9  1
-    x[9,9]    c_disjunction_9_diajunct_1  10
+    x[9,9]    c_disjunction_9_diajunct_1  34
     x[9,9]    c_disjunction_9_disjunct_2  1
-    x[6,9]    OBJ       0.5
-    x[6,9]    demand_9  1
-    x[6,9]    c_disjunction_6_diajunct_1  10
-    x[6,9]    c_disjunction_6_disjunct_2  1
-    x[11,9]   OBJ       6.2
-    x[11,9]   demand_9  1
-    x[11,9]   c_disjunction_11_diajunct_1  10
-    x[11,9]   c_disjunction_11_disjunct_2  1
-    x[37,9]   OBJ       9.8
-    x[37,9]   demand_9  1
-    x[37,9]   c_disjunction_37_diajunct_1  10
-    x[37,9]   c_disjunction_37_disjunct_2  1
+    x[25,9]   OBJ       33.2
+    x[25,9]   demand_9  1
+    x[25,9]   c_disjunction_25_diajunct_1  34
+    x[25,9]   c_disjunction_25_disjunct_2  1
+    x[54,9]   OBJ       36.1
+    x[54,9]   demand_9  1
+    x[54,9]   c_disjunction_54_diajunct_1  34
+    x[54,9]   c_disjunction_54_disjunct_2  1
+    x[53,9]   OBJ       43.9
+    x[53,9]   demand_9  1
+    x[53,9]   c_disjunction_53_diajunct_1  34
+    x[53,9]   c_disjunction_53_disjunct_2  1
+    x[2,9]    OBJ       46.5
+    x[2,9]    demand_9  1
+    x[2,9]    c_disjunction_2_diajunct_1  34
+    x[2,9]    c_disjunction_2_disjunct_2  1
+    x[62,9]   OBJ       47.4
+    x[62,9]   demand_9  1
+    x[62,9]   c_disjunction_62_diajunct_1  34
+    x[62,9]   c_disjunction_62_disjunct_2  1
+    x[52,9]   OBJ       56.5
+    x[52,9]   demand_9  1
+    x[52,9]   c_disjunction_52_diajunct_1  34
+    x[52,9]   c_disjunction_52_disjunct_2  1
     x[10,10]  demand_10  1
-    x[10,10]  c_disjunction_10_diajunct_1  7
+    x[10,10]  c_disjunction_10_diajunct_1  8
     x[10,10]  c_disjunction_10_disjunct_2  1
-    x[36,10]  OBJ       5.4
-    x[36,10]  demand_10  1
-    x[36,10]  c_disjunction_36_diajunct_1  7
-    x[36,10]  c_disjunction_36_disjunct_2  1
-    x[33,10]  OBJ       9.1
-    x[33,10]  demand_10  1
-    x[33,10]  c_disjunction_33_diajunct_1  7
-    x[33,10]  c_disjunction_33_disjunct_2  1
-    x[3,10]   OBJ       10.6
-    x[3,10]   demand_10  1
-    x[3,10]   c_disjunction_3_diajunct_1  7
-    x[3,10]   c_disjunction_3_disjunct_2  1
+    x[31,10]  OBJ       0.6
+    x[31,10]  demand_10  1
+    x[31,10]  c_disjunction_31_diajunct_1  8
+    x[31,10]  c_disjunction_31_disjunct_2  1
+    x[57,10]  OBJ       2.5
+    x[57,10]  demand_10  1
+    x[57,10]  c_disjunction_57_diajunct_1  8
+    x[57,10]  c_disjunction_57_disjunct_2  1
+    x[61,10]  OBJ       6
+    x[61,10]  demand_10  1
+    x[61,10]  c_disjunction_61_diajunct_1  8
+    x[61,10]  c_disjunction_61_disjunct_2  1
+    x[51,10]  OBJ       7.8
+    x[51,10]  demand_10  1
+    x[51,10]  c_disjunction_51_diajunct_1  8
+    x[51,10]  c_disjunction_51_disjunct_2  1
+    x[5,10]   OBJ       7.9
+    x[5,10]   demand_10  1
+    x[5,10]   c_disjunction_5_diajunct_1  8
+    x[5,10]   c_disjunction_5_disjunct_2  1
+    x[58,10]  OBJ       9.2
+    x[58,10]  demand_10  1
+    x[58,10]  c_disjunction_58_diajunct_1  8
+    x[58,10]  c_disjunction_58_disjunct_2  1
     x[11,11]  demand_11  1
-    x[11,11]  c_disjunction_11_diajunct_1  13
+    x[11,11]  c_disjunction_11_diajunct_1  29
     x[11,11]  c_disjunction_11_disjunct_2  1
-    x[37,11]  OBJ       7.3
-    x[37,11]  demand_11  1
-    x[37,11]  c_disjunction_37_diajunct_1  13
-    x[37,11]  c_disjunction_37_disjunct_2  1
-    x[6,11]   OBJ       7.6
-    x[6,11]   demand_11  1
-    x[6,11]   c_disjunction_6_diajunct_1  13
-    x[6,11]   c_disjunction_6_disjunct_2  1
-    x[9,11]   OBJ       8.1
-    x[9,11]   demand_11  1
-    x[9,11]   c_disjunction_9_diajunct_1  13
-    x[9,11]   c_disjunction_9_disjunct_2  1
+    x[19,11]  OBJ       23.6
+    x[19,11]  demand_11  1
+    x[19,11]  c_disjunction_19_diajunct_1  29
+    x[19,11]  c_disjunction_19_disjunct_2  1
+    x[68,11]  OBJ       41.9
+    x[68,11]  demand_11  1
+    x[68,11]  c_disjunction_68_diajunct_1  29
+    x[68,11]  c_disjunction_68_disjunct_2  1
+    x[66,11]  OBJ       47.6
+    x[66,11]  demand_11  1
+    x[66,11]  c_disjunction_66_diajunct_1  29
+    x[66,11]  c_disjunction_66_disjunct_2  1
+    x[33,11]  OBJ       55.1
+    x[33,11]  demand_11  1
+    x[33,11]  c_disjunction_33_diajunct_1  29
+    x[33,11]  c_disjunction_33_disjunct_2  1
+    x[35,11]  OBJ       66.3
+    x[35,11]  demand_11  1
+    x[35,11]  c_disjunction_35_diajunct_1  29
+    x[35,11]  c_disjunction_35_disjunct_2  1
+    x[47,11]  OBJ       68.7
+    x[47,11]  demand_11  1
+    x[47,11]  c_disjunction_47_diajunct_1  29
+    x[47,11]  c_disjunction_47_disjunct_2  1
     x[12,12]  demand_12  1
-    x[12,12]  c_disjunction_12_diajunct_1  34
+    x[12,12]  c_disjunction_12_diajunct_1  20
     x[12,12]  c_disjunction_12_disjunct_2  1
-    x[11,12]  OBJ       30.9
-    x[11,12]  demand_12  1
-    x[11,12]  c_disjunction_11_diajunct_1  34
-    x[11,12]  c_disjunction_11_disjunct_2  1
-    x[7,12]   OBJ       31.2
+    x[21,12]  OBJ       13.1
+    x[21,12]  demand_12  1
+    x[21,12]  c_disjunction_21_diajunct_1  20
+    x[21,12]  c_disjunction_21_disjunct_2  1
+    x[7,12]   OBJ       13.3
     x[7,12]   demand_12  1
-    x[7,12]   c_disjunction_7_diajunct_1  34
+    x[7,12]   c_disjunction_7_diajunct_1  20
     x[7,12]   c_disjunction_7_disjunct_2  1
-    x[32,12]  OBJ       35.7
-    x[32,12]  demand_12  1
-    x[32,12]  c_disjunction_32_diajunct_1  34
-    x[32,12]  c_disjunction_32_disjunct_2  1
+    x[45,12]  OBJ       24.9
+    x[45,12]  demand_12  1
+    x[45,12]  c_disjunction_45_diajunct_1  20
+    x[45,12]  c_disjunction_45_disjunct_2  1
+    x[15,12]  OBJ       32.1
+    x[15,12]  demand_12  1
+    x[15,12]  c_disjunction_15_diajunct_1  20
+    x[15,12]  c_disjunction_15_disjunct_2  1
+    x[60,12]  OBJ       39.1
+    x[60,12]  demand_12  1
+    x[60,12]  c_disjunction_60_diajunct_1  20
+    x[60,12]  c_disjunction_60_disjunct_2  1
+    x[3,12]   OBJ       55.8
+    x[3,12]   demand_12  1
+    x[3,12]   c_disjunction_3_diajunct_1  20
+    x[3,12]   c_disjunction_3_disjunct_2  1
     x[13,13]  demand_13  1
-    x[13,13]  c_disjunction_13_diajunct_1  12
+    x[13,13]  c_disjunction_13_diajunct_1  20
     x[13,13]  c_disjunction_13_disjunct_2  1
-    x[39,13]  OBJ       11.8
-    x[39,13]  demand_13  1
-    x[39,13]  c_disjunction_39_diajunct_1  12
-    x[39,13]  c_disjunction_39_disjunct_2  1
-    x[2,13]   OBJ       20.2
-    x[2,13]   demand_13  1
-    x[2,13]   c_disjunction_2_diajunct_1  12
-    x[2,13]   c_disjunction_2_disjunct_2  1
-    x[40,13]  OBJ       21.8
-    x[40,13]  demand_13  1
-    x[40,13]  c_disjunction_40_diajunct_1  12
-    x[40,13]  c_disjunction_40_disjunct_2  1
+    x[41,13]  OBJ       17
+    x[41,13]  demand_13  1
+    x[41,13]  c_disjunction_41_diajunct_1  20
+    x[41,13]  c_disjunction_41_disjunct_2  1
+    x[38,13]  OBJ       17.3
+    x[38,13]  demand_13  1
+    x[38,13]  c_disjunction_38_diajunct_1  20
+    x[38,13]  c_disjunction_38_disjunct_2  1
+    x[37,13]  OBJ       28.5
+    x[37,13]  demand_13  1
+    x[37,13]  c_disjunction_37_diajunct_1  20
+    x[37,13]  c_disjunction_37_disjunct_2  1
+    x[43,13]  OBJ       31.5
+    x[43,13]  demand_13  1
+    x[43,13]  c_disjunction_43_diajunct_1  20
+    x[43,13]  c_disjunction_43_disjunct_2  1
+    x[33,13]  OBJ       34
+    x[33,13]  demand_13  1
+    x[33,13]  c_disjunction_33_diajunct_1  20
+    x[33,13]  c_disjunction_33_disjunct_2  1
+    x[29,13]  OBJ       37.2
+    x[29,13]  demand_13  1
+    x[29,13]  c_disjunction_29_diajunct_1  20
+    x[29,13]  c_disjunction_29_disjunct_2  1
     x[14,14]  demand_14  1
-    x[14,14]  c_disjunction_14_diajunct_1  25
+    x[14,14]  c_disjunction_14_diajunct_1  17
     x[14,14]  c_disjunction_14_disjunct_2  1
-    x[24,14]  OBJ       16.3
-    x[24,14]  demand_14  1
-    x[24,14]  c_disjunction_24_diajunct_1  25
-    x[24,14]  c_disjunction_24_disjunct_2  1
-    x[30,14]  OBJ       37.6
-    x[30,14]  demand_14  1
-    x[30,14]  c_disjunction_30_diajunct_1  25
-    x[30,14]  c_disjunction_30_disjunct_2  1
-    x[31,14]  OBJ       41.2
-    x[31,14]  demand_14  1
-    x[31,14]  c_disjunction_31_diajunct_1  25
-    x[31,14]  c_disjunction_31_disjunct_2  1
+    x[70,14]  OBJ       8.6
+    x[70,14]  demand_14  1
+    x[70,14]  c_disjunction_70_diajunct_1  17
+    x[70,14]  c_disjunction_70_disjunct_2  1
+    x[50,14]  OBJ       17.2
+    x[50,14]  demand_14  1
+    x[50,14]  c_disjunction_50_diajunct_1  17
+    x[50,14]  c_disjunction_50_disjunct_2  1
+    x[60,14]  OBJ       21.7
+    x[60,14]  demand_14  1
+    x[60,14]  c_disjunction_60_diajunct_1  17
+    x[60,14]  c_disjunction_60_disjunct_2  1
+    x[59,14]  OBJ       25.1
+    x[59,14]  demand_14  1
+    x[59,14]  c_disjunction_59_diajunct_1  17
+    x[59,14]  c_disjunction_59_disjunct_2  1
+    x[56,14]  OBJ       35.2
+    x[56,14]  demand_14  1
+    x[56,14]  c_disjunction_56_diajunct_1  17
+    x[56,14]  c_disjunction_56_disjunct_2  1
+    x[21,14]  OBJ       41.1
+    x[21,14]  demand_14  1
+    x[21,14]  c_disjunction_21_diajunct_1  17
+    x[21,14]  c_disjunction_21_disjunct_2  1
     x[15,15]  demand_15  1
-    x[15,15]  c_disjunction_15_diajunct_1  26
+    x[15,15]  c_disjunction_15_diajunct_1  8
     x[15,15]  c_disjunction_15_disjunct_2  1
-    x[22,15]  OBJ       12.1
-    x[22,15]  demand_15  1
-    x[22,15]  c_disjunction_22_diajunct_1  26
-    x[22,15]  c_disjunction_22_disjunct_2  1
-    x[33,15]  OBJ       24.1
-    x[33,15]  demand_15  1
-    x[33,15]  c_disjunction_33_diajunct_1  26
-    x[33,15]  c_disjunction_33_disjunct_2  1
-    x[18,15]  OBJ       26.5
-    x[18,15]  demand_15  1
-    x[18,15]  c_disjunction_18_diajunct_1  26
-    x[18,15]  c_disjunction_18_disjunct_2  1
+    x[42,15]  OBJ       10.4
+    x[42,15]  demand_15  1
+    x[42,15]  c_disjunction_42_diajunct_1  8
+    x[42,15]  c_disjunction_42_disjunct_2  1
+    x[12,15]  OBJ       12.8
+    x[12,15]  demand_15  1
+    x[12,15]  c_disjunction_12_diajunct_1  8
+    x[12,15]  c_disjunction_12_disjunct_2  1
+    x[7,15]   OBJ       13
+    x[7,15]   demand_15  1
+    x[7,15]   c_disjunction_7_diajunct_1  8
+    x[7,15]   c_disjunction_7_disjunct_2  1
+    x[21,15]  OBJ       14.3
+    x[21,15]  demand_15  1
+    x[21,15]  c_disjunction_21_diajunct_1  8
+    x[21,15]  c_disjunction_21_disjunct_2  1
+    x[13,15]  OBJ       17.4
+    x[13,15]  demand_15  1
+    x[13,15]  c_disjunction_13_diajunct_1  8
+    x[13,15]  c_disjunction_13_disjunct_2  1
+    x[60,15]  OBJ       20
+    x[60,15]  demand_15  1
+    x[60,15]  c_disjunction_60_diajunct_1  8
+    x[60,15]  c_disjunction_60_disjunct_2  1
     x[16,16]  demand_16  1
-    x[16,16]  c_disjunction_16_diajunct_1  20
+    x[16,16]  c_disjunction_16_diajunct_1  8
     x[16,16]  c_disjunction_16_disjunct_2  1
-    x[19,16]  OBJ       11.4
-    x[19,16]  demand_16  1
-    x[19,16]  c_disjunction_19_diajunct_1  20
-    x[19,16]  c_disjunction_19_disjunct_2  1
-    x[26,16]  OBJ       15.5
-    x[26,16]  demand_16  1
-    x[26,16]  c_disjunction_26_diajunct_1  20
-    x[26,16]  c_disjunction_26_disjunct_2  1
-    x[1,16]   OBJ       24.3
-    x[1,16]   demand_16  1
-    x[1,16]   c_disjunction_1_diajunct_1  20
-    x[1,16]   c_disjunction_1_disjunct_2  1
+    x[51,16]  OBJ       5.2
+    x[51,16]  demand_16  1
+    x[51,16]  c_disjunction_51_diajunct_1  8
+    x[51,16]  c_disjunction_51_disjunct_2  1
+    x[20,16]  OBJ       6.6
+    x[20,16]  demand_16  1
+    x[20,16]  c_disjunction_20_diajunct_1  8
+    x[20,16]  c_disjunction_20_disjunct_2  1
+    x[4,16]   OBJ       8.1
+    x[4,16]   demand_16  1
+    x[4,16]   c_disjunction_4_diajunct_1  8
+    x[4,16]   c_disjunction_4_disjunct_2  1
+    x[49,16]  OBJ       10.4
+    x[49,16]  demand_16  1
+    x[49,16]  c_disjunction_49_diajunct_1  8
+    x[49,16]  c_disjunction_49_disjunct_2  1
+    x[10,16]  OBJ       11.3
+    x[10,16]  demand_16  1
+    x[10,16]  c_disjunction_10_diajunct_1  8
+    x[10,16]  c_disjunction_10_disjunct_2  1
+    x[58,16]  OBJ       11.5
+    x[58,16]  demand_16  1
+    x[58,16]  c_disjunction_58_diajunct_1  8
+    x[58,16]  c_disjunction_58_disjunct_2  1
     x[17,17]  demand_17  1
-    x[17,17]  c_disjunction_17_diajunct_1  14
+    x[17,17]  c_disjunction_17_diajunct_1  23
     x[17,17]  c_disjunction_17_disjunct_2  1
-    x[25,17]  OBJ       4.5
-    x[25,17]  demand_17  1
-    x[25,17]  c_disjunction_25_diajunct_1  14
-    x[25,17]  c_disjunction_25_disjunct_2  1
-    x[5,17]   OBJ       13.6
-    x[5,17]   demand_17  1
-    x[5,17]   c_disjunction_5_diajunct_1  14
-    x[5,17]   c_disjunction_5_disjunct_2  1
-    x[3,17]   OBJ       21.8
+    x[44,17]  OBJ       12.7
+    x[44,17]  demand_17  1
+    x[44,17]  c_disjunction_44_diajunct_1  23
+    x[44,17]  c_disjunction_44_disjunct_2  1
+    x[28,17]  OBJ       21.7
+    x[28,17]  demand_17  1
+    x[28,17]  c_disjunction_28_diajunct_1  23
+    x[28,17]  c_disjunction_28_disjunct_2  1
+    x[32,17]  OBJ       24.2
+    x[32,17]  demand_17  1
+    x[32,17]  c_disjunction_32_diajunct_1  23
+    x[32,17]  c_disjunction_32_disjunct_2  1
+    x[3,17]   OBJ       28.1
     x[3,17]   demand_17  1
-    x[3,17]   c_disjunction_3_diajunct_1  14
+    x[3,17]   c_disjunction_3_diajunct_1  23
     x[3,17]   c_disjunction_3_disjunct_2  1
+    x[22,17]  OBJ       29.1
+    x[22,17]  demand_17  1
+    x[22,17]  c_disjunction_22_diajunct_1  23
+    x[22,17]  c_disjunction_22_disjunct_2  1
+    x[64,17]  OBJ       33.3
+    x[64,17]  demand_17  1
+    x[64,17]  c_disjunction_64_diajunct_1  23
+    x[64,17]  c_disjunction_64_disjunct_2  1
     x[18,18]  demand_18  1
-    x[18,18]  c_disjunction_18_diajunct_1  14
+    x[18,18]  c_disjunction_18_diajunct_1  23
     x[18,18]  c_disjunction_18_disjunct_2  1
-    x[15,18]  OBJ       14.3
-    x[15,18]  demand_18  1
-    x[15,18]  c_disjunction_15_diajunct_1  14
-    x[15,18]  c_disjunction_15_disjunct_2  1
-    x[22,18]  OBJ       19.7
-    x[22,18]  demand_18  1
-    x[22,18]  c_disjunction_22_diajunct_1  14
-    x[22,18]  c_disjunction_22_disjunct_2  1
-    x[9,18]   OBJ       21.3
-    x[9,18]   demand_18  1
-    x[9,18]   c_disjunction_9_diajunct_1  14
-    x[9,18]   c_disjunction_9_disjunct_2  1
+    x[27,18]  OBJ       22.5
+    x[27,18]  demand_18  1
+    x[27,18]  c_disjunction_27_diajunct_1  23
+    x[27,18]  c_disjunction_27_disjunct_2  1
+    x[6,18]   OBJ       27.8
+    x[6,18]   demand_18  1
+    x[6,18]   c_disjunction_6_diajunct_1  23
+    x[6,18]   c_disjunction_6_disjunct_2  1
+    x[1,18]   OBJ       29.6
+    x[1,18]   demand_18  1
+    x[1,18]   c_disjunction_1_diajunct_1  23
+    x[1,18]   c_disjunction_1_disjunct_2  1
+    x[36,18]  OBJ       31.1
+    x[36,18]  demand_18  1
+    x[36,18]  c_disjunction_36_diajunct_1  23
+    x[36,18]  c_disjunction_36_disjunct_2  1
+    x[63,18]  OBJ       36.1
+    x[63,18]  demand_18  1
+    x[63,18]  c_disjunction_63_diajunct_1  23
+    x[63,18]  c_disjunction_63_disjunct_2  1
+    x[40,18]  OBJ       38.3
+    x[40,18]  demand_18  1
+    x[40,18]  c_disjunction_40_diajunct_1  23
+    x[40,18]  c_disjunction_40_disjunct_2  1
     x[19,19]  demand_19  1
-    x[19,19]  c_disjunction_19_diajunct_1  7
+    x[19,19]  c_disjunction_19_diajunct_1  22
     x[19,19]  c_disjunction_19_disjunct_2  1
-    x[16,19]  OBJ       4
-    x[16,19]  demand_19  1
-    x[16,19]  c_disjunction_16_diajunct_1  7
-    x[16,19]  c_disjunction_16_disjunct_2  1
-    x[1,19]   OBJ       6.9
-    x[1,19]   demand_19  1
-    x[1,19]   c_disjunction_1_diajunct_1  7
-    x[1,19]   c_disjunction_1_disjunct_2  1
-    x[26,19]  OBJ       8.3
-    x[26,19]  demand_19  1
-    x[26,19]  c_disjunction_26_diajunct_1  7
-    x[26,19]  c_disjunction_26_disjunct_2  1
+    x[11,19]  OBJ       17.9
+    x[11,19]  demand_19  1
+    x[11,19]  c_disjunction_11_diajunct_1  22
+    x[11,19]  c_disjunction_11_disjunct_2  1
+    x[33,19]  OBJ       29.6
+    x[33,19]  demand_19  1
+    x[33,19]  c_disjunction_33_diajunct_1  22
+    x[33,19]  c_disjunction_33_disjunct_2  1
+    x[66,19]  OBJ       31.1
+    x[66,19]  demand_19  1
+    x[66,19]  c_disjunction_66_diajunct_1  22
+    x[66,19]  c_disjunction_66_disjunct_2  1
+    x[38,19]  OBJ       37.1
+    x[38,19]  demand_19  1
+    x[38,19]  c_disjunction_38_diajunct_1  22
+    x[38,19]  c_disjunction_38_disjunct_2  1
+    x[41,19]  OBJ       39.3
+    x[41,19]  demand_19  1
+    x[41,19]  c_disjunction_41_diajunct_1  22
+    x[41,19]  c_disjunction_41_disjunct_2  1
+    x[35,19]  OBJ       40.5
+    x[35,19]  demand_19  1
+    x[35,19]  c_disjunction_35_diajunct_1  22
+    x[35,19]  c_disjunction_35_disjunct_2  1
     x[20,20]  demand_20  1
-    x[20,20]  c_disjunction_20_diajunct_1  32
+    x[20,20]  c_disjunction_20_diajunct_1  18
     x[20,20]  c_disjunction_20_disjunct_2  1
-    x[23,20]  OBJ       23.2
-    x[23,20]  demand_20  1
-    x[23,20]  c_disjunction_23_diajunct_1  32
-    x[23,20]  c_disjunction_23_disjunct_2  1
-    x[10,20]  OBJ       74.2
+    x[4,20]   OBJ       6.5
+    x[4,20]   demand_20  1
+    x[4,20]   c_disjunction_4_diajunct_1  18
+    x[4,20]   c_disjunction_4_disjunct_2  1
+    x[16,20]  OBJ       14.8
+    x[16,20]  demand_20  1
+    x[16,20]  c_disjunction_16_diajunct_1  18
+    x[16,20]  c_disjunction_16_disjunct_2  1
+    x[51,20]  OBJ       20.2
+    x[51,20]  demand_20  1
+    x[51,20]  c_disjunction_51_diajunct_1  18
+    x[51,20]  c_disjunction_51_disjunct_2  1
+    x[46,20]  OBJ       21.2
+    x[46,20]  demand_20  1
+    x[46,20]  c_disjunction_46_diajunct_1  18
+    x[46,20]  c_disjunction_46_disjunct_2  1
+    x[10,20]  OBJ       22.4
     x[10,20]  demand_20  1
-    x[10,20]  c_disjunction_10_diajunct_1  32
+    x[10,20]  c_disjunction_10_diajunct_1  18
     x[10,20]  c_disjunction_10_disjunct_2  1
-    x[5,20]   OBJ       94.5
-    x[5,20]   demand_20  1
-    x[5,20]   c_disjunction_5_diajunct_1  32
-    x[5,20]   c_disjunction_5_disjunct_2  1
+    x[31,20]  OBJ       23.5
+    x[31,20]  demand_20  1
+    x[31,20]  c_disjunction_31_diajunct_1  18
+    x[31,20]  c_disjunction_31_disjunct_2  1
     x[21,21]  demand_21  1
-    x[21,21]  c_disjunction_21_diajunct_1  23
+    x[21,21]  c_disjunction_21_diajunct_1  14
     x[21,21]  c_disjunction_21_disjunct_2  1
-    x[38,21]  OBJ       24.7
-    x[38,21]  demand_21  1
-    x[38,21]  c_disjunction_38_diajunct_1  23
-    x[38,21]  c_disjunction_38_disjunct_2  1
-    x[2,21]   OBJ       34
-    x[2,21]   demand_21  1
-    x[2,21]   c_disjunction_2_diajunct_1  23
-    x[2,21]   c_disjunction_2_disjunct_2  1
-    x[39,21]  OBJ       37.3
-    x[39,21]  demand_21  1
-    x[39,21]  c_disjunction_39_diajunct_1  23
-    x[39,21]  c_disjunction_39_disjunct_2  1
+    x[12,21]  OBJ       9.2
+    x[12,21]  demand_21  1
+    x[12,21]  c_disjunction_12_diajunct_1  14
+    x[12,21]  c_disjunction_12_disjunct_2  1
+    x[60,21]  OBJ       18.3
+    x[60,21]  demand_21  1
+    x[60,21]  c_disjunction_60_diajunct_1  14
+    x[60,21]  c_disjunction_60_disjunct_2  1
+    x[7,21]   OBJ       18.5
+    x[7,21]   demand_21  1
+    x[7,21]   c_disjunction_7_diajunct_1  14
+    x[7,21]   c_disjunction_7_disjunct_2  1
+    x[15,21]  OBJ       25.1
+    x[15,21]  demand_21  1
+    x[15,21]  c_disjunction_15_diajunct_1  14
+    x[15,21]  c_disjunction_15_disjunct_2  1
+    x[45,21]  OBJ       25.2
+    x[45,21]  demand_21  1
+    x[45,21]  c_disjunction_45_diajunct_1  14
+    x[45,21]  c_disjunction_45_disjunct_2  1
+    x[14,21]  OBJ       33.8
+    x[14,21]  demand_21  1
+    x[14,21]  c_disjunction_14_diajunct_1  14
+    x[14,21]  c_disjunction_14_disjunct_2  1
     x[22,22]  demand_22  1
-    x[22,22]  c_disjunction_22_diajunct_1  35
+    x[22,22]  c_disjunction_22_diajunct_1  21
     x[22,22]  c_disjunction_22_disjunct_2  1
-    x[15,22]  OBJ       16.3
-    x[15,22]  demand_22  1
-    x[15,22]  c_disjunction_15_diajunct_1  35
-    x[15,22]  c_disjunction_15_disjunct_2  1
-    x[33,22]  OBJ       30.2
-    x[33,22]  demand_22  1
-    x[33,22]  c_disjunction_33_diajunct_1  35
-    x[33,22]  c_disjunction_33_disjunct_2  1
-    x[18,22]  OBJ       49.4
-    x[18,22]  demand_22  1
-    x[18,22]  c_disjunction_18_diajunct_1  35
-    x[18,22]  c_disjunction_18_disjunct_2  1
+    x[39,22]  OBJ       9.9
+    x[39,22]  demand_22  1
+    x[39,22]  c_disjunction_39_diajunct_1  21
+    x[39,22]  c_disjunction_39_disjunct_2  1
+    x[64,22]  OBJ       14.9
+    x[64,22]  demand_22  1
+    x[64,22]  c_disjunction_64_diajunct_1  21
+    x[64,22]  c_disjunction_64_disjunct_2  1
+    x[26,22]  OBJ       21.4
+    x[26,22]  demand_22  1
+    x[26,22]  c_disjunction_26_diajunct_1  21
+    x[26,22]  c_disjunction_26_disjunct_2  1
+    x[44,22]  OBJ       23
+    x[44,22]  demand_22  1
+    x[44,22]  c_disjunction_44_diajunct_1  21
+    x[44,22]  c_disjunction_44_disjunct_2  1
+    x[32,22]  OBJ       23.7
+    x[32,22]  demand_22  1
+    x[32,22]  c_disjunction_32_diajunct_1  21
+    x[32,22]  c_disjunction_32_disjunct_2  1
+    x[17,22]  OBJ       26.6
+    x[17,22]  demand_22  1
+    x[17,22]  c_disjunction_17_diajunct_1  21
+    x[17,22]  c_disjunction_17_disjunct_2  1
     x[23,23]  demand_23  1
-    x[23,23]  c_disjunction_23_diajunct_1  20
+    x[23,23]  c_disjunction_23_diajunct_1  19
     x[23,23]  c_disjunction_23_disjunct_2  1
-    x[20,23]  OBJ       14.5
-    x[20,23]  demand_23  1
-    x[20,23]  c_disjunction_20_diajunct_1  20
-    x[20,23]  c_disjunction_20_disjunct_2  1
-    x[10,23]  OBJ       60.6
-    x[10,23]  demand_23  1
-    x[10,23]  c_disjunction_10_diajunct_1  20
-    x[10,23]  c_disjunction_10_disjunct_2  1
-    x[5,23]   OBJ       72.2
-    x[5,23]   demand_23  1
-    x[5,23]   c_disjunction_5_diajunct_1  20
-    x[5,23]   c_disjunction_5_disjunct_2  1
+    x[47,23]  OBJ       23.3
+    x[47,23]  demand_23  1
+    x[47,23]  c_disjunction_47_diajunct_1  19
+    x[47,23]  c_disjunction_47_disjunct_2  1
+    x[42,23]  OBJ       27.2
+    x[42,23]  demand_23  1
+    x[42,23]  c_disjunction_42_diajunct_1  19
+    x[42,23]  c_disjunction_42_disjunct_2  1
+    x[68,23]  OBJ       38.5
+    x[68,23]  demand_23  1
+    x[68,23]  c_disjunction_68_diajunct_1  19
+    x[68,23]  c_disjunction_68_disjunct_2  1
+    x[19,23]  OBJ       50.1
+    x[19,23]  demand_23  1
+    x[19,23]  c_disjunction_19_diajunct_1  19
+    x[19,23]  c_disjunction_19_disjunct_2  1
+    x[15,23]  OBJ       51.8
+    x[15,23]  demand_23  1
+    x[15,23]  c_disjunction_15_diajunct_1  19
+    x[15,23]  c_disjunction_15_disjunct_2  1
+    x[11,23]  OBJ       53.6
+    x[11,23]  demand_23  1
+    x[11,23]  c_disjunction_11_diajunct_1  19
+    x[11,23]  c_disjunction_11_disjunct_2  1
     x[24,24]  demand_24  1
-    x[24,24]  c_disjunction_24_diajunct_1  6
+    x[24,24]  c_disjunction_24_diajunct_1  22
     x[24,24]  c_disjunction_24_disjunct_2  1
-    x[14,24]  OBJ       3.9
-    x[14,24]  demand_24  1
-    x[14,24]  c_disjunction_14_diajunct_1  6
-    x[14,24]  c_disjunction_14_disjunct_2  1
-    x[31,24]  OBJ       6.3
-    x[31,24]  demand_24  1
-    x[31,24]  c_disjunction_31_diajunct_1  6
-    x[31,24]  c_disjunction_31_disjunct_2  1
-    x[35,24]  OBJ       10.8
-    x[35,24]  demand_24  1
-    x[35,24]  c_disjunction_35_diajunct_1  6
-    x[35,24]  c_disjunction_35_disjunct_2  1
+    x[65,24]  OBJ       17.2
+    x[65,24]  demand_24  1
+    x[65,24]  c_disjunction_65_diajunct_1  22
+    x[65,24]  c_disjunction_65_disjunct_2  1
+    x[2,24]   OBJ       20.4
+    x[2,24]   demand_24  1
+    x[2,24]   c_disjunction_2_diajunct_1  22
+    x[2,24]   c_disjunction_2_disjunct_2  1
+    x[5,24]   OBJ       20.6
+    x[5,24]   demand_24  1
+    x[5,24]   c_disjunction_5_diajunct_1  22
+    x[5,24]   c_disjunction_5_disjunct_2  1
+    x[62,24]  OBJ       21.7
+    x[62,24]  demand_24  1
+    x[62,24]  c_disjunction_62_diajunct_1  22
+    x[62,24]  c_disjunction_62_disjunct_2  1
+    x[61,24]  OBJ       24.8
+    x[61,24]  demand_24  1
+    x[61,24]  c_disjunction_61_diajunct_1  22
+    x[61,24]  c_disjunction_61_disjunct_2  1
+    x[57,24]  OBJ       33.6
+    x[57,24]  demand_24  1
+    x[57,24]  c_disjunction_57_diajunct_1  22
+    x[57,24]  c_disjunction_57_disjunct_2  1
     x[25,25]  demand_25  1
-    x[25,25]  c_disjunction_25_diajunct_1  35
+    x[25,25]  c_disjunction_25_diajunct_1  13
     x[25,25]  c_disjunction_25_disjunct_2  1
-    x[17,25]  OBJ       11.2
-    x[17,25]  demand_25  1
-    x[17,25]  c_disjunction_17_diajunct_1  35
-    x[17,25]  c_disjunction_17_disjunct_2  1
-    x[5,25]   OBJ       22.8
-    x[5,25]   demand_25  1
-    x[5,25]   c_disjunction_5_diajunct_1  35
-    x[5,25]   c_disjunction_5_disjunct_2  1
-    x[3,25]   OBJ       46.3
-    x[3,25]   demand_25  1
-    x[3,25]   c_disjunction_3_diajunct_1  35
-    x[3,25]   c_disjunction_3_disjunct_2  1
+    x[52,25]  OBJ       12.2
+    x[52,25]  demand_25  1
+    x[52,25]  c_disjunction_52_diajunct_1  13
+    x[52,25]  c_disjunction_52_disjunct_2  1
+    x[9,25]   OBJ       12.7
+    x[9,25]   demand_25  1
+    x[9,25]   c_disjunction_9_diajunct_1  13
+    x[9,25]   c_disjunction_9_disjunct_2  1
+    x[27,25]  OBJ       13.9
+    x[27,25]  demand_25  1
+    x[27,25]  c_disjunction_27_diajunct_1  13
+    x[27,25]  c_disjunction_27_disjunct_2  1
+    x[36,25]  OBJ       15.5
+    x[36,25]  demand_25  1
+    x[36,25]  c_disjunction_36_diajunct_1  13
+    x[36,25]  c_disjunction_36_disjunct_2  1
+    x[53,25]  OBJ       21.3
+    x[53,25]  demand_25  1
+    x[53,25]  c_disjunction_53_diajunct_1  13
+    x[53,25]  c_disjunction_53_disjunct_2  1
+    x[54,25]  OBJ       23.3
+    x[54,25]  demand_25  1
+    x[54,25]  c_disjunction_54_diajunct_1  13
+    x[54,25]  c_disjunction_54_disjunct_2  1
     x[26,26]  demand_26  1
-    x[26,26]  c_disjunction_26_diajunct_1  25
+    x[26,26]  c_disjunction_26_diajunct_1  12
     x[26,26]  c_disjunction_26_disjunct_2  1
-    x[16,26]  OBJ       19.4
-    x[16,26]  demand_26  1
-    x[16,26]  c_disjunction_16_diajunct_1  25
-    x[16,26]  c_disjunction_16_disjunct_2  1
-    x[19,26]  OBJ       29.6
-    x[19,26]  demand_26  1
-    x[19,26]  c_disjunction_19_diajunct_1  25
-    x[19,26]  c_disjunction_19_disjunct_2  1
-    x[1,26]   OBJ       29.9
-    x[1,26]   demand_26  1
-    x[1,26]   c_disjunction_1_diajunct_1  25
-    x[1,26]   c_disjunction_1_disjunct_2  1
+    x[69,26]  OBJ       7
+    x[69,26]  demand_26  1
+    x[69,26]  c_disjunction_69_diajunct_1  12
+    x[69,26]  c_disjunction_69_disjunct_2  1
+    x[64,26]  OBJ       8.9
+    x[64,26]  demand_26  1
+    x[64,26]  c_disjunction_64_diajunct_1  12
+    x[64,26]  c_disjunction_64_disjunct_2  1
+    x[39,26]  OBJ       9.8
+    x[39,26]  demand_26  1
+    x[39,26]  c_disjunction_39_diajunct_1  12
+    x[39,26]  c_disjunction_39_disjunct_2  1
+    x[22,26]  OBJ       12.2
+    x[22,26]  demand_26  1
+    x[22,26]  c_disjunction_22_diajunct_1  12
+    x[22,26]  c_disjunction_22_disjunct_2  1
+    x[32,26]  OBJ       17.4
+    x[32,26]  demand_26  1
+    x[32,26]  c_disjunction_32_diajunct_1  12
+    x[32,26]  c_disjunction_32_disjunct_2  1
+    x[44,26]  OBJ       20.9
+    x[44,26]  demand_26  1
+    x[44,26]  c_disjunction_44_diajunct_1  12
+    x[44,26]  c_disjunction_44_disjunct_2  1
     x[27,27]  demand_27  1
-    x[27,27]  c_disjunction_27_diajunct_1  18
+    x[27,27]  c_disjunction_27_diajunct_1  10
     x[27,27]  c_disjunction_27_disjunct_2  1
-    x[21,27]  OBJ       29.5
-    x[21,27]  demand_27  1
-    x[21,27]  c_disjunction_21_diajunct_1  18
-    x[21,27]  c_disjunction_21_disjunct_2  1
-    x[17,27]  OBJ       29.7
-    x[17,27]  demand_27  1
-    x[17,27]  c_disjunction_17_diajunct_1  18
-    x[17,27]  c_disjunction_17_disjunct_2  1
-    x[38,27]  OBJ       34.6
-    x[38,27]  demand_27  1
-    x[38,27]  c_disjunction_38_diajunct_1  18
-    x[38,27]  c_disjunction_38_disjunct_2  1
+    x[36,27]  OBJ       6.6
+    x[36,27]  demand_27  1
+    x[36,27]  c_disjunction_36_diajunct_1  10
+    x[36,27]  c_disjunction_36_disjunct_2  1
+    x[18,27]  OBJ       9.8
+    x[18,27]  demand_27  1
+    x[18,27]  c_disjunction_18_diajunct_1  10
+    x[18,27]  c_disjunction_18_disjunct_2  1
+    x[25,27]  OBJ       10.7
+    x[25,27]  demand_27  1
+    x[25,27]  c_disjunction_25_diajunct_1  10
+    x[25,27]  c_disjunction_25_disjunct_2  1
+    x[6,27]   OBJ       11.3
+    x[6,27]   demand_27  1
+    x[6,27]   c_disjunction_6_diajunct_1  10
+    x[6,27]   c_disjunction_6_disjunct_2  1
+    x[52,27]  OBJ       12.7
+    x[52,27]  demand_27  1
+    x[52,27]  c_disjunction_52_diajunct_1  10
+    x[52,27]  c_disjunction_52_disjunct_2  1
+    x[63,27]  OBJ       16.7
+    x[63,27]  demand_27  1
+    x[63,27]  c_disjunction_63_diajunct_1  10
+    x[63,27]  c_disjunction_63_disjunct_2  1
     x[28,28]  demand_28  1
-    x[28,28]  c_disjunction_28_diajunct_1  10
+    x[28,28]  c_disjunction_28_diajunct_1  18
     x[28,28]  c_disjunction_28_disjunct_2  1
-    x[34,28]  OBJ       7.7
+    x[3,28]   OBJ       8.1
+    x[3,28]   demand_28  1
+    x[3,28]   c_disjunction_3_diajunct_1  18
+    x[3,28]   c_disjunction_3_disjunct_2  1
+    x[44,28]  OBJ       15.8
+    x[44,28]  demand_28  1
+    x[44,28]  c_disjunction_44_diajunct_1  18
+    x[44,28]  c_disjunction_44_disjunct_2  1
+    x[17,28]  OBJ       17
+    x[17,28]  demand_28  1
+    x[17,28]  c_disjunction_17_diajunct_1  18
+    x[17,28]  c_disjunction_17_disjunct_2  1
+    x[32,28]  OBJ       20.2
+    x[32,28]  demand_28  1
+    x[32,28]  c_disjunction_32_diajunct_1  18
+    x[32,28]  c_disjunction_32_disjunct_2  1
+    x[34,28]  OBJ       25.6
     x[34,28]  demand_28  1
-    x[34,28]  c_disjunction_34_diajunct_1  10
+    x[34,28]  c_disjunction_34_diajunct_1  18
     x[34,28]  c_disjunction_34_disjunct_2  1
-    x[38,28]  OBJ       12.3
-    x[38,28]  demand_28  1
-    x[38,28]  c_disjunction_38_diajunct_1  10
-    x[38,28]  c_disjunction_38_disjunct_2  1
-    x[40,28]  OBJ       16.3
-    x[40,28]  demand_28  1
-    x[40,28]  c_disjunction_40_diajunct_1  10
-    x[40,28]  c_disjunction_40_disjunct_2  1
+    x[55,28]  OBJ       29.8
+    x[55,28]  demand_28  1
+    x[55,28]  c_disjunction_55_diajunct_1  18
+    x[55,28]  c_disjunction_55_disjunct_2  1
     x[29,29]  demand_29  1
-    x[29,29]  c_disjunction_29_diajunct_1  28
+    x[29,29]  c_disjunction_29_diajunct_1  32
     x[29,29]  c_disjunction_29_disjunct_2  1
-    x[17,29]  OBJ       65.8
-    x[17,29]  demand_29  1
-    x[17,29]  c_disjunction_17_diajunct_1  28
-    x[17,29]  c_disjunction_17_disjunct_2  1
-    x[25,29]  OBJ       69.5
-    x[25,29]  demand_29  1
-    x[25,29]  c_disjunction_25_diajunct_1  28
-    x[25,29]  c_disjunction_25_disjunct_2  1
-    x[27,29]  OBJ       72.6
-    x[27,29]  demand_29  1
-    x[27,29]  c_disjunction_27_diajunct_1  28
-    x[27,29]  c_disjunction_27_disjunct_2  1
+    x[43,29]  OBJ       9.9
+    x[43,29]  demand_29  1
+    x[43,29]  c_disjunction_43_diajunct_1  32
+    x[43,29]  c_disjunction_43_disjunct_2  1
+    x[35,29]  OBJ       27.4
+    x[35,29]  demand_29  1
+    x[35,29]  c_disjunction_35_diajunct_1  32
+    x[35,29]  c_disjunction_35_disjunct_2  1
+    x[33,29]  OBJ       41.5
+    x[33,29]  demand_29  1
+    x[33,29]  c_disjunction_33_diajunct_1  32
+    x[33,29]  c_disjunction_33_disjunct_2  1
+    x[41,29]  OBJ       43.1
+    x[41,29]  demand_29  1
+    x[41,29]  c_disjunction_41_diajunct_1  32
+    x[41,29]  c_disjunction_41_disjunct_2  1
+    x[38,29]  OBJ       47.1
+    x[38,29]  demand_29  1
+    x[38,29]  c_disjunction_38_diajunct_1  32
+    x[38,29]  c_disjunction_38_disjunct_2  1
+    x[66,29]  OBJ       50.7
+    x[66,29]  demand_29  1
+    x[66,29]  c_disjunction_66_diajunct_1  32
+    x[66,29]  c_disjunction_66_disjunct_2  1
     x[30,30]  demand_30  1
-    x[30,30]  c_disjunction_30_diajunct_1  6
+    x[30,30]  c_disjunction_30_diajunct_1  7
     x[30,30]  c_disjunction_30_disjunct_2  1
-    x[14,30]  OBJ       9
-    x[14,30]  demand_30  1
-    x[14,30]  c_disjunction_14_diajunct_1  6
-    x[14,30]  c_disjunction_14_disjunct_2  1
-    x[24,30]  OBJ       11.5
-    x[24,30]  demand_30  1
-    x[24,30]  c_disjunction_24_diajunct_1  6
-    x[24,30]  c_disjunction_24_disjunct_2  1
-    x[7,30]   OBJ       14.9
-    x[7,30]   demand_30  1
-    x[7,30]   c_disjunction_7_diajunct_1  6
-    x[7,30]   c_disjunction_7_disjunct_2  1
+    x[40,30]  OBJ       9
+    x[40,30]  demand_30  1
+    x[40,30]  c_disjunction_40_diajunct_1  7
+    x[40,30]  c_disjunction_40_disjunct_2  1
+    x[6,30]   OBJ       18
+    x[6,30]   demand_30  1
+    x[6,30]   c_disjunction_6_diajunct_1  7
+    x[6,30]   c_disjunction_6_disjunct_2  1
+    x[1,30]   OBJ       19.7
+    x[1,30]   demand_30  1
+    x[1,30]   c_disjunction_1_diajunct_1  7
+    x[1,30]   c_disjunction_1_disjunct_2  1
+    x[18,30]  OBJ       20.6
+    x[18,30]  demand_30  1
+    x[18,30]  c_disjunction_18_diajunct_1  7
+    x[18,30]  c_disjunction_18_disjunct_2  1
+    x[36,30]  OBJ       23.4
+    x[36,30]  demand_30  1
+    x[36,30]  c_disjunction_36_diajunct_1  7
+    x[36,30]  c_disjunction_36_disjunct_2  1
+    x[27,30]  OBJ       24.9
+    x[27,30]  demand_30  1
+    x[27,30]  c_disjunction_27_diajunct_1  7
+    x[27,30]  c_disjunction_27_disjunct_2  1
     x[31,31]  demand_31  1
-    x[31,31]  c_disjunction_31_diajunct_1  19
+    x[31,31]  c_disjunction_31_diajunct_1  10
     x[31,31]  c_disjunction_31_disjunct_2  1
-    x[35,31]  OBJ       17.1
-    x[35,31]  demand_31  1
-    x[35,31]  c_disjunction_35_diajunct_1  19
-    x[35,31]  c_disjunction_35_disjunct_2  1
-    x[24,31]  OBJ       20
-    x[24,31]  demand_31  1
-    x[24,31]  c_disjunction_24_diajunct_1  19
-    x[24,31]  c_disjunction_24_disjunct_2  1
-    x[34,31]  OBJ       27.9
-    x[34,31]  demand_31  1
-    x[34,31]  c_disjunction_34_diajunct_1  19
-    x[34,31]  c_disjunction_34_disjunct_2  1
+    x[10,31]  OBJ       0.7
+    x[10,31]  demand_31  1
+    x[10,31]  c_disjunction_10_diajunct_1  10
+    x[10,31]  c_disjunction_10_disjunct_2  1
+    x[57,31]  OBJ       2.6
+    x[57,31]  demand_31  1
+    x[57,31]  c_disjunction_57_diajunct_1  10
+    x[57,31]  c_disjunction_57_disjunct_2  1
+    x[61,31]  OBJ       7
+    x[61,31]  demand_31  1
+    x[61,31]  c_disjunction_61_diajunct_1  10
+    x[61,31]  c_disjunction_61_disjunct_2  1
+    x[5,31]   OBJ       9.1
+    x[5,31]   demand_31  1
+    x[5,31]   c_disjunction_5_diajunct_1  10
+    x[5,31]   c_disjunction_5_disjunct_2  1
+    x[51,31]  OBJ       10.4
+    x[51,31]  demand_31  1
+    x[51,31]  c_disjunction_51_diajunct_1  10
+    x[51,31]  c_disjunction_51_disjunct_2  1
+    x[58,31]  OBJ       11.8
+    x[58,31]  demand_31  1
+    x[58,31]  c_disjunction_58_diajunct_1  10
+    x[58,31]  c_disjunction_58_disjunct_2  1
     x[32,32]  demand_32  1
-    x[32,32]  c_disjunction_32_diajunct_1  31
+    x[32,32]  c_disjunction_32_diajunct_1  12
     x[32,32]  c_disjunction_32_disjunct_2  1
-    x[11,32]  OBJ       21.3
-    x[11,32]  demand_32  1
-    x[11,32]  c_disjunction_11_diajunct_1  31
-    x[11,32]  c_disjunction_11_disjunct_2  1
-    x[37,32]  OBJ       24.1
-    x[37,32]  demand_32  1
-    x[37,32]  c_disjunction_37_diajunct_1  31
-    x[37,32]  c_disjunction_37_disjunct_2  1
-    x[7,32]   OBJ       30.9
-    x[7,32]   demand_32  1
-    x[7,32]   c_disjunction_7_diajunct_1  31
-    x[7,32]   c_disjunction_7_disjunct_2  1
+    x[44,32]  OBJ       6
+    x[44,32]  demand_32  1
+    x[44,32]  c_disjunction_44_diajunct_1  12
+    x[44,32]  c_disjunction_44_disjunct_2  1
+    x[64,32]  OBJ       8.6
+    x[64,32]  demand_32  1
+    x[64,32]  c_disjunction_64_diajunct_1  12
+    x[64,32]  c_disjunction_64_disjunct_2  1
+    x[3,32]   OBJ       11.5
+    x[3,32]   demand_32  1
+    x[3,32]   c_disjunction_3_diajunct_1  12
+    x[3,32]   c_disjunction_3_disjunct_2  1
+    x[17,32]  OBJ       12.6
+    x[17,32]  demand_32  1
+    x[17,32]  c_disjunction_17_diajunct_1  12
+    x[17,32]  c_disjunction_17_disjunct_2  1
+    x[28,32]  OBJ       13.5
+    x[28,32]  demand_32  1
+    x[28,32]  c_disjunction_28_diajunct_1  12
+    x[28,32]  c_disjunction_28_disjunct_2  1
+    x[22,32]  OBJ       13.6
+    x[22,32]  demand_32  1
+    x[22,32]  c_disjunction_22_diajunct_1  12
+    x[22,32]  c_disjunction_22_disjunct_2  1
     x[33,33]  demand_33  1
-    x[33,33]  c_disjunction_33_diajunct_1  14
+    x[33,33]  c_disjunction_33_diajunct_1  19
     x[33,33]  c_disjunction_33_disjunct_2  1
-    x[22,33]  OBJ       12.1
-    x[22,33]  demand_33  1
-    x[22,33]  c_disjunction_22_diajunct_1  14
-    x[22,33]  c_disjunction_22_disjunct_2  1
-    x[15,33]  OBJ       13
-    x[15,33]  demand_33  1
-    x[15,33]  c_disjunction_15_diajunct_1  14
-    x[15,33]  c_disjunction_15_disjunct_2  1
-    x[10,33]  OBJ       18.2
-    x[10,33]  demand_33  1
-    x[10,33]  c_disjunction_10_diajunct_1  14
-    x[10,33]  c_disjunction_10_disjunct_2  1
+    x[35,33]  OBJ       10.4
+    x[35,33]  demand_33  1
+    x[35,33]  c_disjunction_35_diajunct_1  19
+    x[35,33]  c_disjunction_35_disjunct_2  1
+    x[66,33]  OBJ       13.9
+    x[66,33]  demand_33  1
+    x[66,33]  c_disjunction_66_diajunct_1  19
+    x[66,33]  c_disjunction_66_disjunct_2  1
+    x[41,33]  OBJ       16.2
+    x[41,33]  demand_33  1
+    x[41,33]  c_disjunction_41_diajunct_1  19
+    x[41,33]  c_disjunction_41_disjunct_2  1
+    x[38,33]  OBJ       16.2
+    x[38,33]  demand_33  1
+    x[38,33]  c_disjunction_38_diajunct_1  19
+    x[38,33]  c_disjunction_38_disjunct_2  1
+    x[29,33]  OBJ       24.6
+    x[29,33]  demand_33  1
+    x[29,33]  c_disjunction_29_diajunct_1  19
+    x[29,33]  c_disjunction_29_disjunct_2  1
+    x[43,33]  OBJ       24.7
+    x[43,33]  demand_33  1
+    x[43,33]  c_disjunction_43_diajunct_1  19
+    x[43,33]  c_disjunction_43_disjunct_2  1
     x[34,34]  demand_34  1
-    x[34,34]  c_disjunction_34_diajunct_1  24
+    x[34,34]  c_disjunction_34_diajunct_1  6
     x[34,34]  c_disjunction_34_disjunct_2  1
-    x[28,34]  OBJ       18.4
+    x[55,34]  OBJ       5.6
+    x[55,34]  demand_34  1
+    x[55,34]  c_disjunction_55_diajunct_1  6
+    x[55,34]  c_disjunction_55_disjunct_2  1
+    x[1,34]   OBJ       6.5
+    x[1,34]   demand_34  1
+    x[1,34]   c_disjunction_1_diajunct_1  6
+    x[1,34]   c_disjunction_1_disjunct_2  1
+    x[28,34]  OBJ       8.5
     x[28,34]  demand_34  1
-    x[28,34]  c_disjunction_28_diajunct_1  24
+    x[28,34]  c_disjunction_28_diajunct_1  6
     x[28,34]  c_disjunction_28_disjunct_2  1
-    x[35,34]  OBJ       32.6
-    x[35,34]  demand_34  1
-    x[35,34]  c_disjunction_35_diajunct_1  24
-    x[35,34]  c_disjunction_35_disjunct_2  1
-    x[31,34]  OBJ       35.2
-    x[31,34]  demand_34  1
-    x[31,34]  c_disjunction_31_diajunct_1  24
-    x[31,34]  c_disjunction_31_disjunct_2  1
+    x[63,34]  OBJ       8.8
+    x[63,34]  demand_34  1
+    x[63,34]  c_disjunction_63_diajunct_1  6
+    x[63,34]  c_disjunction_63_disjunct_2  1
+    x[3,34]   OBJ       9.2
+    x[3,34]   demand_34  1
+    x[3,34]   c_disjunction_3_diajunct_1  6
+    x[3,34]   c_disjunction_3_disjunct_2  1
+    x[18,34]  OBJ       10.7
+    x[18,34]  demand_34  1
+    x[18,34]  c_disjunction_18_diajunct_1  6
+    x[18,34]  c_disjunction_18_disjunct_2  1
     x[35,35]  demand_35  1
-    x[35,35]  c_disjunction_35_diajunct_1  16
+    x[35,35]  c_disjunction_35_diajunct_1  7
     x[35,35]  c_disjunction_35_disjunct_2  1
-    x[31,35]  OBJ       14.4
-    x[31,35]  demand_35  1
-    x[31,35]  c_disjunction_31_diajunct_1  16
-    x[31,35]  c_disjunction_31_disjunct_2  1
-    x[34,35]  OBJ       21.8
-    x[34,35]  demand_35  1
-    x[34,35]  c_disjunction_34_diajunct_1  16
-    x[34,35]  c_disjunction_34_disjunct_2  1
-    x[19,35]  OBJ       27.7
-    x[19,35]  demand_35  1
-    x[19,35]  c_disjunction_19_diajunct_1  16
-    x[19,35]  c_disjunction_19_disjunct_2  1
+    x[33,35]  OBJ       3.8
+    x[33,35]  demand_35  1
+    x[33,35]  c_disjunction_33_diajunct_1  7
+    x[33,35]  c_disjunction_33_disjunct_2  1
+    x[66,35]  OBJ       5.3
+    x[66,35]  demand_35  1
+    x[66,35]  c_disjunction_66_diajunct_1  7
+    x[66,35]  c_disjunction_66_disjunct_2  1
+    x[29,35]  OBJ       6
+    x[29,35]  demand_35  1
+    x[29,35]  c_disjunction_29_diajunct_1  7
+    x[29,35]  c_disjunction_29_disjunct_2  1
+    x[43,35]  OBJ       6.8
+    x[43,35]  demand_35  1
+    x[43,35]  c_disjunction_43_diajunct_1  7
+    x[43,35]  c_disjunction_43_disjunct_2  1
+    x[41,35]  OBJ       7.8
+    x[41,35]  demand_35  1
+    x[41,35]  c_disjunction_41_diajunct_1  7
+    x[41,35]  c_disjunction_41_disjunct_2  1
+    x[38,35]  OBJ       8.2
+    x[38,35]  demand_35  1
+    x[38,35]  c_disjunction_38_diajunct_1  7
+    x[38,35]  c_disjunction_38_disjunct_2  1
     x[36,36]  demand_36  1
-    x[36,36]  c_disjunction_36_diajunct_1  13
+    x[36,36]  c_disjunction_36_diajunct_1  8
     x[36,36]  c_disjunction_36_disjunct_2  1
-    x[10,36]  OBJ       9.9
-    x[10,36]  demand_36  1
-    x[10,36]  c_disjunction_10_diajunct_1  13
-    x[10,36]  c_disjunction_10_disjunct_2  1
-    x[3,36]   OBJ       13.8
-    x[3,36]   demand_36  1
-    x[3,36]   c_disjunction_3_diajunct_1  13
-    x[3,36]   c_disjunction_3_disjunct_2  1
-    x[33,36]  OBJ       17.8
-    x[33,36]  demand_36  1
-    x[33,36]  c_disjunction_33_diajunct_1  13
-    x[33,36]  c_disjunction_33_disjunct_2  1
+    x[27,36]  OBJ       5.2
+    x[27,36]  demand_36  1
+    x[27,36]  c_disjunction_27_diajunct_1  8
+    x[27,36]  c_disjunction_27_disjunct_2  1
+    x[6,36]   OBJ       6.1
+    x[6,36]   demand_36  1
+    x[6,36]   c_disjunction_6_diajunct_1  8
+    x[6,36]   c_disjunction_6_disjunct_2  1
+    x[25,36]  OBJ       9.5
+    x[25,36]  demand_36  1
+    x[25,36]  c_disjunction_25_diajunct_1  8
+    x[25,36]  c_disjunction_25_disjunct_2  1
+    x[18,36]  OBJ       10.8
+    x[18,36]  demand_36  1
+    x[18,36]  c_disjunction_18_diajunct_1  8
+    x[18,36]  c_disjunction_18_disjunct_2  1
+    x[52,36]  OBJ       14.1
+    x[52,36]  demand_36  1
+    x[52,36]  c_disjunction_52_diajunct_1  8
+    x[52,36]  c_disjunction_52_disjunct_2  1
+    x[9,36]   OBJ       15.7
+    x[9,36]   demand_36  1
+    x[9,36]   c_disjunction_9_diajunct_1  8
+    x[9,36]   c_disjunction_9_disjunct_2  1
     x[37,37]  demand_37  1
-    x[37,37]  c_disjunction_37_diajunct_1  9
+    x[37,37]  c_disjunction_37_diajunct_1  10
     x[37,37]  c_disjunction_37_disjunct_2  1
-    x[11,37]  OBJ       5
-    x[11,37]  demand_37  1
-    x[11,37]  c_disjunction_11_diajunct_1  9
-    x[11,37]  c_disjunction_11_disjunct_2  1
-    x[32,37]  OBJ       7
-    x[32,37]  demand_37  1
-    x[32,37]  c_disjunction_32_diajunct_1  9
-    x[32,37]  c_disjunction_32_disjunct_2  1
-    x[6,37]   OBJ       8.6
-    x[6,37]   demand_37  1
-    x[6,37]   c_disjunction_6_diajunct_1  9
-    x[6,37]   c_disjunction_6_disjunct_2  1
+    x[67,37]  OBJ       14
+    x[67,37]  demand_37  1
+    x[67,37]  c_disjunction_67_diajunct_1  10
+    x[67,37]  c_disjunction_67_disjunct_2  1
+    x[13,37]  OBJ       14.2
+    x[13,37]  demand_37  1
+    x[13,37]  c_disjunction_13_diajunct_1  10
+    x[13,37]  c_disjunction_13_disjunct_2  1
+    x[43,37]  OBJ       16.5
+    x[43,37]  demand_37  1
+    x[43,37]  c_disjunction_43_diajunct_1  10
+    x[43,37]  c_disjunction_43_disjunct_2  1
+    x[46,37]  OBJ       18.5
+    x[46,37]  demand_37  1
+    x[46,37]  c_disjunction_46_diajunct_1  10
+    x[46,37]  c_disjunction_46_disjunct_2  1
+    x[41,37]  OBJ       19.1
+    x[41,37]  demand_37  1
+    x[41,37]  c_disjunction_41_diajunct_1  10
+    x[41,37]  c_disjunction_41_disjunct_2  1
+    x[29,37]  OBJ       19.3
+    x[29,37]  demand_37  1
+    x[29,37]  c_disjunction_29_diajunct_1  10
+    x[29,37]  c_disjunction_29_disjunct_2  1
     x[38,38]  demand_38  1
-    x[38,38]  c_disjunction_38_diajunct_1  16
+    x[38,38]  c_disjunction_38_diajunct_1  34
     x[38,38]  c_disjunction_38_disjunct_2  1
-    x[21,38]  OBJ       17.2
-    x[21,38]  demand_38  1
-    x[21,38]  c_disjunction_21_diajunct_1  16
-    x[21,38]  c_disjunction_21_disjunct_2  1
-    x[28,38]  OBJ       19.7
-    x[28,38]  demand_38  1
-    x[28,38]  c_disjunction_28_diajunct_1  16
-    x[28,38]  c_disjunction_28_disjunct_2  1
-    x[39,38]  OBJ       26.7
-    x[39,38]  demand_38  1
-    x[39,38]  c_disjunction_39_diajunct_1  16
-    x[39,38]  c_disjunction_39_disjunct_2  1
+    x[41,38]  OBJ       4.7
+    x[41,38]  demand_38  1
+    x[41,38]  c_disjunction_41_diajunct_1  34
+    x[41,38]  c_disjunction_41_disjunct_2  1
+    x[33,38]  OBJ       29.1
+    x[33,38]  demand_38  1
+    x[33,38]  c_disjunction_33_diajunct_1  34
+    x[33,38]  c_disjunction_33_disjunct_2  1
+    x[13,38]  OBJ       29.3
+    x[13,38]  demand_38  1
+    x[13,38]  c_disjunction_13_diajunct_1  34
+    x[13,38]  c_disjunction_13_disjunct_2  1
+    x[35,38]  OBJ       39.9
+    x[35,38]  demand_38  1
+    x[35,38]  c_disjunction_35_diajunct_1  34
+    x[35,38]  c_disjunction_35_disjunct_2  1
+    x[43,38]  OBJ       43.7
+    x[43,38]  demand_38  1
+    x[43,38]  c_disjunction_43_diajunct_1  34
+    x[43,38]  c_disjunction_43_disjunct_2  1
+    x[29,38]  OBJ       50
+    x[29,38]  demand_38  1
+    x[29,38]  c_disjunction_29_diajunct_1  34
+    x[29,38]  c_disjunction_29_disjunct_2  1
     x[39,39]  demand_39  1
-    x[39,39]  c_disjunction_39_diajunct_1  17
+    x[39,39]  c_disjunction_39_diajunct_1  21
     x[39,39]  c_disjunction_39_disjunct_2  1
-    x[13,39]  OBJ       16.7
-    x[13,39]  demand_39  1
-    x[13,39]  c_disjunction_13_diajunct_1  17
-    x[13,39]  c_disjunction_13_disjunct_2  1
-    x[40,39]  OBJ       18
-    x[40,39]  demand_39  1
-    x[40,39]  c_disjunction_40_diajunct_1  17
-    x[40,39]  c_disjunction_40_disjunct_2  1
-    x[21,39]  OBJ       27.5
-    x[21,39]  demand_39  1
-    x[21,39]  c_disjunction_21_diajunct_1  17
-    x[21,39]  c_disjunction_21_disjunct_2  1
+    x[22,39]  OBJ       9.9
+    x[22,39]  demand_39  1
+    x[22,39]  c_disjunction_22_diajunct_1  21
+    x[22,39]  c_disjunction_22_disjunct_2  1
+    x[26,39]  OBJ       17.2
+    x[26,39]  demand_39  1
+    x[26,39]  c_disjunction_26_diajunct_1  21
+    x[26,39]  c_disjunction_26_disjunct_2  1
+    x[64,39]  OBJ       19.1
+    x[64,39]  demand_39  1
+    x[64,39]  c_disjunction_64_diajunct_1  21
+    x[64,39]  c_disjunction_64_disjunct_2  1
+    x[69,39]  OBJ       25.2
+    x[69,39]  demand_39  1
+    x[69,39]  c_disjunction_69_diajunct_1  21
+    x[69,39]  c_disjunction_69_disjunct_2  1
+    x[32,39]  OBJ       31.7
+    x[32,39]  demand_39  1
+    x[32,39]  c_disjunction_32_diajunct_1  21
+    x[32,39]  c_disjunction_32_disjunct_2  1
+    x[44,39]  OBJ       32.6
+    x[44,39]  demand_39  1
+    x[44,39]  c_disjunction_44_diajunct_1  21
+    x[44,39]  c_disjunction_44_disjunct_2  1
     x[40,40]  demand_40  1
-    x[40,40]  c_disjunction_40_diajunct_1  18
+    x[40,40]  c_disjunction_40_diajunct_1  23
     x[40,40]  c_disjunction_40_disjunct_2  1
-    x[39,40]  OBJ       19.1
-    x[39,40]  demand_40  1
-    x[39,40]  c_disjunction_39_diajunct_1  18
-    x[39,40]  c_disjunction_39_disjunct_2  1
-    x[28,40]  OBJ       29.3
-    x[28,40]  demand_40  1
-    x[28,40]  c_disjunction_28_diajunct_1  18
-    x[28,40]  c_disjunction_28_disjunct_2  1
-    x[13,40]  OBJ       32.7
-    x[13,40]  demand_40  1
-    x[13,40]  c_disjunction_13_diajunct_1  18
-    x[13,40]  c_disjunction_13_disjunct_2  1
+    x[30,40]  OBJ       29.6
+    x[30,40]  demand_40  1
+    x[30,40]  c_disjunction_30_diajunct_1  23
+    x[30,40]  c_disjunction_30_disjunct_2  1
+    x[6,40]   OBJ       32.2
+    x[6,40]   demand_40  1
+    x[6,40]   c_disjunction_6_diajunct_1  23
+    x[6,40]   c_disjunction_6_disjunct_2  1
+    x[18,40]  OBJ       38.3
+    x[18,40]  demand_40  1
+    x[18,40]  c_disjunction_18_diajunct_1  23
+    x[18,40]  c_disjunction_18_disjunct_2  1
+    x[1,40]   OBJ       42.7
+    x[1,40]   demand_40  1
+    x[1,40]   c_disjunction_1_diajunct_1  23
+    x[1,40]   c_disjunction_1_disjunct_2  1
+    x[36,40]  OBJ       49.2
+    x[36,40]  demand_40  1
+    x[36,40]  c_disjunction_36_diajunct_1  23
+    x[36,40]  c_disjunction_36_disjunct_2  1
+    x[27,40]  OBJ       52.4
+    x[27,40]  demand_40  1
+    x[27,40]  c_disjunction_27_diajunct_1  23
+    x[27,40]  c_disjunction_27_disjunct_2  1
+    x[41,41]  demand_41  1
+    x[41,41]  c_disjunction_41_diajunct_1  31
+    x[41,41]  c_disjunction_41_disjunct_2  1
+    x[38,41]  OBJ       4.2
+    x[38,41]  demand_41  1
+    x[38,41]  c_disjunction_38_diajunct_1  31
+    x[38,41]  c_disjunction_38_disjunct_2  1
+    x[13,41]  OBJ       26.3
+    x[13,41]  demand_41  1
+    x[13,41]  c_disjunction_13_diajunct_1  31
+    x[13,41]  c_disjunction_13_disjunct_2  1
+    x[33,41]  OBJ       26.4
+    x[33,41]  demand_41  1
+    x[33,41]  c_disjunction_33_diajunct_1  31
+    x[33,41]  c_disjunction_33_disjunct_2  1
+    x[35,41]  OBJ       34.4
+    x[35,41]  demand_41  1
+    x[35,41]  c_disjunction_35_diajunct_1  31
+    x[35,41]  c_disjunction_35_disjunct_2  1
+    x[43,41]  OBJ       35.7
+    x[43,41]  demand_41  1
+    x[43,41]  c_disjunction_43_diajunct_1  31
+    x[43,41]  c_disjunction_43_disjunct_2  1
+    x[29,41]  OBJ       41.7
+    x[29,41]  demand_41  1
+    x[29,41]  c_disjunction_29_diajunct_1  31
+    x[29,41]  c_disjunction_29_disjunct_2  1
+    x[42,42]  demand_42  1
+    x[42,42]  c_disjunction_42_diajunct_1  33
+    x[42,42]  c_disjunction_42_disjunct_2  1
+    x[15,42]  OBJ       42.8
+    x[15,42]  demand_42  1
+    x[15,42]  c_disjunction_15_diajunct_1  33
+    x[15,42]  c_disjunction_15_disjunct_2  1
+    x[23,42]  OBJ       47.3
+    x[23,42]  demand_42  1
+    x[23,42]  c_disjunction_23_diajunct_1  33
+    x[23,42]  c_disjunction_23_disjunct_2  1
+    x[47,42]  OBJ       83.7
+    x[47,42]  demand_42  1
+    x[47,42]  c_disjunction_47_diajunct_1  33
+    x[47,42]  c_disjunction_47_disjunct_2  1
+    x[19,42]  OBJ       85
+    x[19,42]  demand_42  1
+    x[19,42]  c_disjunction_19_diajunct_1  33
+    x[19,42]  c_disjunction_19_disjunct_2  1
+    x[12,42]  OBJ       93
+    x[12,42]  demand_42  1
+    x[12,42]  c_disjunction_12_diajunct_1  33
+    x[12,42]  c_disjunction_12_disjunct_2  1
+    x[21,42]  OBJ       93.2
+    x[21,42]  demand_42  1
+    x[21,42]  c_disjunction_21_diajunct_1  33
+    x[21,42]  c_disjunction_21_disjunct_2  1
+    x[43,43]  demand_43  1
+    x[43,43]  c_disjunction_43_diajunct_1  7
+    x[43,43]  c_disjunction_43_disjunct_2  1
+    x[29,43]  OBJ       2.2
+    x[29,43]  demand_43  1
+    x[29,43]  c_disjunction_29_diajunct_1  7
+    x[29,43]  c_disjunction_29_disjunct_2  1
+    x[35,43]  OBJ       6.8
+    x[35,43]  demand_43  1
+    x[35,43]  c_disjunction_35_diajunct_1  7
+    x[35,43]  c_disjunction_35_disjunct_2  1
+    x[41,43]  OBJ       8.1
+    x[41,43]  demand_43  1
+    x[41,43]  c_disjunction_41_diajunct_1  7
+    x[41,43]  c_disjunction_41_disjunct_2  1
+    x[38,43]  OBJ       9
+    x[38,43]  demand_43  1
+    x[38,43]  c_disjunction_38_diajunct_1  7
+    x[38,43]  c_disjunction_38_disjunct_2  1
+    x[33,43]  OBJ       9.1
+    x[33,43]  demand_43  1
+    x[33,43]  c_disjunction_33_diajunct_1  7
+    x[33,43]  c_disjunction_33_disjunct_2  1
+    x[13,43]  OBJ       11
+    x[13,43]  demand_43  1
+    x[13,43]  c_disjunction_13_diajunct_1  7
+    x[13,43]  c_disjunction_13_disjunct_2  1
+    x[44,44]  demand_44  1
+    x[44,44]  c_disjunction_44_diajunct_1  23
+    x[44,44]  c_disjunction_44_disjunct_2  1
+    x[32,44]  OBJ       11.6
+    x[32,44]  demand_44  1
+    x[32,44]  c_disjunction_32_diajunct_1  23
+    x[32,44]  c_disjunction_32_disjunct_2  1
+    x[17,44]  OBJ       12.7
+    x[17,44]  demand_44  1
+    x[17,44]  c_disjunction_17_diajunct_1  23
+    x[17,44]  c_disjunction_17_disjunct_2  1
+    x[28,44]  OBJ       20.1
+    x[28,44]  demand_44  1
+    x[28,44]  c_disjunction_28_diajunct_1  23
+    x[28,44]  c_disjunction_28_disjunct_2  1
+    x[3,44]   OBJ       21.5
+    x[3,44]   demand_44  1
+    x[3,44]   c_disjunction_3_diajunct_1  23
+    x[3,44]   c_disjunction_3_disjunct_2  1
+    x[64,44]  OBJ       23.3
+    x[64,44]  demand_44  1
+    x[64,44]  c_disjunction_64_diajunct_1  23
+    x[64,44]  c_disjunction_64_disjunct_2  1
+    x[22,44]  OBJ       25.2
+    x[22,44]  demand_44  1
+    x[22,44]  c_disjunction_22_diajunct_1  23
+    x[22,44]  c_disjunction_22_disjunct_2  1
+    x[45,45]  demand_45  1
+    x[45,45]  c_disjunction_45_diajunct_1  21
+    x[45,45]  c_disjunction_45_disjunct_2  1
+    x[7,45]   OBJ       19.1
+    x[7,45]   demand_45  1
+    x[7,45]   c_disjunction_7_diajunct_1  21
+    x[7,45]   c_disjunction_7_disjunct_2  1
+    x[12,45]  OBJ       26.2
+    x[12,45]  demand_45  1
+    x[12,45]  c_disjunction_12_diajunct_1  21
+    x[12,45]  c_disjunction_12_disjunct_2  1
+    x[55,45]  OBJ       33.1
+    x[55,45]  demand_45  1
+    x[55,45]  c_disjunction_55_diajunct_1  21
+    x[55,45]  c_disjunction_55_disjunct_2  1
+    x[21,45]  OBJ       37.8
+    x[21,45]  demand_45  1
+    x[21,45]  c_disjunction_21_diajunct_1  21
+    x[21,45]  c_disjunction_21_disjunct_2  1
+    x[3,45]   OBJ       39.2
+    x[3,45]   demand_45  1
+    x[3,45]   c_disjunction_3_diajunct_1  21
+    x[3,45]   c_disjunction_3_disjunct_2  1
+    x[32,45]  OBJ       48
+    x[32,45]  demand_45  1
+    x[32,45]  c_disjunction_32_diajunct_1  21
+    x[32,45]  c_disjunction_32_disjunct_2  1
+    x[46,46]  demand_46  1
+    x[46,46]  c_disjunction_46_diajunct_1  11
+    x[46,46]  c_disjunction_46_disjunct_2  1
+    x[67,46]  OBJ       7.7
+    x[67,46]  demand_46  1
+    x[67,46]  c_disjunction_67_diajunct_1  11
+    x[67,46]  c_disjunction_67_disjunct_2  1
+    x[53,46]  OBJ       8.3
+    x[53,46]  demand_46  1
+    x[53,46]  c_disjunction_53_diajunct_1  11
+    x[53,46]  c_disjunction_53_disjunct_2  1
+    x[4,46]   OBJ       10.3
+    x[4,46]   demand_46  1
+    x[4,46]   c_disjunction_4_diajunct_1  11
+    x[4,46]   c_disjunction_4_disjunct_2  1
+    x[20,46]  OBJ       12.9
+    x[20,46]  demand_46  1
+    x[20,46]  c_disjunction_20_diajunct_1  11
+    x[20,46]  c_disjunction_20_disjunct_2  1
+    x[54,46]  OBJ       14.3
+    x[54,46]  demand_46  1
+    x[54,46]  c_disjunction_54_diajunct_1  11
+    x[54,46]  c_disjunction_54_disjunct_2  1
+    x[37,46]  OBJ       20.4
+    x[37,46]  demand_46  1
+    x[37,46]  c_disjunction_37_diajunct_1  11
+    x[37,46]  c_disjunction_37_disjunct_2  1
+    x[47,47]  demand_47  1
+    x[47,47]  c_disjunction_47_diajunct_1  18
+    x[47,47]  c_disjunction_47_disjunct_2  1
+    x[68,47]  OBJ       19.6
+    x[68,47]  demand_47  1
+    x[68,47]  c_disjunction_68_diajunct_1  18
+    x[68,47]  c_disjunction_68_disjunct_2  1
+    x[23,47]  OBJ       22.1
+    x[23,47]  demand_47  1
+    x[23,47]  c_disjunction_23_diajunct_1  18
+    x[23,47]  c_disjunction_23_disjunct_2  1
+    x[11,47]  OBJ       42.6
+    x[11,47]  demand_47  1
+    x[11,47]  c_disjunction_11_diajunct_1  18
+    x[11,47]  c_disjunction_11_disjunct_2  1
+    x[42,47]  OBJ       45.6
+    x[42,47]  demand_47  1
+    x[42,47]  c_disjunction_42_diajunct_1  18
+    x[42,47]  c_disjunction_42_disjunct_2  1
+    x[19,47]  OBJ       46.1
+    x[19,47]  demand_47  1
+    x[19,47]  c_disjunction_19_diajunct_1  18
+    x[19,47]  c_disjunction_19_disjunct_2  1
+    x[15,47]  OBJ       67.9
+    x[15,47]  demand_47  1
+    x[15,47]  c_disjunction_15_diajunct_1  18
+    x[15,47]  c_disjunction_15_disjunct_2  1
+    x[48,48]  demand_48  1
+    x[48,48]  c_disjunction_48_diajunct_1  24
+    x[48,48]  c_disjunction_48_disjunct_2  1
+    x[56,48]  OBJ       17.8
+    x[56,48]  demand_48  1
+    x[56,48]  c_disjunction_56_diajunct_1  24
+    x[56,48]  c_disjunction_56_disjunct_2  1
+    x[59,48]  OBJ       24.5
+    x[59,48]  demand_48  1
+    x[59,48]  c_disjunction_59_diajunct_1  24
+    x[59,48]  c_disjunction_59_disjunct_2  1
+    x[50,48]  OBJ       35.8
+    x[50,48]  demand_48  1
+    x[50,48]  c_disjunction_50_diajunct_1  24
+    x[50,48]  c_disjunction_50_disjunct_2  1
+    x[70,48]  OBJ       47.8
+    x[70,48]  demand_48  1
+    x[70,48]  c_disjunction_70_diajunct_1  24
+    x[70,48]  c_disjunction_70_disjunct_2  1
+    x[60,48]  OBJ       54.4
+    x[60,48]  demand_48  1
+    x[60,48]  c_disjunction_60_diajunct_1  24
+    x[60,48]  c_disjunction_60_disjunct_2  1
+    x[69,48]  OBJ       57.7
+    x[69,48]  demand_48  1
+    x[69,48]  c_disjunction_69_diajunct_1  24
+    x[69,48]  c_disjunction_69_disjunct_2  1
+    x[49,49]  demand_49  1
+    x[49,49]  c_disjunction_49_diajunct_1  32
+    x[49,49]  c_disjunction_49_disjunct_2  1
+    x[58,49]  OBJ       12.7
+    x[58,49]  demand_49  1
+    x[58,49]  c_disjunction_58_diajunct_1  32
+    x[58,49]  c_disjunction_58_disjunct_2  1
+    x[51,49]  OBJ       24.7
+    x[51,49]  demand_49  1
+    x[51,49]  c_disjunction_51_diajunct_1  32
+    x[51,49]  c_disjunction_51_disjunct_2  1
+    x[16,49]  OBJ       41.7
+    x[16,49]  demand_49  1
+    x[16,49]  c_disjunction_16_diajunct_1  32
+    x[16,49]  c_disjunction_16_disjunct_2  1
+    x[10,49]  OBJ       45.7
+    x[10,49]  demand_49  1
+    x[10,49]  c_disjunction_10_diajunct_1  32
+    x[10,49]  c_disjunction_10_disjunct_2  1
+    x[31,49]  OBJ       46.9
+    x[31,49]  demand_49  1
+    x[31,49]  c_disjunction_31_diajunct_1  32
+    x[31,49]  c_disjunction_31_disjunct_2  1
+    x[57,49]  OBJ       55.1
+    x[57,49]  demand_49  1
+    x[57,49]  c_disjunction_57_diajunct_1  32
+    x[57,49]  c_disjunction_57_disjunct_2  1
+    x[50,50]  demand_50  1
+    x[50,50]  c_disjunction_50_diajunct_1  26
+    x[50,50]  c_disjunction_50_disjunct_2  1
+    x[59,50]  OBJ       12.2
+    x[59,50]  demand_50  1
+    x[59,50]  c_disjunction_59_diajunct_1  26
+    x[59,50]  c_disjunction_59_disjunct_2  1
+    x[70,50]  OBJ       13.1
+    x[70,50]  demand_50  1
+    x[70,50]  c_disjunction_70_diajunct_1  26
+    x[70,50]  c_disjunction_70_disjunct_2  1
+    x[14,50]  OBJ       26.3
+    x[14,50]  demand_50  1
+    x[14,50]  c_disjunction_14_diajunct_1  26
+    x[14,50]  c_disjunction_14_disjunct_2  1
+    x[56,50]  OBJ       28.8
+    x[56,50]  demand_50  1
+    x[56,50]  c_disjunction_56_diajunct_1  26
+    x[56,50]  c_disjunction_56_disjunct_2  1
+    x[60,50]  OBJ       31.3
+    x[60,50]  demand_50  1
+    x[60,50]  c_disjunction_60_diajunct_1  26
+    x[60,50]  c_disjunction_60_disjunct_2  1
+    x[48,50]  OBJ       38.7
+    x[48,50]  demand_50  1
+    x[48,50]  c_disjunction_48_diajunct_1  26
+    x[48,50]  c_disjunction_48_disjunct_2  1
+    x[51,51]  demand_51  1
+    x[51,51]  c_disjunction_51_diajunct_1  17
+    x[51,51]  c_disjunction_51_disjunct_2  1
+    x[16,51]  OBJ       11
+    x[16,51]  demand_51  1
+    x[16,51]  c_disjunction_16_diajunct_1  17
+    x[16,51]  c_disjunction_16_disjunct_2  1
+    x[49,51]  OBJ       13.1
+    x[49,51]  demand_51  1
+    x[49,51]  c_disjunction_49_diajunct_1  17
+    x[49,51]  c_disjunction_49_disjunct_2  1
+    x[58,51]  OBJ       13.8
+    x[58,51]  demand_51  1
+    x[58,51]  c_disjunction_58_diajunct_1  17
+    x[58,51]  c_disjunction_58_disjunct_2  1
+    x[10,51]  OBJ       16.6
+    x[10,51]  demand_51  1
+    x[10,51]  c_disjunction_10_diajunct_1  17
+    x[10,51]  c_disjunction_10_disjunct_2  1
+    x[31,51]  OBJ       17.7
+    x[31,51]  demand_51  1
+    x[31,51]  c_disjunction_31_diajunct_1  17
+    x[31,51]  c_disjunction_31_disjunct_2  1
+    x[20,51]  OBJ       19.1
+    x[20,51]  demand_51  1
+    x[20,51]  c_disjunction_20_diajunct_1  17
+    x[20,51]  c_disjunction_20_disjunct_2  1
+    x[52,52]  demand_52  1
+    x[52,52]  c_disjunction_52_diajunct_1  17
+    x[52,52]  c_disjunction_52_disjunct_2  1
+    x[25,52]  OBJ       16
+    x[25,52]  demand_52  1
+    x[25,52]  c_disjunction_25_diajunct_1  17
+    x[25,52]  c_disjunction_25_disjunct_2  1
+    x[27,52]  OBJ       21.7
+    x[27,52]  demand_52  1
+    x[27,52]  c_disjunction_27_diajunct_1  17
+    x[27,52]  c_disjunction_27_disjunct_2  1
+    x[63,52]  OBJ       23.1
+    x[63,52]  demand_52  1
+    x[63,52]  c_disjunction_63_diajunct_1  17
+    x[63,52]  c_disjunction_63_disjunct_2  1
+    x[67,52]  OBJ       23.8
+    x[67,52]  demand_52  1
+    x[67,52]  c_disjunction_67_diajunct_1  17
+    x[67,52]  c_disjunction_67_disjunct_2  1
+    x[53,52]  OBJ       26.4
+    x[53,52]  demand_52  1
+    x[53,52]  c_disjunction_53_diajunct_1  17
+    x[53,52]  c_disjunction_53_disjunct_2  1
+    x[9,52]   OBJ       28.3
+    x[9,52]   demand_52  1
+    x[9,52]   c_disjunction_9_diajunct_1  17
+    x[9,52]   c_disjunction_9_disjunct_2  1
+    x[53,53]  demand_53  1
+    x[53,53]  c_disjunction_53_diajunct_1  26
+    x[53,53]  c_disjunction_53_disjunct_2  1
+    x[54,53]  OBJ       17.6
+    x[54,53]  demand_53  1
+    x[54,53]  c_disjunction_54_diajunct_1  26
+    x[54,53]  c_disjunction_54_disjunct_2  1
+    x[46,53]  OBJ       19.7
+    x[46,53]  demand_53  1
+    x[46,53]  c_disjunction_46_diajunct_1  26
+    x[46,53]  c_disjunction_46_disjunct_2  1
+    x[67,53]  OBJ       26.8
+    x[67,53]  demand_53  1
+    x[67,53]  c_disjunction_67_diajunct_1  26
+    x[67,53]  c_disjunction_67_disjunct_2  1
+    x[9,53]   OBJ       33.6
+    x[9,53]   demand_53  1
+    x[9,53]   c_disjunction_9_diajunct_1  26
+    x[9,53]   c_disjunction_9_disjunct_2  1
+    x[4,53]   OBJ       39.8
+    x[4,53]   demand_53  1
+    x[4,53]   c_disjunction_4_diajunct_1  26
+    x[4,53]   c_disjunction_4_disjunct_2  1
+    x[52,53]  OBJ       40.4
+    x[52,53]  demand_53  1
+    x[52,53]  c_disjunction_52_diajunct_1  26
+    x[52,53]  c_disjunction_52_disjunct_2  1
+    x[54,54]  demand_54  1
+    x[54,54]  c_disjunction_54_diajunct_1  10
+    x[54,54]  c_disjunction_54_disjunct_2  1
+    x[53,54]  OBJ       6.8
+    x[53,54]  demand_54  1
+    x[53,54]  c_disjunction_53_diajunct_1  10
+    x[53,54]  c_disjunction_53_disjunct_2  1
+    x[2,54]   OBJ       9.3
+    x[2,54]   demand_54  1
+    x[2,54]   c_disjunction_2_diajunct_1  10
+    x[2,54]   c_disjunction_2_disjunct_2  1
+    x[65,54]  OBJ       10.4
+    x[65,54]  demand_54  1
+    x[65,54]  c_disjunction_65_diajunct_1  10
+    x[65,54]  c_disjunction_65_disjunct_2  1
+    x[9,54]   OBJ       10.6
+    x[9,54]   demand_54  1
+    x[9,54]   c_disjunction_9_diajunct_1  10
+    x[9,54]   c_disjunction_9_disjunct_2  1
+    x[46,54]  OBJ       13
+    x[46,54]  demand_54  1
+    x[46,54]  c_disjunction_46_diajunct_1  10
+    x[46,54]  c_disjunction_46_disjunct_2  1
+    x[62,54]  OBJ       14
+    x[62,54]  demand_54  1
+    x[62,54]  c_disjunction_62_diajunct_1  10
+    x[62,54]  c_disjunction_62_disjunct_2  1
+    x[55,55]  demand_55  1
+    x[55,55]  c_disjunction_55_diajunct_1  11
+    x[55,55]  c_disjunction_55_disjunct_2  1
+    x[34,55]  OBJ       10.3
+    x[34,55]  demand_55  1
+    x[34,55]  c_disjunction_34_diajunct_1  11
+    x[34,55]  c_disjunction_34_disjunct_2  1
+    x[63,55]  OBJ       14.3
+    x[63,55]  demand_55  1
+    x[63,55]  c_disjunction_63_diajunct_1  11
+    x[63,55]  c_disjunction_63_disjunct_2  1
+    x[3,55]   OBJ       16.5
+    x[3,55]   demand_55  1
+    x[3,55]   c_disjunction_3_diajunct_1  11
+    x[3,55]   c_disjunction_3_disjunct_2  1
+    x[45,55]  OBJ       17.4
+    x[45,55]  demand_55  1
+    x[45,55]  c_disjunction_45_diajunct_1  11
+    x[45,55]  c_disjunction_45_disjunct_2  1
+    x[28,55]  OBJ       18.2
+    x[28,55]  demand_55  1
+    x[28,55]  c_disjunction_28_diajunct_1  11
+    x[28,55]  c_disjunction_28_disjunct_2  1
+    x[1,55]   OBJ       21.9
+    x[1,55]   demand_55  1
+    x[1,55]   c_disjunction_1_diajunct_1  11
+    x[1,55]   c_disjunction_1_disjunct_2  1
+    x[56,56]  demand_56  1
+    x[56,56]  c_disjunction_56_diajunct_1  35
+    x[56,56]  c_disjunction_56_disjunct_2  1
+    x[48,56]  OBJ       25.9
+    x[48,56]  demand_56  1
+    x[48,56]  c_disjunction_48_diajunct_1  35
+    x[48,56]  c_disjunction_48_disjunct_2  1
+    x[59,56]  OBJ       26.9
+    x[59,56]  demand_56  1
+    x[59,56]  c_disjunction_59_diajunct_1  35
+    x[59,56]  c_disjunction_59_disjunct_2  1
+    x[50,56]  OBJ       38.8
+    x[50,56]  demand_56  1
+    x[50,56]  c_disjunction_50_diajunct_1  35
+    x[50,56]  c_disjunction_50_disjunct_2  1
+    x[60,56]  OBJ       55
+    x[60,56]  demand_56  1
+    x[60,56]  c_disjunction_60_diajunct_1  35
+    x[60,56]  c_disjunction_60_disjunct_2  1
+    x[70,56]  OBJ       55.5
+    x[70,56]  demand_56  1
+    x[70,56]  c_disjunction_70_diajunct_1  35
+    x[70,56]  c_disjunction_70_disjunct_2  1
+    x[14,56]  OBJ       72.5
+    x[14,56]  demand_56  1
+    x[14,56]  c_disjunction_14_diajunct_1  35
+    x[14,56]  c_disjunction_14_disjunct_2  1
+    x[57,57]  demand_57  1
+    x[57,57]  c_disjunction_57_diajunct_1  31
+    x[57,57]  c_disjunction_57_disjunct_2  1
+    x[31,57]  OBJ       8
+    x[31,57]  demand_57  1
+    x[31,57]  c_disjunction_31_diajunct_1  31
+    x[31,57]  c_disjunction_31_disjunct_2  1
+    x[10,57]  OBJ       9.6
+    x[10,57]  demand_57  1
+    x[10,57]  c_disjunction_10_diajunct_1  31
+    x[10,57]  c_disjunction_10_disjunct_2  1
+    x[61,57]  OBJ       13.9
+    x[61,57]  demand_57  1
+    x[61,57]  c_disjunction_61_diajunct_1  31
+    x[61,57]  c_disjunction_61_disjunct_2  1
+    x[5,57]   OBJ       22.5
+    x[5,57]   demand_57  1
+    x[5,57]   c_disjunction_5_diajunct_1  31
+    x[5,57]   c_disjunction_5_disjunct_2  1
+    x[65,57]  OBJ       37.3
+    x[65,57]  demand_57  1
+    x[65,57]  c_disjunction_65_diajunct_1  31
+    x[65,57]  c_disjunction_65_disjunct_2  1
+    x[51,57]  OBJ       39.8
+    x[51,57]  demand_57  1
+    x[51,57]  c_disjunction_51_diajunct_1  31
+    x[51,57]  c_disjunction_51_disjunct_2  1
+    x[58,58]  demand_58  1
+    x[58,58]  c_disjunction_58_diajunct_1  12
+    x[58,58]  c_disjunction_58_disjunct_2  1
+    x[49,58]  OBJ       4.8
+    x[49,58]  demand_58  1
+    x[49,58]  c_disjunction_49_diajunct_1  12
+    x[49,58]  c_disjunction_49_disjunct_2  1
+    x[51,58]  OBJ       9.7
+    x[51,58]  demand_58  1
+    x[51,58]  c_disjunction_51_diajunct_1  12
+    x[51,58]  c_disjunction_51_disjunct_2  1
+    x[10,58]  OBJ       13.9
+    x[10,58]  demand_58  1
+    x[10,58]  c_disjunction_10_diajunct_1  12
+    x[10,58]  c_disjunction_10_disjunct_2  1
+    x[31,58]  OBJ       14.1
+    x[31,58]  demand_58  1
+    x[31,58]  c_disjunction_31_diajunct_1  12
+    x[31,58]  c_disjunction_31_disjunct_2  1
+    x[57,58]  OBJ       17.1
+    x[57,58]  demand_58  1
+    x[57,58]  c_disjunction_57_diajunct_1  12
+    x[57,58]  c_disjunction_57_disjunct_2  1
+    x[16,58]  OBJ       17.3
+    x[16,58]  demand_58  1
+    x[16,58]  c_disjunction_16_diajunct_1  12
+    x[16,58]  c_disjunction_16_disjunct_2  1
+    x[59,59]  demand_59  1
+    x[59,59]  c_disjunction_59_diajunct_1  10
+    x[59,59]  c_disjunction_59_disjunct_2  1
+    x[50,59]  OBJ       4.7
+    x[50,59]  demand_59  1
+    x[50,59]  c_disjunction_50_diajunct_1  10
+    x[50,59]  c_disjunction_50_disjunct_2  1
+    x[56,59]  OBJ       7.7
+    x[56,59]  demand_59  1
+    x[56,59]  c_disjunction_56_diajunct_1  10
+    x[56,59]  c_disjunction_56_disjunct_2  1
+    x[70,59]  OBJ       9.7
+    x[70,59]  demand_59  1
+    x[70,59]  c_disjunction_70_diajunct_1  10
+    x[70,59]  c_disjunction_70_disjunct_2  1
+    x[48,59]  OBJ       10.2
+    x[48,59]  demand_59  1
+    x[48,59]  c_disjunction_48_diajunct_1  10
+    x[48,59]  c_disjunction_48_disjunct_2  1
+    x[14,59]  OBJ       14.8
+    x[14,59]  demand_59  1
+    x[14,59]  c_disjunction_14_diajunct_1  10
+    x[14,59]  c_disjunction_14_disjunct_2  1
+    x[60,59]  OBJ       15
+    x[60,59]  demand_59  1
+    x[60,59]  c_disjunction_60_diajunct_1  10
+    x[60,59]  c_disjunction_60_disjunct_2  1
+    x[60,60]  demand_60  1
+    x[60,60]  c_disjunction_60_diajunct_1  18
+    x[60,60]  c_disjunction_60_disjunct_2  1
+    x[70,60]  OBJ       20.7
+    x[70,60]  demand_60  1
+    x[70,60]  c_disjunction_70_diajunct_1  18
+    x[70,60]  c_disjunction_70_disjunct_2  1
+    x[50,60]  OBJ       21.7
+    x[50,60]  demand_60  1
+    x[50,60]  c_disjunction_50_diajunct_1  18
+    x[50,60]  c_disjunction_50_disjunct_2  1
+    x[14,60]  OBJ       23
+    x[14,60]  demand_60  1
+    x[14,60]  c_disjunction_14_diajunct_1  18
+    x[14,60]  c_disjunction_14_disjunct_2  1
+    x[21,60]  OBJ       23.5
+    x[21,60]  demand_60  1
+    x[21,60]  c_disjunction_21_diajunct_1  18
+    x[21,60]  c_disjunction_21_disjunct_2  1
+    x[59,60]  OBJ       26.9
+    x[59,60]  demand_60  1
+    x[59,60]  c_disjunction_59_diajunct_1  18
+    x[59,60]  c_disjunction_59_disjunct_2  1
+    x[56,60]  OBJ       28.3
+    x[56,60]  demand_60  1
+    x[56,60]  c_disjunction_56_diajunct_1  18
+    x[56,60]  c_disjunction_56_disjunct_2  1
+    x[61,61]  demand_61  1
+    x[61,61]  c_disjunction_61_diajunct_1  14
+    x[61,61]  c_disjunction_61_disjunct_2  1
+    x[57,61]  OBJ       6.3
+    x[57,61]  demand_61  1
+    x[57,61]  c_disjunction_57_diajunct_1  14
+    x[57,61]  c_disjunction_57_disjunct_2  1
+    x[5,61]   OBJ       7.8
+    x[5,61]   demand_61  1
+    x[5,61]   c_disjunction_5_diajunct_1  14
+    x[5,61]   c_disjunction_5_disjunct_2  1
+    x[31,61]  OBJ       9.9
+    x[31,61]  demand_61  1
+    x[31,61]  c_disjunction_31_diajunct_1  14
+    x[31,61]  c_disjunction_31_disjunct_2  1
+    x[10,61]  OBJ       10.5
+    x[10,61]  demand_61  1
+    x[10,61]  c_disjunction_10_diajunct_1  14
+    x[10,61]  c_disjunction_10_disjunct_2  1
+    x[65,61]  OBJ       10.7
+    x[65,61]  demand_61  1
+    x[65,61]  c_disjunction_65_diajunct_1  14
+    x[65,61]  c_disjunction_65_disjunct_2  1
+    x[24,61]  OBJ       15.8
+    x[24,61]  demand_61  1
+    x[24,61]  c_disjunction_24_diajunct_1  14
+    x[24,61]  c_disjunction_24_disjunct_2  1
+    x[62,62]  demand_62  1
+    x[62,62]  c_disjunction_62_diajunct_1  26
+    x[62,62]  c_disjunction_62_disjunct_2  1
+    x[2,62]   OBJ       15.7
+    x[2,62]   demand_62  1
+    x[2,62]   c_disjunction_2_diajunct_1  26
+    x[2,62]   c_disjunction_2_disjunct_2  1
+    x[65,62]  OBJ       23.9
+    x[65,62]  demand_62  1
+    x[65,62]  c_disjunction_65_diajunct_1  26
+    x[65,62]  c_disjunction_65_disjunct_2  1
+    x[24,62]  OBJ       25.7
+    x[24,62]  demand_62  1
+    x[24,62]  c_disjunction_24_diajunct_1  26
+    x[24,62]  c_disjunction_24_disjunct_2  1
+    x[9,62]   OBJ       36.3
+    x[9,62]   demand_62  1
+    x[9,62]   c_disjunction_9_diajunct_1  26
+    x[9,62]   c_disjunction_9_disjunct_2  1
+    x[54,62]  OBJ       36.3
+    x[54,62]  demand_62  1
+    x[54,62]  c_disjunction_54_diajunct_1  26
+    x[54,62]  c_disjunction_54_disjunct_2  1
+    x[61,62]  OBJ       43.3
+    x[61,62]  demand_62  1
+    x[61,62]  c_disjunction_61_diajunct_1  26
+    x[61,62]  c_disjunction_61_disjunct_2  1
+    x[63,63]  demand_63  1
+    x[63,63]  c_disjunction_63_diajunct_1  19
+    x[63,63]  c_disjunction_63_disjunct_2  1
+    x[55,63]  OBJ       24.8
+    x[55,63]  demand_63  1
+    x[55,63]  c_disjunction_55_diajunct_1  19
+    x[55,63]  c_disjunction_55_disjunct_2  1
+    x[52,63]  OBJ       25.8
+    x[52,63]  demand_63  1
+    x[52,63]  c_disjunction_52_diajunct_1  19
+    x[52,63]  c_disjunction_52_disjunct_2  1
+    x[34,63]  OBJ       28
+    x[34,63]  demand_63  1
+    x[34,63]  c_disjunction_34_diajunct_1  19
+    x[34,63]  c_disjunction_34_disjunct_2  1
+    x[18,63]  OBJ       29.8
+    x[18,63]  demand_63  1
+    x[18,63]  c_disjunction_18_diajunct_1  19
+    x[18,63]  c_disjunction_18_disjunct_2  1
+    x[27,63]  OBJ       31.8
+    x[27,63]  demand_63  1
+    x[27,63]  c_disjunction_27_diajunct_1  19
+    x[27,63]  c_disjunction_27_disjunct_2  1
+    x[1,63]   OBJ       38.1
+    x[1,63]   demand_63  1
+    x[1,63]   c_disjunction_1_diajunct_1  19
+    x[1,63]   c_disjunction_1_disjunct_2  1
+    x[64,64]  demand_64  1
+    x[64,64]  c_disjunction_64_diajunct_1  34
+    x[64,64]  c_disjunction_64_disjunct_2  1
+    x[22,64]  OBJ       24.1
+    x[22,64]  demand_64  1
+    x[22,64]  c_disjunction_22_diajunct_1  34
+    x[22,64]  c_disjunction_22_disjunct_2  1
+    x[32,64]  OBJ       24.4
+    x[32,64]  demand_64  1
+    x[32,64]  c_disjunction_32_diajunct_1  34
+    x[32,64]  c_disjunction_32_disjunct_2  1
+    x[26,64]  OBJ       25.2
+    x[26,64]  demand_64  1
+    x[26,64]  c_disjunction_26_diajunct_1  34
+    x[26,64]  c_disjunction_26_disjunct_2  1
+    x[39,64]  OBJ       30.9
+    x[39,64]  demand_64  1
+    x[39,64]  c_disjunction_39_diajunct_1  34
+    x[39,64]  c_disjunction_39_disjunct_2  1
+    x[44,64]  OBJ       34.4
+    x[44,64]  demand_64  1
+    x[44,64]  c_disjunction_44_diajunct_1  34
+    x[44,64]  c_disjunction_44_disjunct_2  1
+    x[69,64]  OBJ       44.9
+    x[69,64]  demand_64  1
+    x[69,64]  c_disjunction_69_diajunct_1  34
+    x[69,64]  c_disjunction_69_disjunct_2  1
+    x[65,65]  demand_65  1
+    x[65,65]  c_disjunction_65_diajunct_1  28
+    x[65,65]  c_disjunction_65_disjunct_2  1
+    x[2,65]   OBJ       11
+    x[2,65]   demand_65  1
+    x[2,65]   c_disjunction_2_diajunct_1  28
+    x[2,65]   c_disjunction_2_disjunct_2  1
+    x[61,65]  OBJ       21.3
+    x[61,65]  demand_65  1
+    x[61,65]  c_disjunction_61_diajunct_1  28
+    x[61,65]  c_disjunction_61_disjunct_2  1
+    x[24,65]  OBJ       21.9
+    x[24,65]  demand_65  1
+    x[24,65]  c_disjunction_24_diajunct_1  28
+    x[24,65]  c_disjunction_24_disjunct_2  1
+    x[62,65]  OBJ       25.7
+    x[62,65]  demand_65  1
+    x[62,65]  c_disjunction_62_diajunct_1  28
+    x[62,65]  c_disjunction_62_disjunct_2  1
+    x[5,65]   OBJ       28.3
+    x[5,65]   demand_65  1
+    x[5,65]   c_disjunction_5_diajunct_1  28
+    x[5,65]   c_disjunction_5_disjunct_2  1
+    x[54,65]  OBJ       29.2
+    x[54,65]  demand_65  1
+    x[54,65]  c_disjunction_54_diajunct_1  28
+    x[54,65]  c_disjunction_54_disjunct_2  1
+    x[66,66]  demand_66  1
+    x[66,66]  c_disjunction_66_diajunct_1  30
+    x[66,66]  c_disjunction_66_disjunct_2  1
+    x[33,66]  OBJ       22
+    x[33,66]  demand_66  1
+    x[33,66]  c_disjunction_33_diajunct_1  30
+    x[33,66]  c_disjunction_33_disjunct_2  1
+    x[35,66]  OBJ       22.6
+    x[35,66]  demand_66  1
+    x[35,66]  c_disjunction_35_diajunct_1  30
+    x[35,66]  c_disjunction_35_disjunct_2  1
+    x[8,66]   OBJ       41.6
+    x[8,66]   demand_66  1
+    x[8,66]   c_disjunction_8_diajunct_1  30
+    x[8,66]   c_disjunction_8_disjunct_2  1
+    x[19,66]  OBJ       42.4
+    x[19,66]  demand_66  1
+    x[19,66]  c_disjunction_19_diajunct_1  30
+    x[19,66]  c_disjunction_19_disjunct_2  1
+    x[41,66]  OBJ       47.5
+    x[41,66]  demand_66  1
+    x[41,66]  c_disjunction_41_diajunct_1  30
+    x[41,66]  c_disjunction_41_disjunct_2  1
+    x[29,66]  OBJ       47.6
+    x[29,66]  demand_66  1
+    x[29,66]  c_disjunction_29_diajunct_1  30
+    x[29,66]  c_disjunction_29_disjunct_2  1
+    x[67,67]  demand_67  1
+    x[67,67]  c_disjunction_67_diajunct_1  12
+    x[67,67]  c_disjunction_67_disjunct_2  1
+    x[46,67]  OBJ       8.4
+    x[46,67]  demand_67  1
+    x[46,67]  c_disjunction_46_diajunct_1  12
+    x[46,67]  c_disjunction_46_disjunct_2  1
+    x[53,67]  OBJ       12.4
+    x[53,67]  demand_67  1
+    x[53,67]  c_disjunction_53_diajunct_1  12
+    x[53,67]  c_disjunction_53_disjunct_2  1
+    x[37,67]  OBJ       16.7
+    x[37,67]  demand_67  1
+    x[37,67]  c_disjunction_37_diajunct_1  12
+    x[37,67]  c_disjunction_37_disjunct_2  1
+    x[52,67]  OBJ       16.8
+    x[52,67]  demand_67  1
+    x[52,67]  c_disjunction_52_diajunct_1  12
+    x[52,67]  c_disjunction_52_disjunct_2  1
+    x[4,67]   OBJ       18.5
+    x[4,67]   demand_67  1
+    x[4,67]   c_disjunction_4_diajunct_1  12
+    x[4,67]   c_disjunction_4_disjunct_2  1
+    x[54,67]  OBJ       20.5
+    x[54,67]  demand_67  1
+    x[54,67]  c_disjunction_54_diajunct_1  12
+    x[54,67]  c_disjunction_54_disjunct_2  1
+    x[68,68]  demand_68  1
+    x[68,68]  c_disjunction_68_diajunct_1  13
+    x[68,68]  c_disjunction_68_disjunct_2  1
+    x[47,68]  OBJ       14.1
+    x[47,68]  demand_68  1
+    x[47,68]  c_disjunction_47_diajunct_1  13
+    x[47,68]  c_disjunction_47_disjunct_2  1
+    x[11,68]  OBJ       18.8
+    x[11,68]  demand_68  1
+    x[11,68]  c_disjunction_11_diajunct_1  13
+    x[11,68]  c_disjunction_11_disjunct_2  1
+    x[19,68]  OBJ       24.8
+    x[19,68]  demand_68  1
+    x[19,68]  c_disjunction_19_diajunct_1  13
+    x[19,68]  c_disjunction_19_disjunct_2  1
+    x[23,68]  OBJ       26.4
+    x[23,68]  demand_68  1
+    x[23,68]  c_disjunction_23_diajunct_1  13
+    x[23,68]  c_disjunction_23_disjunct_2  1
+    x[42,68]  OBJ       38.7
+    x[42,68]  demand_68  1
+    x[42,68]  c_disjunction_42_diajunct_1  13
+    x[42,68]  c_disjunction_42_disjunct_2  1
+    x[66,68]  OBJ       40
+    x[66,68]  demand_68  1
+    x[66,68]  c_disjunction_66_diajunct_1  13
+    x[66,68]  c_disjunction_66_disjunct_2  1
+    x[69,69]  demand_69  1
+    x[69,69]  c_disjunction_69_diajunct_1  9
+    x[69,69]  c_disjunction_69_disjunct_2  1
+    x[26,69]  OBJ       5.2
+    x[26,69]  demand_69  1
+    x[26,69]  c_disjunction_26_diajunct_1  9
+    x[26,69]  c_disjunction_26_disjunct_2  1
+    x[39,69]  OBJ       10.8
+    x[39,69]  demand_69  1
+    x[39,69]  c_disjunction_39_diajunct_1  9
+    x[39,69]  c_disjunction_39_disjunct_2  1
+    x[64,69]  OBJ       11.9
+    x[64,69]  demand_69  1
+    x[64,69]  c_disjunction_64_diajunct_1  9
+    x[64,69]  c_disjunction_64_disjunct_2  1
+    x[22,69]  OBJ       13.8
+    x[22,69]  demand_69  1
+    x[22,69]  c_disjunction_22_diajunct_1  9
+    x[22,69]  c_disjunction_22_disjunct_2  1
+    x[32,69]  OBJ       18.2
+    x[32,69]  demand_69  1
+    x[32,69]  c_disjunction_32_diajunct_1  9
+    x[32,69]  c_disjunction_32_disjunct_2  1
+    x[56,69]  OBJ       19.2
+    x[56,69]  demand_69  1
+    x[56,69]  c_disjunction_56_diajunct_1  9
+    x[56,69]  c_disjunction_56_disjunct_2  1
+    x[70,70]  demand_70  1
+    x[70,70]  c_disjunction_70_diajunct_1  11
+    x[70,70]  c_disjunction_70_disjunct_2  1
+    x[50,70]  OBJ       5.6
+    x[50,70]  demand_70  1
+    x[50,70]  c_disjunction_50_diajunct_1  11
+    x[50,70]  c_disjunction_50_disjunct_2  1
+    x[14,70]  OBJ       5.6
+    x[14,70]  demand_70  1
+    x[14,70]  c_disjunction_14_diajunct_1  11
+    x[14,70]  c_disjunction_14_disjunct_2  1
+    x[59,70]  OBJ       10.7
+    x[59,70]  demand_70  1
+    x[59,70]  c_disjunction_59_diajunct_1  11
+    x[59,70]  c_disjunction_59_disjunct_2  1
+    x[60,70]  OBJ       12.6
+    x[60,70]  demand_70  1
+    x[60,70]  c_disjunction_60_diajunct_1  11
+    x[60,70]  c_disjunction_60_disjunct_2  1
+    x[56,70]  OBJ       17.4
+    x[56,70]  demand_70  1
+    x[56,70]  c_disjunction_56_diajunct_1  11
+    x[56,70]  c_disjunction_56_disjunct_2  1
+    x[48,70]  OBJ       21.9
+    x[48,70]  demand_70  1
+    x[48,70]  c_disjunction_48_diajunct_1  11
+    x[48,70]  c_disjunction_48_disjunct_2  1
     MARKER    'MARKER'                 'INTEND'
 RHS
     RHS1      demand_1  1
@@ -1005,86 +2565,176 @@ RHS
     RHS1      demand_38  1
     RHS1      demand_39  1
     RHS1      demand_40  1
-    RHS1      c_disjunction_1_disjunct_2  4
-    RHS1      R42       1
-    RHS1      c_disjunction_2_disjunct_2  5
-    RHS1      R45       1
-    RHS1      c_disjunction_3_disjunct_2  6
-    RHS1      R48       1
-    RHS1      c_disjunction_4_disjunct_2  3
-    RHS1      R51       1
-    RHS1      c_disjunction_5_disjunct_2  6
-    RHS1      R54       1
-    RHS1      c_disjunction_6_disjunct_2  4
-    RHS1      R57       1
-    RHS1      c_disjunction_7_disjunct_2  4
-    RHS1      R60       1
-    RHS1      c_disjunction_8_disjunct_2  3
-    RHS1      R63       1
-    RHS1      c_disjunction_9_disjunct_2  4
-    RHS1      R66       1
-    RHS1      c_disjunction_10_disjunct_2  5
-    RHS1      R69       1
-    RHS1      c_disjunction_11_disjunct_2  7
+    RHS1      demand_41  1
+    RHS1      demand_42  1
+    RHS1      demand_43  1
+    RHS1      demand_44  1
+    RHS1      demand_45  1
+    RHS1      demand_46  1
+    RHS1      demand_47  1
+    RHS1      demand_48  1
+    RHS1      demand_49  1
+    RHS1      demand_50  1
+    RHS1      demand_51  1
+    RHS1      demand_52  1
+    RHS1      demand_53  1
+    RHS1      demand_54  1
+    RHS1      demand_55  1
+    RHS1      demand_56  1
+    RHS1      demand_57  1
+    RHS1      demand_58  1
+    RHS1      demand_59  1
+    RHS1      demand_60  1
+    RHS1      demand_61  1
+    RHS1      demand_62  1
+    RHS1      demand_63  1
+    RHS1      demand_64  1
+    RHS1      demand_65  1
+    RHS1      demand_66  1
+    RHS1      demand_67  1
+    RHS1      demand_68  1
+    RHS1      demand_69  1
+    RHS1      demand_70  1
+    RHS1      c_disjunction_1_disjunct_2  8
     RHS1      R72       1
-    RHS1      c_disjunction_12_disjunct_2  2
+    RHS1      c_disjunction_2_disjunct_2  6
     RHS1      R75       1
-    RHS1      c_disjunction_13_disjunct_2  4
+    RHS1      c_disjunction_3_disjunct_2  9
     RHS1      R78       1
-    RHS1      c_disjunction_14_disjunct_2  3
+    RHS1      c_disjunction_4_disjunct_2  6
     RHS1      R81       1
-    RHS1      c_disjunction_15_disjunct_2  4
+    RHS1      c_disjunction_5_disjunct_2  7
     RHS1      R84       1
-    RHS1      c_disjunction_16_disjunct_2  4
+    RHS1      c_disjunction_6_disjunct_2  6
     RHS1      R87       1
-    RHS1      c_disjunction_17_disjunct_2  5
+    RHS1      c_disjunction_7_disjunct_2  5
     RHS1      R90       1
-    RHS1      c_disjunction_18_disjunct_2  3
+    RHS1      c_disjunction_8_disjunct_2  2
     RHS1      R93       1
-    RHS1      c_disjunction_19_disjunct_2  5
+    RHS1      c_disjunction_9_disjunct_2  8
     RHS1      R96       1
-    RHS1      c_disjunction_20_disjunct_2  2
+    RHS1      c_disjunction_10_disjunct_2  10
     RHS1      R99       1
-    RHS1      c_disjunction_21_disjunct_2  6
+    RHS1      c_disjunction_11_disjunct_2  5
     RHS1      R102      1
-    RHS1      c_disjunction_22_disjunct_2  4
+    RHS1      c_disjunction_12_disjunct_2  6
     RHS1      R105      1
-    RHS1      c_disjunction_23_disjunct_2  2
+    RHS1      c_disjunction_13_disjunct_2  7
     RHS1      R108      1
-    RHS1      c_disjunction_24_disjunct_2  4
+    RHS1      c_disjunction_14_disjunct_2  7
     RHS1      R111      1
-    RHS1      c_disjunction_25_disjunct_2  5
+    RHS1      c_disjunction_15_disjunct_2  7
     RHS1      R114      1
-    RHS1      c_disjunction_26_disjunct_2  4
+    RHS1      c_disjunction_16_disjunct_2  7
     RHS1      R117      1
-    RHS1      c_disjunction_27_disjunct_2  2
+    RHS1      c_disjunction_17_disjunct_2  6
     RHS1      R120      1
-    RHS1      c_disjunction_28_disjunct_2  4
+    RHS1      c_disjunction_18_disjunct_2  9
     RHS1      R123      1
-    RHS1      c_disjunction_29_disjunct_2  1
+    RHS1      c_disjunction_19_disjunct_2  7
     RHS1      R126      1
-    RHS1      c_disjunction_30_disjunct_2  2
+    RHS1      c_disjunction_20_disjunct_2  5
     RHS1      R129      1
-    RHS1      c_disjunction_31_disjunct_2  5
+    RHS1      c_disjunction_21_disjunct_2  8
     RHS1      R132      1
-    RHS1      c_disjunction_32_disjunct_2  4
+    RHS1      c_disjunction_22_disjunct_2  8
     RHS1      R135      1
-    RHS1      c_disjunction_33_disjunct_2  5
+    RHS1      c_disjunction_23_disjunct_2  4
     RHS1      R138      1
-    RHS1      c_disjunction_34_disjunct_2  4
+    RHS1      c_disjunction_24_disjunct_2  6
     RHS1      R141      1
-    RHS1      c_disjunction_35_disjunct_2  4
+    RHS1      c_disjunction_25_disjunct_2  6
     RHS1      R144      1
-    RHS1      c_disjunction_36_disjunct_2  3
+    RHS1      c_disjunction_26_disjunct_2  5
     RHS1      R147      1
-    RHS1      c_disjunction_37_disjunct_2  5
+    RHS1      c_disjunction_27_disjunct_2  9
     RHS1      R150      1
-    RHS1      c_disjunction_38_disjunct_2  4
+    RHS1      c_disjunction_28_disjunct_2  8
     RHS1      R153      1
-    RHS1      c_disjunction_39_disjunct_2  5
+    RHS1      c_disjunction_29_disjunct_2  10
     RHS1      R156      1
-    RHS1      c_disjunction_40_disjunct_2  4
+    RHS1      c_disjunction_30_disjunct_2  2
     RHS1      R159      1
+    RHS1      c_disjunction_31_disjunct_2  9
+    RHS1      R162      1
+    RHS1      c_disjunction_32_disjunct_2  11
+    RHS1      R165      1
+    RHS1      c_disjunction_33_disjunct_2  11
+    RHS1      R168      1
+    RHS1      c_disjunction_34_disjunct_2  6
+    RHS1      R171      1
+    RHS1      c_disjunction_35_disjunct_2  10
+    RHS1      R174      1
+    RHS1      c_disjunction_36_disjunct_2  7
+    RHS1      R177      1
+    RHS1      c_disjunction_37_disjunct_2  4
+    RHS1      R180      1
+    RHS1      c_disjunction_38_disjunct_2  8
+    RHS1      R183      1
+    RHS1      c_disjunction_39_disjunct_2  5
+    RHS1      R186      1
+    RHS1      c_disjunction_40_disjunct_2  5
+    RHS1      R189      1
+    RHS1      c_disjunction_41_disjunct_2  10
+    RHS1      R192      1
+    RHS1      c_disjunction_42_disjunct_2  5
+    RHS1      R195      1
+    RHS1      c_disjunction_43_disjunct_2  9
+    RHS1      R198      1
+    RHS1      c_disjunction_44_disjunct_2  9
+    RHS1      R201      1
+    RHS1      c_disjunction_45_disjunct_2  5
+    RHS1      R204      1
+    RHS1      c_disjunction_46_disjunct_2  7
+    RHS1      R207      1
+    RHS1      c_disjunction_47_disjunct_2  5
+    RHS1      R210      1
+    RHS1      c_disjunction_48_disjunct_2  5
+    RHS1      R213      1
+    RHS1      c_disjunction_49_disjunct_2  4
+    RHS1      R216      1
+    RHS1      c_disjunction_50_disjunct_2  7
+    RHS1      R219      1
+    RHS1      c_disjunction_51_disjunct_2  9
+    RHS1      R222      1
+    RHS1      c_disjunction_52_disjunct_2  8
+    RHS1      R225      1
+    RHS1      c_disjunction_53_disjunct_2  8
+    RHS1      R228      1
+    RHS1      c_disjunction_54_disjunct_2  9
+    RHS1      R231      1
+    RHS1      c_disjunction_55_disjunct_2  8
+    RHS1      R234      1
+    RHS1      c_disjunction_56_disjunct_2  8
+    RHS1      R237      1
+    RHS1      c_disjunction_57_disjunct_2  8
+    RHS1      R240      1
+    RHS1      c_disjunction_58_disjunct_2  6
+    RHS1      R243      1
+    RHS1      c_disjunction_59_disjunct_2  7
+    RHS1      R246      1
+    RHS1      c_disjunction_60_disjunct_2  10
+    RHS1      R249      1
+    RHS1      c_disjunction_61_disjunct_2  9
+    RHS1      R252      1
+    RHS1      c_disjunction_62_disjunct_2  6
+    RHS1      R255      1
+    RHS1      c_disjunction_63_disjunct_2  7
+    RHS1      R258      1
+    RHS1      c_disjunction_64_disjunct_2  8
+    RHS1      R261      1
+    RHS1      c_disjunction_65_disjunct_2  8
+    RHS1      R264      1
+    RHS1      c_disjunction_66_disjunct_2  8
+    RHS1      R267      1
+    RHS1      c_disjunction_67_disjunct_2  6
+    RHS1      R270      1
+    RHS1      c_disjunction_68_disjunct_2  4
+    RHS1      R273      1
+    RHS1      c_disjunction_69_disjunct_2  5
+    RHS1      R276      1
+    RHS1      c_disjunction_70_disjunct_2  7
+    RHS1      R279      1
 BOUNDS
  BV BND1      ind_disjunction_1_disjunct_1
  BV BND1      ind_disjunction_2_disjunct_1
@@ -1126,6 +2776,36 @@ BOUNDS
  BV BND1      ind_disjunction_38_disjunct_1
  BV BND1      ind_disjunction_39_disjunct_1
  BV BND1      ind_disjunction_40_disjunct_1
+ BV BND1      ind_disjunction_41_disjunct_1
+ BV BND1      ind_disjunction_42_disjunct_1
+ BV BND1      ind_disjunction_43_disjunct_1
+ BV BND1      ind_disjunction_44_disjunct_1
+ BV BND1      ind_disjunction_45_disjunct_1
+ BV BND1      ind_disjunction_46_disjunct_1
+ BV BND1      ind_disjunction_47_disjunct_1
+ BV BND1      ind_disjunction_48_disjunct_1
+ BV BND1      ind_disjunction_49_disjunct_1
+ BV BND1      ind_disjunction_50_disjunct_1
+ BV BND1      ind_disjunction_51_disjunct_1
+ BV BND1      ind_disjunction_52_disjunct_1
+ BV BND1      ind_disjunction_53_disjunct_1
+ BV BND1      ind_disjunction_54_disjunct_1
+ BV BND1      ind_disjunction_55_disjunct_1
+ BV BND1      ind_disjunction_56_disjunct_1
+ BV BND1      ind_disjunction_57_disjunct_1
+ BV BND1      ind_disjunction_58_disjunct_1
+ BV BND1      ind_disjunction_59_disjunct_1
+ BV BND1      ind_disjunction_60_disjunct_1
+ BV BND1      ind_disjunction_61_disjunct_1
+ BV BND1      ind_disjunction_62_disjunct_1
+ BV BND1      ind_disjunction_63_disjunct_1
+ BV BND1      ind_disjunction_64_disjunct_1
+ BV BND1      ind_disjunction_65_disjunct_1
+ BV BND1      ind_disjunction_66_disjunct_1
+ BV BND1      ind_disjunction_67_disjunct_1
+ BV BND1      ind_disjunction_68_disjunct_1
+ BV BND1      ind_disjunction_69_disjunct_1
+ BV BND1      ind_disjunction_70_disjunct_1
  BV BND1      ind_disjunction_1_disjunct_2
  BV BND1      ind_disjunction_2_disjunct_2
  BV BND1      ind_disjunction_3_disjunct_2
@@ -1166,164 +2846,524 @@ BOUNDS
  BV BND1      ind_disjunction_38_disjunct_2
  BV BND1      ind_disjunction_39_disjunct_2
  BV BND1      ind_disjunction_40_disjunct_2
+ BV BND1      ind_disjunction_41_disjunct_2
+ BV BND1      ind_disjunction_42_disjunct_2
+ BV BND1      ind_disjunction_43_disjunct_2
+ BV BND1      ind_disjunction_44_disjunct_2
+ BV BND1      ind_disjunction_45_disjunct_2
+ BV BND1      ind_disjunction_46_disjunct_2
+ BV BND1      ind_disjunction_47_disjunct_2
+ BV BND1      ind_disjunction_48_disjunct_2
+ BV BND1      ind_disjunction_49_disjunct_2
+ BV BND1      ind_disjunction_50_disjunct_2
+ BV BND1      ind_disjunction_51_disjunct_2
+ BV BND1      ind_disjunction_52_disjunct_2
+ BV BND1      ind_disjunction_53_disjunct_2
+ BV BND1      ind_disjunction_54_disjunct_2
+ BV BND1      ind_disjunction_55_disjunct_2
+ BV BND1      ind_disjunction_56_disjunct_2
+ BV BND1      ind_disjunction_57_disjunct_2
+ BV BND1      ind_disjunction_58_disjunct_2
+ BV BND1      ind_disjunction_59_disjunct_2
+ BV BND1      ind_disjunction_60_disjunct_2
+ BV BND1      ind_disjunction_61_disjunct_2
+ BV BND1      ind_disjunction_62_disjunct_2
+ BV BND1      ind_disjunction_63_disjunct_2
+ BV BND1      ind_disjunction_64_disjunct_2
+ BV BND1      ind_disjunction_65_disjunct_2
+ BV BND1      ind_disjunction_66_disjunct_2
+ BV BND1      ind_disjunction_67_disjunct_2
+ BV BND1      ind_disjunction_68_disjunct_2
+ BV BND1      ind_disjunction_69_disjunct_2
+ BV BND1      ind_disjunction_70_disjunct_2
  BV BND1      x[1,1]  
- BV BND1      x[19,1] 
- BV BND1      x[26,1] 
- BV BND1      x[16,1] 
+ BV BND1      x[34,1] 
+ BV BND1      x[18,1] 
+ BV BND1      x[40,1] 
+ BV BND1      x[55,1] 
+ BV BND1      x[63,1] 
+ BV BND1      x[28,1] 
  BV BND1      x[2,2]  
- BV BND1      x[21,2] 
- BV BND1      x[4,2]  
- BV BND1      x[8,2]  
+ BV BND1      x[65,2] 
+ BV BND1      x[62,2] 
+ BV BND1      x[54,2] 
+ BV BND1      x[24,2] 
+ BV BND1      x[61,2] 
+ BV BND1      x[9,2]  
  BV BND1      x[3,3]  
- BV BND1      x[36,3] 
- BV BND1      x[5,3]  
- BV BND1      x[25,3] 
+ BV BND1      x[28,3] 
+ BV BND1      x[44,3] 
+ BV BND1      x[32,3] 
+ BV BND1      x[17,3] 
+ BV BND1      x[55,3] 
+ BV BND1      x[34,3] 
  BV BND1      x[4,4]  
- BV BND1      x[8,4]  
- BV BND1      x[2,4]  
- BV BND1      x[13,4] 
+ BV BND1      x[20,4] 
+ BV BND1      x[46,4] 
+ BV BND1      x[16,4] 
+ BV BND1      x[51,4] 
+ BV BND1      x[53,4] 
+ BV BND1      x[67,4] 
  BV BND1      x[5,5]  
- BV BND1      x[25,5] 
- BV BND1      x[17,5] 
- BV BND1      x[3,5]  
+ BV BND1      x[61,5] 
+ BV BND1      x[57,5] 
+ BV BND1      x[31,5] 
+ BV BND1      x[24,5] 
+ BV BND1      x[10,5] 
+ BV BND1      x[65,5] 
  BV BND1      x[6,6]  
- BV BND1      x[9,6]  
- BV BND1      x[11,6] 
- BV BND1      x[37,6] 
+ BV BND1      x[36,6] 
+ BV BND1      x[27,6] 
+ BV BND1      x[18,6] 
+ BV BND1      x[40,6] 
+ BV BND1      x[25,6] 
+ BV BND1      x[1,6]  
  BV BND1      x[7,7]  
  BV BND1      x[12,7] 
- BV BND1      x[32,7] 
- BV BND1      x[11,7] 
+ BV BND1      x[45,7] 
+ BV BND1      x[21,7] 
+ BV BND1      x[15,7] 
+ BV BND1      x[13,7] 
+ BV BND1      x[55,7] 
  BV BND1      x[8,8]  
- BV BND1      x[4,8]  
- BV BND1      x[2,8]  
- BV BND1      x[21,8] 
+ BV BND1      x[66,8] 
+ BV BND1      x[35,8] 
+ BV BND1      x[29,8] 
+ BV BND1      x[33,8] 
+ BV BND1      x[16,8] 
+ BV BND1      x[43,8] 
  BV BND1      x[9,9]  
- BV BND1      x[6,9]  
- BV BND1      x[11,9] 
- BV BND1      x[37,9] 
+ BV BND1      x[25,9] 
+ BV BND1      x[54,9] 
+ BV BND1      x[53,9] 
+ BV BND1      x[2,9]  
+ BV BND1      x[62,9] 
+ BV BND1      x[52,9] 
  BV BND1      x[10,10]
- BV BND1      x[36,10]
- BV BND1      x[33,10]
- BV BND1      x[3,10] 
+ BV BND1      x[31,10]
+ BV BND1      x[57,10]
+ BV BND1      x[61,10]
+ BV BND1      x[51,10]
+ BV BND1      x[5,10] 
+ BV BND1      x[58,10]
  BV BND1      x[11,11]
- BV BND1      x[37,11]
- BV BND1      x[6,11] 
- BV BND1      x[9,11] 
+ BV BND1      x[19,11]
+ BV BND1      x[68,11]
+ BV BND1      x[66,11]
+ BV BND1      x[33,11]
+ BV BND1      x[35,11]
+ BV BND1      x[47,11]
  BV BND1      x[12,12]
- BV BND1      x[11,12]
+ BV BND1      x[21,12]
  BV BND1      x[7,12] 
- BV BND1      x[32,12]
+ BV BND1      x[45,12]
+ BV BND1      x[15,12]
+ BV BND1      x[60,12]
+ BV BND1      x[3,12] 
  BV BND1      x[13,13]
- BV BND1      x[39,13]
- BV BND1      x[2,13] 
- BV BND1      x[40,13]
+ BV BND1      x[41,13]
+ BV BND1      x[38,13]
+ BV BND1      x[37,13]
+ BV BND1      x[43,13]
+ BV BND1      x[33,13]
+ BV BND1      x[29,13]
  BV BND1      x[14,14]
- BV BND1      x[24,14]
- BV BND1      x[30,14]
- BV BND1      x[31,14]
+ BV BND1      x[70,14]
+ BV BND1      x[50,14]
+ BV BND1      x[60,14]
+ BV BND1      x[59,14]
+ BV BND1      x[56,14]
+ BV BND1      x[21,14]
  BV BND1      x[15,15]
- BV BND1      x[22,15]
- BV BND1      x[33,15]
- BV BND1      x[18,15]
+ BV BND1      x[42,15]
+ BV BND1      x[12,15]
+ BV BND1      x[7,15] 
+ BV BND1      x[21,15]
+ BV BND1      x[13,15]
+ BV BND1      x[60,15]
  BV BND1      x[16,16]
- BV BND1      x[19,16]
- BV BND1      x[26,16]
- BV BND1      x[1,16] 
+ BV BND1      x[51,16]
+ BV BND1      x[20,16]
+ BV BND1      x[4,16] 
+ BV BND1      x[49,16]
+ BV BND1      x[10,16]
+ BV BND1      x[58,16]
  BV BND1      x[17,17]
- BV BND1      x[25,17]
- BV BND1      x[5,17] 
+ BV BND1      x[44,17]
+ BV BND1      x[28,17]
+ BV BND1      x[32,17]
  BV BND1      x[3,17] 
+ BV BND1      x[22,17]
+ BV BND1      x[64,17]
  BV BND1      x[18,18]
- BV BND1      x[15,18]
- BV BND1      x[22,18]
- BV BND1      x[9,18] 
+ BV BND1      x[27,18]
+ BV BND1      x[6,18] 
+ BV BND1      x[1,18] 
+ BV BND1      x[36,18]
+ BV BND1      x[63,18]
+ BV BND1      x[40,18]
  BV BND1      x[19,19]
- BV BND1      x[16,19]
- BV BND1      x[1,19] 
- BV BND1      x[26,19]
+ BV BND1      x[11,19]
+ BV BND1      x[33,19]
+ BV BND1      x[66,19]
+ BV BND1      x[38,19]
+ BV BND1      x[41,19]
+ BV BND1      x[35,19]
  BV BND1      x[20,20]
- BV BND1      x[23,20]
+ BV BND1      x[4,20] 
+ BV BND1      x[16,20]
+ BV BND1      x[51,20]
+ BV BND1      x[46,20]
  BV BND1      x[10,20]
- BV BND1      x[5,20] 
+ BV BND1      x[31,20]
  BV BND1      x[21,21]
- BV BND1      x[38,21]
- BV BND1      x[2,21] 
- BV BND1      x[39,21]
+ BV BND1      x[12,21]
+ BV BND1      x[60,21]
+ BV BND1      x[7,21] 
+ BV BND1      x[15,21]
+ BV BND1      x[45,21]
+ BV BND1      x[14,21]
  BV BND1      x[22,22]
- BV BND1      x[15,22]
- BV BND1      x[33,22]
- BV BND1      x[18,22]
+ BV BND1      x[39,22]
+ BV BND1      x[64,22]
+ BV BND1      x[26,22]
+ BV BND1      x[44,22]
+ BV BND1      x[32,22]
+ BV BND1      x[17,22]
  BV BND1      x[23,23]
- BV BND1      x[20,23]
- BV BND1      x[10,23]
- BV BND1      x[5,23] 
+ BV BND1      x[47,23]
+ BV BND1      x[42,23]
+ BV BND1      x[68,23]
+ BV BND1      x[19,23]
+ BV BND1      x[15,23]
+ BV BND1      x[11,23]
  BV BND1      x[24,24]
- BV BND1      x[14,24]
- BV BND1      x[31,24]
- BV BND1      x[35,24]
+ BV BND1      x[65,24]
+ BV BND1      x[2,24] 
+ BV BND1      x[5,24] 
+ BV BND1      x[62,24]
+ BV BND1      x[61,24]
+ BV BND1      x[57,24]
  BV BND1      x[25,25]
- BV BND1      x[17,25]
- BV BND1      x[5,25] 
- BV BND1      x[3,25] 
+ BV BND1      x[52,25]
+ BV BND1      x[9,25] 
+ BV BND1      x[27,25]
+ BV BND1      x[36,25]
+ BV BND1      x[53,25]
+ BV BND1      x[54,25]
  BV BND1      x[26,26]
- BV BND1      x[16,26]
- BV BND1      x[19,26]
- BV BND1      x[1,26] 
+ BV BND1      x[69,26]
+ BV BND1      x[64,26]
+ BV BND1      x[39,26]
+ BV BND1      x[22,26]
+ BV BND1      x[32,26]
+ BV BND1      x[44,26]
  BV BND1      x[27,27]
- BV BND1      x[21,27]
- BV BND1      x[17,27]
- BV BND1      x[38,27]
+ BV BND1      x[36,27]
+ BV BND1      x[18,27]
+ BV BND1      x[25,27]
+ BV BND1      x[6,27] 
+ BV BND1      x[52,27]
+ BV BND1      x[63,27]
  BV BND1      x[28,28]
+ BV BND1      x[3,28] 
+ BV BND1      x[44,28]
+ BV BND1      x[17,28]
+ BV BND1      x[32,28]
  BV BND1      x[34,28]
- BV BND1      x[38,28]
- BV BND1      x[40,28]
+ BV BND1      x[55,28]
  BV BND1      x[29,29]
- BV BND1      x[17,29]
- BV BND1      x[25,29]
- BV BND1      x[27,29]
+ BV BND1      x[43,29]
+ BV BND1      x[35,29]
+ BV BND1      x[33,29]
+ BV BND1      x[41,29]
+ BV BND1      x[38,29]
+ BV BND1      x[66,29]
  BV BND1      x[30,30]
- BV BND1      x[14,30]
- BV BND1      x[24,30]
- BV BND1      x[7,30] 
+ BV BND1      x[40,30]
+ BV BND1      x[6,30] 
+ BV BND1      x[1,30] 
+ BV BND1      x[18,30]
+ BV BND1      x[36,30]
+ BV BND1      x[27,30]
  BV BND1      x[31,31]
- BV BND1      x[35,31]
- BV BND1      x[24,31]
- BV BND1      x[34,31]
+ BV BND1      x[10,31]
+ BV BND1      x[57,31]
+ BV BND1      x[61,31]
+ BV BND1      x[5,31] 
+ BV BND1      x[51,31]
+ BV BND1      x[58,31]
  BV BND1      x[32,32]
- BV BND1      x[11,32]
- BV BND1      x[37,32]
- BV BND1      x[7,32] 
+ BV BND1      x[44,32]
+ BV BND1      x[64,32]
+ BV BND1      x[3,32] 
+ BV BND1      x[17,32]
+ BV BND1      x[28,32]
+ BV BND1      x[22,32]
  BV BND1      x[33,33]
- BV BND1      x[22,33]
- BV BND1      x[15,33]
- BV BND1      x[10,33]
+ BV BND1      x[35,33]
+ BV BND1      x[66,33]
+ BV BND1      x[41,33]
+ BV BND1      x[38,33]
+ BV BND1      x[29,33]
+ BV BND1      x[43,33]
  BV BND1      x[34,34]
+ BV BND1      x[55,34]
+ BV BND1      x[1,34] 
  BV BND1      x[28,34]
- BV BND1      x[35,34]
- BV BND1      x[31,34]
+ BV BND1      x[63,34]
+ BV BND1      x[3,34] 
+ BV BND1      x[18,34]
  BV BND1      x[35,35]
- BV BND1      x[31,35]
- BV BND1      x[34,35]
- BV BND1      x[19,35]
+ BV BND1      x[33,35]
+ BV BND1      x[66,35]
+ BV BND1      x[29,35]
+ BV BND1      x[43,35]
+ BV BND1      x[41,35]
+ BV BND1      x[38,35]
  BV BND1      x[36,36]
- BV BND1      x[10,36]
- BV BND1      x[3,36] 
- BV BND1      x[33,36]
+ BV BND1      x[27,36]
+ BV BND1      x[6,36] 
+ BV BND1      x[25,36]
+ BV BND1      x[18,36]
+ BV BND1      x[52,36]
+ BV BND1      x[9,36] 
  BV BND1      x[37,37]
- BV BND1      x[11,37]
- BV BND1      x[32,37]
- BV BND1      x[6,37] 
+ BV BND1      x[67,37]
+ BV BND1      x[13,37]
+ BV BND1      x[43,37]
+ BV BND1      x[46,37]
+ BV BND1      x[41,37]
+ BV BND1      x[29,37]
  BV BND1      x[38,38]
- BV BND1      x[21,38]
- BV BND1      x[28,38]
- BV BND1      x[39,38]
+ BV BND1      x[41,38]
+ BV BND1      x[33,38]
+ BV BND1      x[13,38]
+ BV BND1      x[35,38]
+ BV BND1      x[43,38]
+ BV BND1      x[29,38]
  BV BND1      x[39,39]
- BV BND1      x[13,39]
- BV BND1      x[40,39]
- BV BND1      x[21,39]
+ BV BND1      x[22,39]
+ BV BND1      x[26,39]
+ BV BND1      x[64,39]
+ BV BND1      x[69,39]
+ BV BND1      x[32,39]
+ BV BND1      x[44,39]
  BV BND1      x[40,40]
- BV BND1      x[39,40]
- BV BND1      x[28,40]
- BV BND1      x[13,40]
+ BV BND1      x[30,40]
+ BV BND1      x[6,40] 
+ BV BND1      x[18,40]
+ BV BND1      x[1,40] 
+ BV BND1      x[36,40]
+ BV BND1      x[27,40]
+ BV BND1      x[41,41]
+ BV BND1      x[38,41]
+ BV BND1      x[13,41]
+ BV BND1      x[33,41]
+ BV BND1      x[35,41]
+ BV BND1      x[43,41]
+ BV BND1      x[29,41]
+ BV BND1      x[42,42]
+ BV BND1      x[15,42]
+ BV BND1      x[23,42]
+ BV BND1      x[47,42]
+ BV BND1      x[19,42]
+ BV BND1      x[12,42]
+ BV BND1      x[21,42]
+ BV BND1      x[43,43]
+ BV BND1      x[29,43]
+ BV BND1      x[35,43]
+ BV BND1      x[41,43]
+ BV BND1      x[38,43]
+ BV BND1      x[33,43]
+ BV BND1      x[13,43]
+ BV BND1      x[44,44]
+ BV BND1      x[32,44]
+ BV BND1      x[17,44]
+ BV BND1      x[28,44]
+ BV BND1      x[3,44] 
+ BV BND1      x[64,44]
+ BV BND1      x[22,44]
+ BV BND1      x[45,45]
+ BV BND1      x[7,45] 
+ BV BND1      x[12,45]
+ BV BND1      x[55,45]
+ BV BND1      x[21,45]
+ BV BND1      x[3,45] 
+ BV BND1      x[32,45]
+ BV BND1      x[46,46]
+ BV BND1      x[67,46]
+ BV BND1      x[53,46]
+ BV BND1      x[4,46] 
+ BV BND1      x[20,46]
+ BV BND1      x[54,46]
+ BV BND1      x[37,46]
+ BV BND1      x[47,47]
+ BV BND1      x[68,47]
+ BV BND1      x[23,47]
+ BV BND1      x[11,47]
+ BV BND1      x[42,47]
+ BV BND1      x[19,47]
+ BV BND1      x[15,47]
+ BV BND1      x[48,48]
+ BV BND1      x[56,48]
+ BV BND1      x[59,48]
+ BV BND1      x[50,48]
+ BV BND1      x[70,48]
+ BV BND1      x[60,48]
+ BV BND1      x[69,48]
+ BV BND1      x[49,49]
+ BV BND1      x[58,49]
+ BV BND1      x[51,49]
+ BV BND1      x[16,49]
+ BV BND1      x[10,49]
+ BV BND1      x[31,49]
+ BV BND1      x[57,49]
+ BV BND1      x[50,50]
+ BV BND1      x[59,50]
+ BV BND1      x[70,50]
+ BV BND1      x[14,50]
+ BV BND1      x[56,50]
+ BV BND1      x[60,50]
+ BV BND1      x[48,50]
+ BV BND1      x[51,51]
+ BV BND1      x[16,51]
+ BV BND1      x[49,51]
+ BV BND1      x[58,51]
+ BV BND1      x[10,51]
+ BV BND1      x[31,51]
+ BV BND1      x[20,51]
+ BV BND1      x[52,52]
+ BV BND1      x[25,52]
+ BV BND1      x[27,52]
+ BV BND1      x[63,52]
+ BV BND1      x[67,52]
+ BV BND1      x[53,52]
+ BV BND1      x[9,52] 
+ BV BND1      x[53,53]
+ BV BND1      x[54,53]
+ BV BND1      x[46,53]
+ BV BND1      x[67,53]
+ BV BND1      x[9,53] 
+ BV BND1      x[4,53] 
+ BV BND1      x[52,53]
+ BV BND1      x[54,54]
+ BV BND1      x[53,54]
+ BV BND1      x[2,54] 
+ BV BND1      x[65,54]
+ BV BND1      x[9,54] 
+ BV BND1      x[46,54]
+ BV BND1      x[62,54]
+ BV BND1      x[55,55]
+ BV BND1      x[34,55]
+ BV BND1      x[63,55]
+ BV BND1      x[3,55] 
+ BV BND1      x[45,55]
+ BV BND1      x[28,55]
+ BV BND1      x[1,55] 
+ BV BND1      x[56,56]
+ BV BND1      x[48,56]
+ BV BND1      x[59,56]
+ BV BND1      x[50,56]
+ BV BND1      x[60,56]
+ BV BND1      x[70,56]
+ BV BND1      x[14,56]
+ BV BND1      x[57,57]
+ BV BND1      x[31,57]
+ BV BND1      x[10,57]
+ BV BND1      x[61,57]
+ BV BND1      x[5,57] 
+ BV BND1      x[65,57]
+ BV BND1      x[51,57]
+ BV BND1      x[58,58]
+ BV BND1      x[49,58]
+ BV BND1      x[51,58]
+ BV BND1      x[10,58]
+ BV BND1      x[31,58]
+ BV BND1      x[57,58]
+ BV BND1      x[16,58]
+ BV BND1      x[59,59]
+ BV BND1      x[50,59]
+ BV BND1      x[56,59]
+ BV BND1      x[70,59]
+ BV BND1      x[48,59]
+ BV BND1      x[14,59]
+ BV BND1      x[60,59]
+ BV BND1      x[60,60]
+ BV BND1      x[70,60]
+ BV BND1      x[50,60]
+ BV BND1      x[14,60]
+ BV BND1      x[21,60]
+ BV BND1      x[59,60]
+ BV BND1      x[56,60]
+ BV BND1      x[61,61]
+ BV BND1      x[57,61]
+ BV BND1      x[5,61] 
+ BV BND1      x[31,61]
+ BV BND1      x[10,61]
+ BV BND1      x[65,61]
+ BV BND1      x[24,61]
+ BV BND1      x[62,62]
+ BV BND1      x[2,62] 
+ BV BND1      x[65,62]
+ BV BND1      x[24,62]
+ BV BND1      x[9,62] 
+ BV BND1      x[54,62]
+ BV BND1      x[61,62]
+ BV BND1      x[63,63]
+ BV BND1      x[55,63]
+ BV BND1      x[52,63]
+ BV BND1      x[34,63]
+ BV BND1      x[18,63]
+ BV BND1      x[27,63]
+ BV BND1      x[1,63] 
+ BV BND1      x[64,64]
+ BV BND1      x[22,64]
+ BV BND1      x[32,64]
+ BV BND1      x[26,64]
+ BV BND1      x[39,64]
+ BV BND1      x[44,64]
+ BV BND1      x[69,64]
+ BV BND1      x[65,65]
+ BV BND1      x[2,65] 
+ BV BND1      x[61,65]
+ BV BND1      x[24,65]
+ BV BND1      x[62,65]
+ BV BND1      x[5,65] 
+ BV BND1      x[54,65]
+ BV BND1      x[66,66]
+ BV BND1      x[33,66]
+ BV BND1      x[35,66]
+ BV BND1      x[8,66] 
+ BV BND1      x[19,66]
+ BV BND1      x[41,66]
+ BV BND1      x[29,66]
+ BV BND1      x[67,67]
+ BV BND1      x[46,67]
+ BV BND1      x[53,67]
+ BV BND1      x[37,67]
+ BV BND1      x[52,67]
+ BV BND1      x[4,67] 
+ BV BND1      x[54,67]
+ BV BND1      x[68,68]
+ BV BND1      x[47,68]
+ BV BND1      x[11,68]
+ BV BND1      x[19,68]
+ BV BND1      x[23,68]
+ BV BND1      x[42,68]
+ BV BND1      x[66,68]
+ BV BND1      x[69,69]
+ BV BND1      x[26,69]
+ BV BND1      x[39,69]
+ BV BND1      x[64,69]
+ BV BND1      x[22,69]
+ BV BND1      x[32,69]
+ BV BND1      x[56,69]
+ BV BND1      x[70,70]
+ BV BND1      x[50,70]
+ BV BND1      x[14,70]
+ BV BND1      x[59,70]
+ BV BND1      x[60,70]
+ BV BND1      x[56,70]
+ BV BND1      x[48,70]
 ENDATA
