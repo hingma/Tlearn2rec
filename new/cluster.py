@@ -40,16 +40,30 @@ class ClusteringEvaluator:
         """Comprehensive clustering evaluation."""
         results = {}
         
+        # Ensure numpy arrays on CPU for sklearn
+        if torch.is_tensor(embeddings):
+            embeddings_np = embeddings.detach().cpu().numpy()
+        else:
+            embeddings_np = embeddings
+
+        if torch.is_tensor(pred_labels):
+            pred_np = pred_labels.detach().cpu().numpy()
+        else:
+            pred_np = pred_labels
+
         # External metrics (need ground truth)
         if true_labels is not None:
-            results['ARI'] = adjusted_rand_score(true_labels, pred_labels)
-            results['NMI'] = normalized_mutual_info_score(true_labels, pred_labels)
+            if torch.is_tensor(true_labels):
+                true_np = true_labels.detach().cpu().numpy()
+            else:
+                true_np = true_labels
+            results['ARI'] = adjusted_rand_score(true_np, pred_np)
+            results['NMI'] = normalized_mutual_info_score(true_np, pred_np)
         
         # Internal metrics (unsupervised)
-        embeddings_np = embeddings.detach().cpu().numpy() if torch.is_tensor(embeddings) else embeddings
-        results['Silhouette'] = silhouette_score(embeddings_np, pred_labels)
-        results['Calinski_Harabasz'] = calinski_harabasz_score(embeddings_np, pred_labels)
-        results['Davies_Bouldin'] = davies_bouldin_score(embeddings_np, pred_labels)
+        results['Silhouette'] = silhouette_score(embeddings_np, pred_np)
+        results['Calinski_Harabasz'] = calinski_harabasz_score(embeddings_np, pred_np)
+        results['Davies_Bouldin'] = davies_bouldin_score(embeddings_np, pred_np)
         
         return results
     
