@@ -92,12 +92,32 @@ def plot_network_clusters(data, clustering_results, true_labels):
     plt.tight_layout()
     plt.show()
 
-def plot_training_loss(losses, title="Training Loss"):
+def plot_training_loss(train_loss, title="Training Loss"):
     """Plot training loss over epochs."""
     plt.figure(figsize=(10, 6))
-    plt.plot(losses)
+    plt.plot(train_loss)
     plt.title(title)
     plt.xlabel('Epoch')
     plt.ylabel('Loss')
+    plt.grid(True, alpha=0.3)
+    plt.show()
+
+def plot_validation_loss(val_loss, title="Validation Loss"):
+    """Plot validation loss over epochs."""
+    plt.figure(figsize=(10, 6))
+    plt.plot(val_loss)
+    plt.title(title)
+    plt.xlabel('Epoch')
+    plt.ylabel('Loss')
+    plt.grid(True, alpha=0.3)
+    plt.show()
+
+def plot_karate_score(score, title="Karate Score"):
+    """Plot Karate score over epochs."""
+    plt.figure(figsize=(10, 6))
+    plt.plot(score)
+    plt.title(title)
+    plt.xlabel('Epoch')
+    plt.ylabel('Score')
     plt.grid(True, alpha=0.3)
     plt.show()

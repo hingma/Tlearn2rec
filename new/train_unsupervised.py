@@ -13,7 +13,7 @@ from torch_geometric.utils import to_undirected
 import config
 from datasets import build_loaders, load_karate
 from model import SimpleGCN, SimpleGAT, SimpleSAGE
-from visualize import plot_embeddings_and_clusters, plot_network_clusters, plot_training_loss
+from visualize import plot_embeddings_and_clusters, plot_network_clusters, plot_training_loss, plot_validation_loss, plot_karate_score  
 
 
 class ContrastiveLoss(nn.Module):
@@ -42,11 +42,13 @@ def train_one_epoch(model: nn.Module, loader: DataLoader, criterion: nn.Module, 
 
     for data in loader:
         data = data.to(device)
+        # Debug shapes
         if getattr(config, 'DEBUG_SHAPES', False) and not getattr(model, '_printed_train_batch', False):
             print(f"[train] batch x: {tuple(data.x.shape)} | edge_index: {tuple(data.edge_index.shape)}")
             if hasattr(data, 'batch') and data.batch is not None:
                 print(f"[train] batch vector: {tuple(data.batch.shape)}")
             model._printed_train_batch = True
+        #===============================================
         optimizer.zero_grad()
         embeddings = model(data)
         edge_index = to_undirected(data.edge_index)
@@ -138,8 +140,11 @@ def main():
                 epochs_no_improve = 0
                 torch.save({'state_dict': model.state_dict(), 'in_channels': in_channels}, best_path)
 
-            print(f"Best {model.__class__.__name__} model saved to: {best_path}")
+        print(f"Best {model.__class__.__name__} model saved to: {best_path}")
 
+        plot_training_loss(train_loss)
+        plot_validation_loss(val_loss)
+        plot_karate_score(karate_score)
 
 if __name__ == '__main__':
     main()
