@@ -111,7 +111,8 @@ def eval_on_karate(model: nn.Module, device: torch.device) -> float:
 @torch.no_grad()
 def run_clustering_pipeline(embedding: torch.Tensor,
                             n_clusters: int | None = None,
-                            true_labels: torch.Tensor | None = None):
+                            true_labels: torch.Tensor | None = None,
+                            use_gpu: bool = False):
     """Mirror the notebook pipeline: compute embeddings, run 3 clustering methods, evaluate.
 
     Returns dict with embeddings, predicted labels per method, and evaluation metrics per method.
@@ -122,7 +123,7 @@ def run_clustering_pipeline(embedding: torch.Tensor,
     if n_clusters is None:
         n_clusters = 2
 
-    clusterer = GraphClustering(n_clusters=n_clusters)
+    clusterer = GraphClustering(n_clusters=n_clusters, use_gpu=use_gpu)
     evaluator = ClusteringEvaluator()
 
     results_summary = {}
@@ -132,7 +133,7 @@ def run_clustering_pipeline(embedding: torch.Tensor,
     try:
         kmeans_labels, _ = clusterer.kmeans_clustering(embedding)
         kmeans_results = evaluator.evaluate_clustering(true_labels, kmeans_labels, embedding)
-        evaluator.print_results(kmeans_results, "K-Means")
+        # evaluator.print_results(kmeans_results, "K-Means")
         results_summary['K-Means'] = kmeans_results
         clustering_results['kmeans'] = kmeans_labels
     except Exception as e:
@@ -142,7 +143,7 @@ def run_clustering_pipeline(embedding: torch.Tensor,
     try:
         spectral_labels, _ = clusterer.spectral_clustering(embedding)
         spectral_results = evaluator.evaluate_clustering(true_labels, spectral_labels, embedding)
-        evaluator.print_results(spectral_results, "Spectral")
+        # evaluator.print_results(spectral_results, "Spectral")
         results_summary['Spectral'] = spectral_results
         clustering_results['spectral'] = spectral_labels
     except Exception as e:
@@ -152,7 +153,7 @@ def run_clustering_pipeline(embedding: torch.Tensor,
     try:
         hierarchical_labels, _ = clusterer.hierarchical_clustering(embedding)
         hierarchical_results = evaluator.evaluate_clustering(true_labels, hierarchical_labels, embedding)
-        evaluator.print_results(hierarchical_results, "Hierarchical")
+        # evaluator.print_results(hierarchical_results, "Hierarchical")
         results_summary['Hierarchical'] = hierarchical_results
         clustering_results['hierarchical'] = hierarchical_labels
     except Exception as e:
@@ -205,7 +206,8 @@ def evaluate_clustering_on_loader(model: nn.Module,
 
             out = run_clustering_pipeline(embedding=emb_g,  # bypass model; we already have emb_g
                                           n_clusters=n_clusters,
-                                          true_labels=y_g)
+                                          true_labels=y_g,
+                                          use_gpu=device.type == 'cuda')
 
             # Collect metrics
             for method_name, metrics in out['evaluation_results'].items():
