@@ -43,7 +43,10 @@ def list_split_files(split_dir: Path, limit: int | None = None) -> List[str]:
 
 
 def build_loaders(train_limit: int | None = None,
-                  valid_limit: int | None = None) -> Tuple[DataLoader, DataLoader]:
+                  valid_limit: int | None = None,
+                  train_batch_size: int = config.BATCH_SIZE,
+                  valid_batch_size: int = config.VALID_BATCH_SIZE,
+                  num_workers: int = config.NUM_WORKERS) -> Tuple[DataLoader, DataLoader]:
     train_files = list_split_files(config.TRAIN_DIR, limit=train_limit)
     valid_files = list_split_files(config.VALID_DIR, limit=valid_limit)
 
@@ -52,16 +55,16 @@ def build_loaders(train_limit: int | None = None,
 
     train_loader = DataLoader(
         train_ds,
-        batch_size=config.BATCH_SIZE,
+        batch_size=train_batch_size,
         shuffle=True,
-        num_workers=config.NUM_WORKERS,
+        num_workers=num_workers,
         pin_memory=True,
     )
     valid_loader = DataLoader(
         valid_ds,
-        batch_size=config.VALID_BATCH_SIZE,
+        batch_size=valid_batch_size,
         shuffle=False,
-        num_workers=config.NUM_WORKERS,
+        num_workers=num_workers,
         pin_memory=True,
     )
     return train_loader, valid_loader

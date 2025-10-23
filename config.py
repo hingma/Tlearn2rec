@@ -30,9 +30,9 @@ INSTANCE_GEN = {
         # 'transfer_100': {'n_instances': 100, 'dimension': 100, 'ratio': 6, 'overwrite': True},
     },
     'osif': {
-        # 'train': {'n_instances': 1200, 'overwrite': True, 'input_dim': 392, 'hidden_dims': [25, 25], 'output_dim': 10},
-        # 'valid': {'n_instances': 250, 'overwrite': True, 'input_dim': 392, 'hidden_dims': [25, 25], 'output_dim': 10},
-        'test': {'n_instances': 250, 'overwrite': True, 'input_dim': 784, 'hidden_dims': [50, 50], 'output_dim': 10},
+        'train': {'n_instances': 250, 'overwrite': True, 'input_dim': 16, 'hidden_dims': [32, 64], 'output_dim': 10},
+        'valid': {'n_instances': 50, 'overwrite': True, 'input_dim': 16, 'hidden_dims': [32, 64], 'output_dim': 10},
+        'test': {'n_instances': 50, 'overwrite': True, 'input_dim': 16, 'hidden_dims': [32, 64], 'output_dim': 10},
     }
 }
 
