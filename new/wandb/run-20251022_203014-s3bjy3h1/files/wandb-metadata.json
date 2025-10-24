@@ -1,0 +1,37 @@
+{
+  "os":  "macOS-26.0.1-arm64-arm-64bit",
+  "python":  "CPython 3.11.13",
+  "startedAt":  "2025-10-23T03:30:14.485916Z",
+  "program":  "/Users/mox/Research/MILP/Tlearn2rec/new/WedOct_o.ipynb",
+  "codePath":  "new/WedOct_o.ipynb",
+  "codePathLocal":  "WedOct_o.ipynb",
+  "git":  {
+    "remote":  "https://github.com/hingma/Tlearn2rec.git",
+    "commit":  "f0d0b3d1fe611bafce68a843110a4051fd0fed44"
+  },
+  "email":  "moxx0831@outlook.com",
+  "root":  "/Users/mox/Research/MILP/Tlearn2rec/new",
+  "host":  "Moxs-MacBook-Air.local",
+  "executable":  "/opt/anaconda3/envs/tlearn311/bin/python",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "93706100736"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "apple":  {
+    "name":  "Apple M3",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  10,
+    "memoryGb":  16,
+    "swapTotalBytes":  "3221225472",
+    "ramTotalBytes":  "17179869184"
+  },
+  "writerId":  "80xqs0l0a5sgsytr1ic38098at0i3opd"
+}

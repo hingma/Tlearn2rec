@@ -1,0 +1,71 @@
+_wandb:
+    value:
+        cli_version: 0.22.2
+        e:
+            red1k0f82pa6zg94msrdyzcm0md58a6i:
+                apple:
+                    ecpuCores: 4
+                    gpuCores: 10
+                    memoryGb: 16
+                    name: Apple M3
+                    pcpuCores: 4
+                    ramTotalBytes: "17179869184"
+                    swapTotalBytes: "3221225472"
+                codePath: new/WedOct_o.ipynb
+                codePathLocal: WedOct_o.ipynb
+                cpu_count: 8
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "494384795648"
+                        used: "93695229952"
+                email: moxx0831@outlook.com
+                executable: /opt/anaconda3/envs/tlearn311/bin/python
+                git:
+                    commit: f0d0b3d1fe611bafce68a843110a4051fd0fed44
+                    remote: https://github.com/hingma/Tlearn2rec.git
+                host: Moxs-MacBook-Air.local
+                memory:
+                    total: "17179869184"
+                os: macOS-26.0.1-arm64-arm-64bit
+                program: /Users/mox/Research/MILP/Tlearn2rec/new/WedOct_o.ipynb
+                python: CPython 3.11.13
+                root: /Users/mox/Research/MILP/Tlearn2rec/new
+                startedAt: "2025-10-23T03:23:51.899854Z"
+                writerId: red1k0f82pa6zg94msrdyzcm0md58a6i
+        m: []
+        python_version: 3.11.13
+        t:
+            "1":
+                - 1
+                - 5
+                - 51
+                - 53
+                - 77
+            "2":
+                - 1
+                - 5
+                - 51
+                - 53
+                - 77
+            "3":
+                - 2
+                - 16
+            "4": 3.11.13
+            "5": 0.22.2
+            "8":
+                - 1
+            "10":
+                - 20
+            "12": 0.22.2
+            "13": darwin-arm64
+architecture:
+    value: SimpleGCN
+batch_size:
+    value: 16
+epochs:
+    value: 100
+learning_rate:
+    value: 0.0075
+optimizer:
+    value: adam

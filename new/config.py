@@ -9,7 +9,7 @@ MODELS_DIR = PROJECT_ROOT / 'models'
 RESULTS_DIR = PROJECT_ROOT / 'results'
 
 # Default dataset/problem
-PROBLEM = 'osif'
+PROBLEM = 'facilities'
 
 # Data splits: directories already exist under data/processed/<problem>/{train,valid,test}
 TRAIN_DIR = PROCESSED_DIR / PROBLEM / 'train'
